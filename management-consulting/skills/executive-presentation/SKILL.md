@@ -161,6 +161,23 @@ Board presentations have distinct dynamics. Directors have fiduciary obligations
 - Options without a recommendation (they hired management to decide)
 - Surprises (pre-wire key stakeholders before the meeting)
 
+### Pre-Wiring Key Stakeholders
+
+Pre-wiring means socializing the recommendation with influential stakeholders before the formal meeting. It eliminates surprises, surfaces objections you can address in the deck, and converts potential opponents into allies (or at least non-blockers).
+
+**Who to pre-wire**: The decision-maker, anyone with veto power, known skeptics, and anyone whose public reaction will influence the room.
+
+**How to pre-wire**:
+1. Request 15-20 minutes 1:1, framed as "I want to make sure this lands well — can I walk you through the key points?"
+2. Share the recommendation and 2-3 supporting data points (not the full deck)
+3. Ask for their reaction and concerns. Listen more than you pitch
+4. Incorporate legitimate objections into the deck (add a slide, adjust language, prepare a backup)
+5. If they disagree fundamentally, you know before the meeting and can adjust scope, framing, or the ask
+
+**Timing**: 2-5 days before the meeting. Too early and context shifts. Too late and you can't adjust.
+
+**What pre-wiring is NOT**: Lobbying for a predetermined outcome. If pre-wiring reveals your recommendation is wrong, change the recommendation.
+
 ### Appendix and Backup Slides
 
 Every deck should have backup slides ready for Q&A. Build them before you need them.
@@ -293,6 +310,47 @@ When a full deck is overkill:
 1. [Immediate action -- owner -- date]
 2. [Follow-up action -- owner -- date]
 ```
+
+---
+
+## Live Presentation Management
+
+### Flex Structure: Reordering and Skipping Slides
+
+No presentation survives first contact with the audience. Build your deck so you can adapt in real time.
+
+**Before the meeting**: Know which slides are load-bearing (must show) and which are supporting (can skip). Mark them in your speaker notes. A typical 12-slide deck has 5-6 must-show slides.
+
+**Reading the room**:
+- If the audience is nodding through context slides, skip ahead: "I see you're aligned on the context — let me jump to the analysis."
+- If they're stuck on a point, pause the planned flow. Going forward when the room is still processing slide 3 means slides 4-12 are wasted.
+- If a question jumps ahead to a later slide, go there. Don't say "I'll get to that." You'll lose them.
+- If energy drops during detailed analysis, jump to the recommendation and work backwards: "Let me show you where we landed, then we can dig into the supporting analysis."
+
+**Structural enablers**:
+- Number your backup slides (B1, B2...) so you can navigate quickly
+- Use section dividers so you can skip entire sections cleanly
+- Keep a mental map of three paths through the deck: full, abbreviated (skip supporting detail), and "cut to the chase" (exec summary + recommendation + next steps)
+
+### Handling Live Slide Edits
+
+Clients will ask you to change slides during the meeting. This is normal in consulting. Handle it without breaking flow.
+
+**When to edit live**:
+- Wording changes to recommendations that reflect genuine alignment shifts
+- Adding a caveat or condition the room agrees on
+- Updating a number with better data someone provides in the moment
+
+**When NOT to edit live**:
+- Structural changes that require rethinking the argument
+- Requests that are really one person's preference, not the room's consensus
+- Changes that would take more than 60 seconds
+
+**How to handle it**:
+- Acknowledge: "Good point. Let me capture that." Make the edit if quick, or write the change on paper/in notes and confirm: "I'll update the deck and circulate by [time]."
+- If using projected slides, have a second person make edits on a laptop while you keep presenting
+- Always read back the revised language to confirm: "So the recommendation now reads [X] — does that capture it?"
+- Send the updated deck within 24 hours with changes highlighted
 
 ---
 

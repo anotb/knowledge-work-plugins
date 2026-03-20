@@ -29,6 +29,7 @@ Before writing, establish the framework.
 | Performance review | Assess results against targets |
 | Recommendations document | Present findings and proposed actions |
 | Status report | Communicate progress and issues |
+| PE investment committee memo | Present investment thesis for fund decision |
 
 ### Depth and Length Calibration
 
@@ -141,6 +142,78 @@ For any recommendation with significant uncertainty, include scenario analysis. 
 - **Sensitivity analysis**: Which 2-3 assumptions most affect the outcome? What happens if each moves +/- 20%?
 - **Break-even analysis**: At what point does the recommendation no longer hold?
 
+### PE Investment Committee Memo
+
+Investment committee (IC) memos follow a rigid structure because the committee reviews multiple deals per meeting. Deviation from the expected format slows the decision.
+
+```
+INVESTMENT COMMITTEE MEMORANDUM
+
+Company:          [Target Name]
+Sector:           [Industry / Sub-sector]
+Deal Type:        [Buyout / Growth Equity / Add-on / Recapitalization]
+Enterprise Value: [Amount]
+Equity Check:     [Amount]
+Target Close:     [Date]
+Sponsor Coverage: [Deal Team Lead]
+
+1. EXECUTIVE SUMMARY
+   - Investment thesis in 3-4 sentences
+   - Key return drivers
+   - Headline returns: [X.X]x MOIC / [XX]% IRR over [X] year hold
+
+2. COMPANY OVERVIEW
+   - Business description, products/services, end markets
+   - Revenue: $[X]M | EBITDA: $[X]M | EBITDA Margin: [X]%
+   - Revenue mix (by product, geography, customer)
+   - Customer concentration (top 10 customers as % of revenue)
+   - Management team assessment
+
+3. INVESTMENT THESIS
+   - Thesis pillar 1: [Growth lever with quantified impact]
+   - Thesis pillar 2: [Margin lever with quantified impact]
+   - Thesis pillar 3: [Strategic lever with quantified impact]
+
+4. MARKET & COMPETITIVE DYNAMICS
+   - TAM/SAM sizing
+   - Growth drivers and secular trends
+   - Competitive positioning and moat assessment
+
+5. FINANCIAL OVERVIEW & PROJECTIONS
+   - Historical financials (3 years) with key metrics
+   - Management case vs. sponsor case
+   - Revenue bridge and EBITDA bridge
+   - Working capital and capex requirements
+
+6. DEAL STRUCTURE & RETURNS
+   - Sources & uses
+   - Capital structure and leverage ratios
+   - Returns analysis: base / upside / downside
+   - Key assumptions driving each scenario
+
+7. KEY RISKS & MITIGANTS
+   | Risk | Severity | Mitigant |
+   |------|----------|----------|
+   | [Risk 1] | [H/M/L] | [Specific mitigation] |
+
+8. VALUE CREATION PLAN
+   - 100-day plan priorities
+   - Operational initiatives with timeline
+   - M&A / add-on pipeline (if applicable)
+
+9. EXIT CONSIDERATIONS
+   - Likely exit paths (strategic sale, sponsor-to-sponsor, IPO)
+   - Comparable exit multiples
+   - Target exit timeline
+
+10. RECOMMENDATION
+    - Approve / Approve with conditions / Decline
+    - Conditions or open items (if any)
+    - Requested next steps
+```
+
+**IC memo writing standards**: Be factual, not promotional. The committee's job is to find reasons NOT to invest. Anticipate their objections and address them directly. Management cases are always more optimistic than reality; show the sponsor case with conservative assumptions. Every number needs a source.
+
 ---
 
 ## Step 3: Writing Standards
@@ -172,6 +245,28 @@ For any recommendation with significant uncertainty, include scenario analysis. 
 - Use active voice: "We recommend" not "It is recommended"
 - Be direct: avoid hedge words like "perhaps", "might", "may"
 - "We believe X because Y" is stronger than "X could potentially be considered"
+
+### Before/After: Bad vs. Good Consulting Prose
+
+**Vague and passive:**
+> "It is believed that there may be potential opportunities for significant improvement in certain areas of the organization's operational processes, which could potentially lead to enhanced performance outcomes going forward."
+
+**Direct and quantified:**
+> "Three process changes will cut order fulfillment time from 14 days to 5 days, saving $2.3M annually in working capital costs."
+
+**Hedge-laden:**
+> "The market appears to be showing some signs of potential softening, which might suggest that a more cautious approach could perhaps be warranted in the near term."
+
+**Clear and committed:**
+> "The addressable market contracted 12% in Q3. We recommend delaying the product launch to Q2 2027 and reallocating $4M from marketing to R&D."
+
+**Buried lead:**
+> "After conducting an extensive analysis of the competitive landscape, examining market trends across multiple segments, and reviewing internal capability assessments, our team has concluded that the acquisition of TargetCo represents a compelling strategic opportunity."
+
+**Bottom-line up front:**
+> "Acquire TargetCo for EUR 85M. It fills our capability gap in APAC distribution and is accretive to EBITDA by Year 2. Three factors support this recommendation."
+
+The pattern: replace throat-clearing with the conclusion. Replace hedges with data. Replace abstractions with specifics.
 
 ---
 
@@ -226,6 +321,30 @@ For reports with multiple contributors (common on large engagements), establish 
 - **Integration checkpoints**: Schedule two review points: (1) after first drafts of all sections, (2) after revisions. Don't wait for final assembly to discover inconsistencies
 - **Cross-reference log**: Track which sections reference data or findings from other sections. When one section changes, flag dependent sections
 - **Terminology register**: Maintain a short list of key terms and how they're used. "Revenue" vs. "net revenue" vs. "ARR" discrepancies across sections destroy credibility
+
+### Version Control and Review Workflow
+
+For large documents, especially multi-author reports, version discipline prevents costly confusion.
+
+**Naming convention**: `[Client]_[Report]_v[Major].[Minor]_[Date]_[Author].docx`
+- Major version: structural changes, new sections, post-review rewrites (v1.0, v2.0)
+- Minor version: edits within existing structure (v1.1, v1.2)
+- Example: `Acme_MarketEntry_v2.1_2026-03-15_JSmith.docx`
+
+**Review workflow**:
+
+| Stage | Version | Who Reviews | What They Check |
+|-------|---------|-------------|-----------------|
+| First draft | v0.1 | Author self-review | Structure, completeness, argument logic |
+| Peer review | v0.5 | One colleague | Logic, evidence gaps, readability |
+| Manager review | v1.0 | Engagement manager | Narrative arc, client-readiness, accuracy |
+| Partner review | v1.5 | Partner/director | Strategic positioning, risk, tone |
+| Client draft | v2.0 | Client review | Factual accuracy, alignment with expectations |
+| Final | v3.0 | Final QA | Formatting, cross-references, typos |
+
+**Track changes discipline**: One reviewer at a time. Resolve all comments before passing to the next reviewer. Parallel reviews at the same level (two peer reviewers) produce conflicting edits.
+
+**Working in shared drives**: Lock the file when editing. Use a simple status tracker (a shared spreadsheet or channel message): "v1.2 with JSmith for manager review, due back Mar 18."
 
 ### Final Assembly
 

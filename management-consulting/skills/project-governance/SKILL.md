@@ -474,6 +474,45 @@ Governance doesn't end at project close. Establish a 6-12 month benefits trackin
 
 For the full closure methodology (deliverable handover, knowledge transfer, transition planning, detailed financial reconciliation), see the `project-closeout` skill.
 
+## Governance Recovery Playbooks
+
+### When the Steering Committee Stops Meeting
+
+Steering committee attrition is one of the most common mid-engagement governance failures. The committee doesn't formally dissolve; it just stops showing up. Meetings get rescheduled, then cancelled, then forgotten.
+
+**Diagnosis**: This usually signals one of three things: (1) the project has lost executive priority (a bigger fire is burning), (2) the committee sees its role as complete (they approved the plan, now "you go execute"), or (3) the meetings aren't adding value (status reporting that could be an email).
+
+**Recovery steps**:
+
+1. **Don't keep scheduling and cancelling.** After two consecutive cancellations, treat it as a governance risk, not a scheduling problem.
+2. **Diagnose the cause with the sponsor directly.** A 15-minute 1:1 conversation: "The steering committee hasn't met in 6 weeks. Is this a priority shift, or can we adjust the format?" Don't frame it as a complaint; frame it as a risk.
+3. **If priority has shifted**: Get explicit confirmation of continued project sponsorship. If the project is still a go, negotiate a lighter governance model (sponsor-only monthly check-in, written decision memos instead of meetings). Document the change.
+4. **If meetings aren't adding value**: Redesign the agenda. Drop status reporting (send it in advance). Make every meeting decision-focused: "We need your decision on X, Y, and Z." If there are no decisions needed, cancel the meeting intentionally rather than letting it atrophy.
+5. **If the committee thinks its role is done**: Clarify the upcoming decisions that require their authority (budget reallocation, scope changes, go/no-go on implementation). Map these to the calendar so they can see when they'll be needed.
+6. **Escalation**: If the sponsor confirms the project is still active but can't commit to any governance rhythm, document this as a formal risk in the status report. "Project proceeding without active steering committee oversight" gets attention.
+
+**The hard truth**: Sometimes a steering committee that stops meeting is telling you the project has been deprioritized. Listen to that signal. It's better to surface it early than to discover six months later that nobody was paying attention.
+
+### Governance Adaptation When the Client Org Changes Mid-Engagement
+
+Reorganizations, leadership changes, and strategy pivots mid-engagement are common, especially on longer programs. The governance structure you designed for the organization that existed at kickoff may no longer fit.
+
+**Triggers that require governance adaptation**:
+- Sponsor leaves, is reassigned, or is promoted out of the role
+- Organizational restructuring changes reporting lines for key stakeholders
+- Merger, acquisition, or divestiture changes the organizational context
+- New leadership arrives with different priorities or working style
+- Budget ownership shifts to a different function
+
+**Response framework**:
+
+1. **Immediate (within 48 hours of the change)**: Confirm continued project sponsorship. Identify the new decision-maker. Get a meeting with them. Don't wait for someone to tell you; go find out.
+2. **Within one week**: Re-validate the project charter with the new stakeholder landscape. Does the scope still make sense? Are the objectives still relevant? Document any shifts.
+3. **Within two weeks**: Update the RACI, stakeholder map, and communication plan. Reintroduce the project to new stakeholders (they didn't live through the kickoff; don't assume context). Adjust the governance structure if the change warrants it (e.g., a new sponsor who prefers weekly 30-minute check-ins over monthly steering committees).
+4. **Ongoing**: Expect a productivity dip during the transition. Budget 2-4 weeks of reduced velocity as new relationships form and decisions get re-validated.
+
+**Key risk**: A leadership change can be an opportunity for project opponents to relitigate scope, budget, or approach. Prepare a concise brief (2 pages max) that a new executive can absorb quickly: what are we doing, why, where are we, and what decisions are upcoming. Get ahead of the narrative.
+
 ## Principles
 
 - Governance enables, it doesn't restrict. If governance isn't adding value, it's adding overhead. Redesign it

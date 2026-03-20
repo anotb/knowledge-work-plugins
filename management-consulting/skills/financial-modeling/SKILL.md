@@ -263,23 +263,52 @@ This provides a richer risk picture than three scenarios and identifies which as
 
 ## Economic Value Added (EVA)
 
-**Formula**: EVA = NOPAT - (WACC x Capital Employed)
+**Formula**: EVA = NOPAT - (Capital Charge)
 
-Where:
-- NOPAT = Net Operating Profit After Tax
-- WACC = Weighted Average Cost of Capital
-- Capital Employed = Total Assets - Current Liabilities
+Where Capital Charge = WACC x Capital Employed.
 
-Interpretation:
-- Positive EVA: Creates value for shareholders
-- Negative EVA: Destroys value
-- Compare EVA across business units to identify value creators vs. destroyers
+**Building the Components**:
 
-When to use EVA:
-- Comparing performance across divisions of different sizes
-- Evaluating whether growth is actually creating value
-- Setting performance targets that account for capital cost
-- Assessing acquisition targets (is the target generating returns above its cost of capital?)
+| Component | Calculation | Notes |
+|---|---|---|
+| NOPAT | EBIT x (1 - tax rate) | Use operating income, exclude financing costs and non-recurring items. Adjust for operating leases if material. |
+| Capital Employed | Total Assets - Current Liabilities | Or equivalently: Net Fixed Assets + Net Working Capital. For asset-light businesses, include capitalized R&D and intangibles. |
+| Capital Charge | WACC x Capital Employed | Use the same WACC as DCF analysis; adjust for division-specific risk if comparing business units. |
+
+**Interpretation**:
+
+| EVA Result | Meaning | Action |
+|---|---|---|
+| Positive, growing | Creating and increasing value | Invest more capital if returns hold |
+| Positive, shrinking | Still creating value, but declining | Investigate: margin erosion? Capital inefficiency? |
+| Near zero | Earning approximately cost of capital | Business is a "rent payer" ... covering capital costs but not creating surplus value |
+| Negative | Destroying shareholder value | Restructure, divest, or fundamentally change the business model |
+
+**EVA for Cross-Unit Comparison**:
+
+This is EVA's primary advantage over ROI or ROIC: it expresses value creation in absolute dollars, making units of different sizes directly comparable.
+
+| Business Unit | NOPAT ($M) | Capital Employed ($M) | WACC | Capital Charge ($M) | EVA ($M) |
+|---|---|---|---|---|---|
+| Unit A | 25.0 | 150.0 | 10% | 15.0 | +10.0 |
+| Unit B | 8.0 | 30.0 | 10% | 3.0 | +5.0 |
+| Unit C | 12.0 | 140.0 | 10% | 14.0 | -2.0 |
+
+Unit A has the highest absolute EVA, but Unit B has the highest EVA/Capital ratio (16.7% vs. 6.7%). Unit C is destroying value despite being profitable on a NOPAT basis.
+
+**EVA-Based Performance Targets**:
+
+Set targets as EVA improvement (delta EVA), not absolute EVA. This avoids penalizing units that inherited large capital bases. Decompose EVA improvement into three levers:
+1. **Increase NOPAT** without proportional capital increase (operational efficiency)
+2. **Reduce capital employed** without proportional NOPAT decline (asset efficiency, working capital management)
+3. **Invest new capital** at returns above WACC (value-creating growth)
+
+**When to Use EVA**:
+- Comparing performance across divisions of different sizes (EVA's sweet spot)
+- Evaluating whether growth is actually creating value (a division can grow revenue and NOPAT while destroying value if capital grows faster)
+- Setting management incentive targets that align with shareholder value creation
+- Assessing acquisition targets: is the target generating returns above its cost of capital? If EVA is negative, the acquisition price must account for the turnaround investment needed to get EVA positive
+- Capital allocation decisions: direct incremental capital to units with the highest marginal EVA per dollar invested
 
 ---
 
@@ -298,6 +327,8 @@ When to use EVA:
 
 ### Typical Ranges by Risk Level
 
+These ranges are illustrative and depend on the prevailing interest rate environment, geography, and company-specific cost of capital. Always anchor to the organization's actual WACC or hurdle rate.
+
 | Risk Level | Discount Rate Range | Examples |
 |---|---|---|
 | Low risk | 5-8% | Core operations, efficiency improvements |
@@ -311,6 +342,59 @@ When to use EVA:
 - When in doubt, use a higher discount rate. Better to reject a good project than to accept a bad one.
 - If a project looks attractive only at a low discount rate, flag it as sensitive to cost-of-capital assumptions.
 - Always show NPV at multiple discount rates (e.g., WACC, WACC+2%, WACC+5%).
+
+---
+
+## Real vs. Nominal Cash Flows
+
+A common modeling error: mixing real and nominal values in the same analysis. Pick one convention and apply it consistently.
+
+| Convention | Cash Flows | Discount Rate | When to Use |
+|---|---|---|---|
+| **Nominal** | Include expected inflation in revenue growth, cost escalation, etc. | Use nominal WACC (includes inflation expectations) | Default for most business cases. Easier to tie to budgets, contracts, and reported financials. |
+| **Real** | Strip out inflation; express all values in today's purchasing power | Use real WACC (nominal WACC - expected inflation) | Long-horizon analyses (10+ years) where inflation compounds significantly. Infrastructure, energy, real estate. |
+
+**The rule**: nominal cash flows with nominal discount rate, or real cash flows with real discount rate. Never cross them. Mixing nominal cash flows with a real discount rate overstates NPV; mixing real cash flows with a nominal rate understates it.
+
+**Practical guidance**:
+- For 3-5 year business cases, use nominal. The inflation distortion is small and nominal is easier for stakeholders to follow.
+- For 10+ year analyses, consider real. It keeps the focus on whether the project creates genuine value above inflation.
+- When inflation rates differ significantly across cost and revenue lines (e.g., labor inflating at 4% but software costs deflating at 2%), model each line's escalation explicitly in nominal terms rather than applying a blanket inflation rate.
+- Always state the assumed inflation rate and its source. A seemingly small difference (2% vs. 4%) compounds dramatically over long horizons.
+
+---
+
+## Foreign Currency Considerations
+
+For multi-country business cases, currency effects can materially alter the economics. Address these explicitly.
+
+**Step 1: Identify Currency Exposure**
+
+Map each cash flow line to its currency denomination:
+
+| Cash Flow Item | Currency | Exposure Type |
+|---|---|---|
+| Revenue from US customers | USD | Revenue exposure |
+| European subsidiary costs | EUR | Cost exposure |
+| Manufacturing in China | CNY | Cost exposure |
+| Debt service | USD | Financing exposure |
+
+**Step 2: Choose a Modeling Approach**
+
+| Approach | Method | When to Use |
+|---|---|---|
+| **Constant exchange rate** | Use today's spot rate for all future periods | Simplest. Acceptable for short-horizon cases (1-2 years) or when FX exposure is <10% of total cash flows. Label clearly: "at constant exchange rates." |
+| **Forward rates** | Use market forward rates for each future period | Better for 3-5 year cases. Forward rates embed market expectations of currency movements. Source from Bloomberg or central bank data. |
+| **Scenario-based** | Model base/upside/downside exchange rate paths | Best for material FX exposure. Show NPV sensitivity to +/-10% and +/-20% currency moves on the dominant exposure. |
+
+**Step 3: Address Key Risks**
+
+- **Translation risk**: Reporting currency impact when consolidating foreign subsidiary results. Affects reported earnings but not necessarily cash flow.
+- **Transaction risk**: Actual cash flow impact when revenues and costs are in different currencies. This is the one that matters for business case economics.
+- **Natural hedging**: Does the business have offsetting exposures? (e.g., EUR revenues and EUR costs in Europe net out.) Quantify the net exposure after natural offsets.
+- **Hedging costs**: If the business hedges FX risk, include the cost (typically 1-3% annually for major currency pairs). Note that hedging removes volatility but not the long-term trend.
+
+**In the analysis**: Show the base case NPV at current exchange rates, then show NPV sensitivity to the top 1-2 currency exposures. Flag if any scenario flips the recommendation from Go to No-Go.
 
 ---
 

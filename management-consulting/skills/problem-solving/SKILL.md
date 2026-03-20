@@ -11,7 +11,7 @@ Two modes of operation:
 - **Structuring mode** (no data provided): Build the issue tree, form hypotheses, design the analytical workplan, and specify what data would prove or disprove each hypothesis. The output is a roadmap for the analysis.
 - **Analysis mode** (data provided): Run the analysis, test hypotheses against the data, synthesize findings, and deliver recommendations. The output is answers.
 
-Default to structuring mode unless the user provides data to analyze.
+Default to structuring mode unless the user provides data to analyze. When operating in structuring mode, open with an explicit statement: "Operating in structuring mode since no data has been provided. The output will be a roadmap: issue tree, hypotheses, and an analytical workplan specifying what data to collect and how to test each hypothesis." This sets expectations that the deliverable is a plan, not answers.
 
 ---
 
@@ -179,9 +179,26 @@ Translate findings into action. Each recommendation needs:
 
 ## Issue Trees
 
+### Which Tree Do You Need?
+
+This is the most common point of confusion in structured problem solving. The diagnostic is simple:
+
+**Ask: "Am I choosing between competing explanations, or breaking a known problem into its parts?"**
+
+| Signal | You Need a... | Why |
+|---|---|---|
+| "Why is X happening?" with multiple plausible causes | **Hypothesis tree** | You're testing competing theories. The branches are mutually exclusive explanations, and the goal is to eliminate wrong answers. |
+| "How do we improve X?" or "What drives X?" | **Logic tree** | You're decomposing a system into its component drivers. The branches coexist (they're all real), and the goal is to find the biggest lever. |
+| "Revenue dropped 20% last quarter" | **Hypothesis tree** | Something changed. You need to figure out *what*. Was it pricing? Volume? Mix? Churn? These compete as explanations. |
+| "How do we grow revenue by 20%?" | **Logic tree** | You need to map all the ways revenue can grow (price, volume, mix, new products, new segments) and size each lever. |
+| You could be wrong about the cause | **Hypothesis tree** | The value is in disproving wrong theories fast. |
+| The causes are known; the question is relative magnitude | **Logic tree** | The value is in comprehensive decomposition and prioritization. |
+
+**The mistake**: Using a logic tree when you should be using a hypothesis tree. This happens when someone decomposes "revenue declined" into "price x volume" (logic tree) instead of asking "why did revenue decline?" and generating competing hypotheses (pricing error vs. competitive loss vs. customer churn vs. macro downturn). The logic tree maps the math; the hypothesis tree maps the possible causes. You often need both: the logic tree tells you *where* the problem is (volume dropped), and the hypothesis tree tells you *why* (competing theories about volume loss).
+
 ### Hypothesis Tree
 
-Use when you have competing theories about what's happening.
+Use when you have competing theories about what's happening. The branches are alternative explanations, and the goal is to eliminate wrong answers quickly.
 
 ```
                     [Ultimate Question]
@@ -197,11 +214,11 @@ Use when you have competing theories about what's happening.
    [Quick Test]    [Quick Test]    [Quick Test]
 ```
 
-Start with the ultimate question. Branch into competing hypotheses. Under each hypothesis, identify the proof points needed and the quickest way to test them.
+Start with the ultimate question. Branch into competing hypotheses. Under each hypothesis, identify the proof points needed and the quickest way to test them. The key discipline: design a quick test for each hypothesis that could *disprove* it, not just confirm it.
 
 ### Logic Tree
 
-Use when you need to decompose a problem into its component drivers (cause and effect, not competing theories).
+Use when you need to decompose a problem into its component drivers. The branches coexist (they're all real parts of the system), and the goal is to find the biggest lever.
 
 ```
                  [Problem Statement]
@@ -217,7 +234,7 @@ Use when you need to decompose a problem into its component drivers (cause and e
    [Root Cause]    [Root Cause]
 ```
 
-Decompose the problem into its causal drivers. Keep branching until you reach actionable root causes.
+Decompose the problem into its causal drivers. Keep branching until you reach actionable root causes. The key discipline: ensure MECE at every level (no overlaps, no gaps).
 
 ---
 

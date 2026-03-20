@@ -528,6 +528,87 @@ Contingency plans for high-impact risks:
 
 ---
 
+## Program Recovery
+
+Sometimes the plan isn't delayed... it's fundamentally off track. The timeline is fiction, the assumptions were wrong, the workstreams are producing the wrong things, or the organization has changed around the plan. This requires recovery, not just replanning.
+
+### Recognizing "Off Track" vs. "Delayed"
+
+A delayed program is executing the right plan slowly. A program that needs recovery is executing the wrong plan, or the right plan in the wrong conditions.
+
+| Signal | Delayed (Replan) | Off Track (Recovery) |
+|--------|-----------------|---------------------|
+| Timeline | Milestones slipping 2-4 weeks | Milestones slipping months, or milestones no longer meaningful |
+| Scope | Original scope is right, execution is slow | Scope was wrong, or the problem has changed since scoping |
+| Stakeholders | Same people, lower energy | Sponsor has changed, key stakeholders have disengaged, or new stakeholders have emerged who weren't in the plan |
+| Team | Team is struggling but on-mission | Team doesn't believe in the plan, or critical capabilities are missing |
+| Assumptions | Assumptions mostly held, some variance | Multiple foundational assumptions were wrong |
+| Deliverables | Right outputs, behind schedule | Deliverables are being produced but nobody is using them, or they don't solve the problem |
+
+### When to Revise the Plan vs. Escalate That Assumptions Were Wrong
+
+This is a judgment call, but there are clear thresholds.
+
+**Revise the plan when:**
+- The variance is recoverable within existing authority and budget (e.g., reprioritize workstreams, adjust sequencing, add two weeks to a phase)
+- The core hypothesis is still right; execution just needs adjustment
+- The sponsor and steering committee would agree with the adjustment if informed
+- You can articulate the revised plan and its rationale in a steering committee update
+
+**Escalate when:**
+- The business case no longer holds under current conditions (e.g., the cost has doubled, the benefits have halved, or the timeline pushes past the window of relevance)
+- A foundational assumption was wrong and the plan was built on it (e.g., "we assumed the legacy system could be migrated in 6 months; it cannot be migrated at all")
+- The sponsor needs to make a decision that's outside the program team's authority: kill it, restructure it, or significantly increase the investment
+- You've already revised the plan once for the same issue and it's recurring
+
+**How to escalate well:**
+- State the problem factually. "Three of our five foundational assumptions have not held" is better than "things aren't going well"
+- Quantify the impact. What does this mean for timeline, cost, and benefits?
+- Present options, not just the problem. "We can (a) restructure around the new reality at +$X and +Y months, (b) reduce scope to what's achievable within original constraints, or (c) pause and reassess whether the initiative is still warranted"
+- Recommend one option and say why
+- Don't wait. The worst escalations are the ones that come 3 months late because the team was hoping things would improve
+
+### Running a Program Recovery
+
+If the program needs genuine recovery (not just a revised timeline), treat it as a distinct exercise.
+
+**Step 1: Stop and assess (1-2 weeks)**
+
+Pause forward progress on workstreams that aren't delivering value. Don't pause workstreams that are working... recovery doesn't mean grinding everything to a halt.
+
+Conduct an honest current-state assessment:
+- What has been delivered and is it usable?
+- Which assumptions held and which didn't?
+- What has changed in the business environment since the plan was made?
+- Where is the team's energy and capability?
+- What does the sponsor actually need now (which may be different from what was scoped)?
+
+**Step 2: Redefine success (1 week)**
+
+With the sponsor, answer: given what we now know, what does a successful outcome look like? This may be dramatically different from the original business case. A program scoped to transform five business units may need to become a program that successfully transforms two.
+
+**Step 3: Rebuild the plan (1-2 weeks)**
+
+Using the same framework from Stages 3-4 of this skill, but with key differences:
+- Start from what's been delivered, not from zero. Sunk costs are sunk, but completed work may still have value
+- Be ruthless about scope. Cut anything that isn't essential to the redefined success criteria
+- Build in more contingency than the original plan (the original plan already proved too optimistic)
+- Shorten the planning horizon. A recovered program should plan in 90-day increments with explicit go/no-go gates
+
+**Step 4: Restabilize governance and team**
+
+- Reconfirm (or change) the sponsor and steering committee. If the sponsor has lost confidence, the program needs a new one
+- Assess whether the team has the right capabilities for the revised plan. Recovery often requires different skills than the original effort
+- Reset cadences and escalation paths. The old ones clearly weren't catching problems early enough
+
+**Common recovery traps:**
+- Adding resources to a plan that's conceptually wrong (throwing people at the wrong problem)
+- "Recovery theater" where you replan on paper but change nothing about how work is done
+- Blaming the team when the plan was the problem
+- Treating recovery as shameful rather than as responsible program management. Good programs recover; bad ones pretend everything is fine until they fail
+
+---
+
 ## Connecting the Stages
 
 Each stage feeds the next:
@@ -545,7 +626,7 @@ Each stage feeds the next:
 - **Tag your confidence.** Distinguish "high confidence, based on actuals" from "estimate, +/- 30%." Decision-makers need to know what's solid and what's a bet.
 - **One accountable owner per deliverable.** Shared accountability is no accountability.
 - **The executive summary must stand alone.** It's often the only thing that gets read.
-- **Build in contingency.** 10-15% on both timeline and budget. Things will go wrong.
+- **Build in contingency.** 10-15% on both timeline and budget as a starting point; adjust based on project complexity, uncertainty, and organizational risk appetite. Things will go wrong.
 - **Include quick wins early.** They build momentum and stakeholder confidence.
 - **The critical path drives everything.** Know it, protect it, track it.
 - **Phase gates prevent premature transitions.** Enforce them even when there's pressure to move faster.

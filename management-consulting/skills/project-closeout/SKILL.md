@@ -341,6 +341,29 @@ Archive all project documentation with appropriate retention periods. At minimum
 
 Acknowledge individual contributions. This is not a formality. People remember how engagements ended.
 
+### Team Performance Reviews
+
+Distinct from annual performance reviews and more valuable because they capture performance in context. Conduct these before the team disbands, not weeks later when memory fades.
+
+**For each team member, assess**:
+
+| Dimension | Rating (1-5) | Evidence | Development Recommendation |
+|---|---|---|---|
+| Technical quality of work | _ | Specific deliverables or analyses | What to build on or improve |
+| Client relationship management | _ | Interactions observed, client feedback | Growth areas |
+| Team contribution | _ | Collaboration, mentoring, initiative | Next engagement fit |
+| Problem-solving under pressure | _ | How they handled ambiguity, setbacks, tight deadlines | Stretch opportunities |
+| Communication (written and verbal) | _ | Deliverable quality, presentation skill, stakeholder updates | Development suggestions |
+
+**Process**:
+- EM writes the review within one week of engagement end (not three months later as part of an annual cycle)
+- Share the review in a 30-minute 1:1 conversation, not just in writing
+- Include specific examples, not just ratings. "Your analysis of the customer cohort data in Week 4 changed the direction of the engagement" is useful. "Good analytical skills" is not.
+- Ask the team member for their self-assessment first. Divergence between self-assessment and your assessment is the most productive conversation topic.
+- Feed findings into the firm's staffing and development systems so the next engagement manager benefits
+
+**Why this matters**: Consulting team members are evaluated on engagement performance. If you don't do this, they either get no feedback (bad) or get feedback from someone who wasn't there (worse).
+
 ---
 
 ## Step 8: Final Project Report
@@ -420,6 +443,43 @@ Certain industries impose specific closeout requirements beyond standard practic
 - **Third-party attestations**: If the engagement involved SOC 2, ISO 27001, or similar certifications, ensure findings are properly documented and handed to the relevant compliance team
 
 ---
+
+## Early Termination / Bad Ending Playbook
+
+Not every engagement ends well. Client dissatisfaction, budget cuts, leadership changes, strategy pivots, or genuine delivery failures can all terminate an engagement early. How you handle the ending determines whether the client relationship (and your reputation) survives.
+
+### Termination Types and Responses
+
+| Scenario | Your Priority | Key Actions |
+|---|---|---|
+| Client pulls budget (external pressure, not dissatisfaction) | Preserve relationship, close cleanly | Express understanding. Deliver whatever is complete in usable form. Offer to resume if funding returns. Don't fight it. |
+| Client is dissatisfied with delivery quality | Damage control, relationship salvage | Acknowledge the concern without being defensive. Offer a concrete remediation plan (at reduced or no cost). Involve your leadership. |
+| Leadership change kills the project | Protect team, maintain firm reputation | Document what was delivered and its value. Brief the new leadership if they'll take the meeting. Accept the decision gracefully. |
+| Scope was wrong from the start | Honest reckoning | Acknowledge the misscoping. Deliver what's useful from work completed. Offer a re-scoped approach if the underlying need still exists. |
+| Mutual agreement to stop | Clean handover | Treat as normal closeout but on compressed timeline. No hard feelings, but document everything. |
+
+### The Early Termination Checklist
+
+Regardless of cause, these actions are non-negotiable:
+
+1. **Agree on the narrative.** Align with the client sponsor on how this will be described internally and externally. "Mutually agreed to pause pending strategic review" is better than conflicting stories.
+2. **Deliver what you have.** Even if incomplete, package current work products in usable form. Don't hold deliverables hostage over unpaid fees (that's what the contract and legal team are for).
+3. **Settle the finances promptly.** Agree on final billing quickly. Protracted fee disputes after a bad ending make everything worse. If there's genuine disagreement, propose a reasonable compromise and move on.
+4. **Conduct an internal post-mortem.** What went wrong? Was it avoidable? Was there a red flag at proposal stage? Feed this back into your qualification process. The most expensive lesson is one you don't learn from.
+5. **Handle the team.** Early termination is demoralizing. Debrief with the team honestly. Reassign people quickly. Don't let them sit on the bench wondering what they did wrong (especially if they didn't do anything wrong).
+6. **Don't burn the bridge.** The person who terminated the engagement may hire you again in a different role, at a different company, five years from now. Leave them with the impression that you handled a difficult situation with professionalism.
+
+### When to Walk Away First
+
+Rarely discussed but sometimes necessary. Situations where the firm should initiate termination:
+
+- Client asks you to produce misleading findings or suppress unfavorable results
+- Client environment is abusive to your team (sustained hostility, unreasonable demands, personal attacks)
+- Scope has expanded beyond contractual terms and the client refuses to adjust
+- You discover information during the engagement that creates a conflict of interest
+- Continued association poses reputational risk to the firm
+
+In these cases, raise the concern with your firm's leadership, document the issue, and follow your firm's protocol for disengagement. Do it promptly and professionally.
 
 ## Follow-On Opportunity Identification
 

@@ -141,6 +141,19 @@ Identify and validate root causes of process variation and waste. This is where 
 | Defects | Errors requiring rework, correction, or scrapping |
 | Skills (underutilized) | People doing work below their capability, untapped expertise |
 
+**Service industry TIMWOODS examples** (most waste literature skews manufacturing; here's what each looks like in services):
+
+| Waste Type | Service Industry Example |
+|------------|------------------------|
+| Transportation | Customer data re-entered across 3 systems because they don't integrate; loan application forwarded through 5 departments |
+| Inventory | 2,000 unprocessed insurance claims in a queue; 500 unreviewed job applications backlogging HR |
+| Motion | Agent toggling between 8 browser tabs to resolve one support ticket; nurse walking to a different floor for supplies |
+| Waiting | Customer on hold 12 minutes for a transfer; contract sitting 9 days in legal review queue |
+| Overproduction | Generating monthly reports nobody reads; pre-populating 50 onboarding forms when only 20 are needed |
+| Overprocessing | Four levels of approval for a $200 purchase; manually formatting data that will be reformatted downstream |
+| Defects | Incorrect invoice sent to client requiring credit note; wrong patient information on a lab order |
+| Skills | Senior analyst doing data entry; licensed clinician handling scheduling tasks |
+
 **Root cause tools**:
 
 5 Whys: Start with the problem statement and ask "why" iteratively until you reach a root cause you can act on. Typically 3-5 iterations. The root cause should be something the team can influence.
@@ -158,6 +171,24 @@ Design and deploy optimized process solutions.
 **Solution evaluation matrix**: Score each potential solution on impact, effort, cost, and risk. Separate high-impact/low-effort wins from longer-term structural changes.
 
 **Pilot before rollout**: Test improvements in a controlled setting before full implementation. Measure pilot results against baseline and target. A solution that works in theory but fails in practice isn't a solution.
+
+**Robotic Process Automation (RPA)**: For high-volume, rule-based, repetitive tasks identified during analysis, RPA is a solution pattern worth evaluating before redesigning the process itself.
+
+RPA is a good fit when:
+- The task is rule-based with clear decision logic (no judgment calls)
+- Volume is high enough to justify bot development and maintenance
+- The underlying systems lack APIs or integration options
+- The process is stable (frequent process changes break bots)
+
+RPA is a poor fit when:
+- The process itself is broken (automating waste just produces waste faster)
+- Inputs are unstructured or highly variable
+- The process requires human judgment or exception handling for most cases
+- A system integration or API would solve the problem more durably
+
+**Common RPA candidates from process analysis**: invoice data extraction, employee onboarding form population, report generation and distribution, order status checking across systems, reconciliation between two data sources.
+
+**Rule of thumb**: Fix the process first (eliminate waste, reduce variation), then automate what remains. RPA on top of a bad process locks in the bad process.
 
 **Implementation planning**: Phase the rollout with clear activities, owners, timelines, and dependencies. Include training and communication alongside the technical changes.
 
@@ -210,7 +241,7 @@ Value stream mapping visualizes the end-to-end flow of materials and information
 
 **Key metrics per step**: Cycle time (C/T), work in progress (WIP), changeover time, uptime, batch size.
 
-**Summary metrics**: Total lead time, total value-added time, percentage value-added. In most service processes, value-added time is less than 5% of total lead time. The gap is the improvement opportunity.
+**Summary metrics**: Total lead time, total value-added time, percentage value-added. Value-added time is typically a small fraction of total lead time in service processes. The exact ratio varies, but it's often surprisingly low. The gap is the improvement opportunity.
 
 ### Text-Based Value Stream Map Example
 
@@ -280,6 +311,20 @@ Process mining requires event logs with three minimum fields: **Case ID** (uniqu
 **Conformance analysis**: Compliance rate, number and percentage of deviating cases, root causes of deviation (are deviations intentional workarounds or genuine errors?).
 
 **Process intelligence findings**: Identify bottlenecks (where cases spend the most time), rework loops (where cases go backwards), and excessive wait times (where cases sit idle).
+
+### Process Mining Tool Selection
+
+The tool landscape is maturing rapidly. Selection depends on your data sources, scale, and whether you need one-time analysis or continuous monitoring.
+
+| Tool | Strength | Best For |
+|------|----------|----------|
+| Celonis | Deep SAP integration, enterprise-grade, real-time process intelligence | Large enterprises with SAP/Oracle; continuous process monitoring; organizations wanting execution management beyond just mining |
+| UiPath Process Mining | Tight integration with UiPath RPA platform | Organizations already using UiPath for automation; projects where mining feeds directly into RPA bot development |
+| Disco (Fluxicon) | Simple, fast, excellent visualization | One-time or periodic analysis; consulting engagements where speed matters; teams new to process mining |
+| Microsoft Power Automate Process Mining | Integrated into Microsoft 365 ecosystem | Organizations heavily invested in Microsoft stack; lower-budget entry point |
+| QPR ProcessAnalyzer | Strong conformance checking, compliance focus | Regulated industries; audit and compliance use cases |
+
+**Practical guidance**: For consulting engagements, start with Disco for quick discovery (hours to first insight). Recommend Celonis or UiPath for clients who need ongoing operational monitoring. The tool matters less than the quality of your event log extraction and your ability to translate process maps into actionable findings.
 
 ## Industry Benchmarks
 

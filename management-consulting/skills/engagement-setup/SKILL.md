@@ -50,6 +50,43 @@ The 10 things you do on literal Day 1 after winning the work. Day 1 is chaotic a
 9. Draft the stakeholder list from what you know; plan to complete it
 10. Send the client a "we're excited to get started" note with kickoff logistics and pre-read materials
 
+### Practical Logistics
+
+The stuff that feels administrative but will block real work if you don't handle it early. Start all of this on Day 1; some items take weeks to come through.
+
+**Physical and system access:**
+
+| Item | Who to Ask | Typical Lead Time | Workaround if Delayed |
+|------|-----------|-------------------|----------------------|
+| Building badges / site access | Client facilities or security office | 1-5 days | Have your client lead escort you; get a visitor badge process established |
+| Laptops / client devices | Client IT | 1-4 weeks (this is the killer) | Bring your own equipment; work from your firm's systems until client devices arrive |
+| VPN / remote access | Client IT | 1-2 weeks | Work on-site; request temporary guest Wi-Fi access |
+| System credentials (ERP, BI tools, data warehouses) | Client IT + data owner approval | 1-3 weeks per system | Ask the data owner to pull exports for you while access is pending |
+| Email / distribution lists | Client IT | 1-2 weeks | Use your firm email; ask your client lead to forward relevant threads |
+
+**IT access blocking is extremely common.** Client IT departments have their own priorities and your consulting engagement is not one of them. Assume it will take 2-3x longer than anyone promises. Mitigations:
+
+- Submit all access requests on Day 1, even before you know exactly what you need. It's easier to cancel a request than to start one late.
+- Get your client sponsor to send the IT request (or cc them). A request from a VP moves faster than one from an unknown contractor.
+- Identify one person in client IT who actually processes requests and build a relationship with them directly.
+- Have a "no-access" plan for the first two weeks. What can the team accomplish using only exported data, interviews, and your own tools?
+
+**Client document management:**
+
+Every client has a different system (SharePoint, Google Drive, Box, Confluence, shared drives on a server from 2008). Find out:
+- Where do they store project documents? (Not where they say they do... where do they actually look for things?)
+- What's the naming convention? (Match theirs, don't impose yours.)
+- Who controls permissions? (This person is your new best friend.)
+- Is there a document that everyone references but nobody can find? (There always is. Find it early.)
+
+**Figuring out who actually answers emails:**
+
+The org chart tells you who has authority. You need to know who has responsiveness. In the first week, identify:
+- The EA or admin who controls the sponsor's calendar
+- The client project lead's preferred communication channel (some people live in Teams, some in email, some need a phone call)
+- Who on the client side actually follows up on action items (this is rarely the most senior person)
+- Which client stakeholders are reliably unavailable and need to be worked around
+
 ## Phase 1: Stakeholder Mapping
 
 Build the stakeholder picture before the kickoff. You need it for invitation lists, interview scheduling, and knowing who can actually make decisions.

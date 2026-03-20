@@ -90,7 +90,7 @@ Example of counterargument handling (strong):
 
 ### Data Points
 
-Collect specific statistics with their sources and context. "72% of digital transformations fail to meet their objectives (McKinsey, 2023)" is useful. "Digital transformation is hard" is not.
+Collect specific statistics with their sources and context. "According to [Source], X% of [initiatives] failed to meet their stated objectives" is useful... specific, sourced, and verifiable. "Digital transformation is hard" is not.
 
 ---
 
@@ -200,6 +200,38 @@ Recommend visual elements to strengthen the content:
 - **Callout boxes**: Provide practical tips or supplementary detail.
 
 ---
+
+## Client Approval for Content Referencing Engagement Work
+
+Any thought leadership that draws on client engagement experience (even anonymized) needs a clear approval process. Getting this wrong creates legal exposure and destroys client trust.
+
+**Approval tiers**:
+
+| Content Type | Approval Required | Process |
+|---|---|---|
+| Anonymized pattern ("Across 30+ transformations, we observed...") | Internal review only | Engagement manager confirms no identifying details. Legal/risk reviews if the pattern is industry-specific enough to narrow identification. |
+| Anonymized case study (specific client situation, disguised) | Client approval required | Send the draft to the client sponsor. Allow 2 weeks for review. Accept redactions without argument. |
+| Named case study (client identified) | Written client approval required | Formal approval from client's communications/legal team, not just the sponsor's verbal OK. Include final publication form for sign-off. |
+| Quoting client personnel | Written approval from the individual and their communications team | Provide exact quote in context. Allow the individual to revise. Some organizations prohibit employee quotes entirely. |
+
+**Practical guidance**:
+- Build approval into the timeline. Don't finish the piece and then discover the client needs 4 weeks for legal review.
+- When in doubt, over-anonymize. Change the industry, geography, company size, or time period. The insight is in the pattern, not the specifics.
+- Some clients have blanket policies prohibiting any reference to the engagement, including anonymized ones. Check the engagement contract for publication restrictions.
+- If a client declines, accept it. Pushing back damages the relationship more than the content is worth.
+
+## Practice-Level Coordination
+
+Multiple partners publishing on the same topic without coordination creates a risk of contradictory viewpoints appearing under the firm's name. This is embarrassing at best and brand-damaging at worst.
+
+**Coordination mechanisms**:
+
+- **Topic registry**: Maintain a simple list of who is publishing what, when, and the core thesis. Review quarterly at practice meetings. Two partners can disagree, but they should know they're doing it.
+- **Thesis alignment check**: Before a piece enters drafting, circulate the one-sentence thesis to practice leadership. Flag conflicts with existing published positions. Genuine intellectual disagreement is fine if handled deliberately (e.g., "a counterpoint" framing). Accidental contradiction is not.
+- **Retired positions**: When the firm's view on a topic evolves, explicitly retire the old position. Remove or update outdated content. A client who reads your 2024 white paper and your 2026 white paper should see evolution, not confusion.
+- **Cross-practice coordination**: When a topic spans practices (e.g., "AI in financial services" touches both the AI practice and the FS practice), assign a lead practice and require the other to review before publication.
+
+This doesn't need to be bureaucratic. A shared spreadsheet and a quarterly 30-minute review is enough for most firms. The goal is awareness, not approval by committee.
 
 ## Step 5: Review and Quality Check
 

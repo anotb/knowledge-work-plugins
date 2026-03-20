@@ -374,6 +374,51 @@ Date: [Date]
 
 ---
 
+## Workshop Risk Register
+
+Plan for what goes wrong. The facilitator who says "that won't happen" hasn't run enough workshops.
+
+### Common Risks and Responses
+
+| Risk | Impact | Response |
+|------|--------|----------|
+| Scoring/voting produces a tie | Decision stalls, group loses momentum | Pre-define the tiebreaker before voting starts. Options: decision-maker breaks the tie, weighted criteria re-score on the tied items only, or "which option do we regret NOT pursuing?" reframe |
+| Hostile or disruptive participant | Derails discussion, intimidates others | Name the behavior privately at a break: "I need your expertise, but the way you're pushing back is shutting others down." If it continues, redirect: "Let's capture that as a dissenting view and move to the next topic." Do not engage in a public battle |
+| Senior sponsor ignores the pre-brief | CEO speaks first, anchors the room, kills divergent thinking | Gently interrupt early: "Thank you — I'd love to come back to that after we hear from the group." At the next break, re-brief: "The session will be more productive if we hear other voices first. You'll have dedicated time to react." |
+| One breakout group produces nothing useful | Uneven outputs undermine synthesis | Assign a process observer to each breakout. Check in at the midpoint. If a group is stuck, give them a concrete prompt or redistribute members |
+| Pre-work completion is near zero | Session starts from cold, agenda timing breaks | Have a 10-minute "crash course" version of the essential context. Adjust the agenda: shorten activities that depend on pre-work, extend context-setting. Never shame people for not doing it |
+| Key decision-maker leaves early | Decisions can't be ratified | Get their input on decision items first. Front-load their participation. If they leave before decisions, get explicit delegation: "Who has your authority to decide on items 3 and 4?" |
+
+### Technology Failure Backup
+
+Technology will fail. Have a plan that doesn't require it.
+
+| Technology | Failure Mode | Backup |
+|------------|-------------|--------|
+| Projector / screen | Won't connect, bulb dies | Print key slides (6-up on paper). Facilitate from a whiteboard. The slides are your notes, not the session |
+| Digital whiteboard (Miro, Mural) | Platform down, participants can't access | Physical sticky notes and a wall. Photograph results. Carry a pack of sticky notes and markers to every session |
+| Video conferencing (hybrid) | Audio/video drops for remote participants | Dial-in phone number as backup. Assign an in-room buddy to text updates. If remote connection is fully lost, pause, solve, or reschedule the remote portion |
+| Polling / voting tool | Tool crashes mid-vote | Paper ballots or hand-raising. For anonymous voting: have people write on cards, collect face-down |
+| Wi-Fi | Network down | Mobile hotspot. Pre-download all materials. Any activity requiring real-time internet access should have an offline alternative |
+
+**General rule**: If a single technology failure can derail your entire session, your session design is fragile. Every digital activity should have a 30-second analog fallback you've already thought through.
+
+### Cultural Facilitation Differences
+
+Facilitation norms vary across cultures. These are tendencies, not rules, but ignoring them produces bad sessions.
+
+| Dimension | Western / Low-Context Tendency | East Asian / High-Context Tendency | Adaptation |
+|-----------|-------------------------------|-----------------------------------|------------|
+| Disagreement | Direct, in the room | Indirect, often after the session | In high-context cultures, build in 1:1 channels (breaks, written input) for dissent. Don't interpret silence as agreement |
+| Speaking order | Whoever has something to say | Deference to seniority | Use explicit rounds ordered by seniority (junior-first or senior-first depending on goal) rather than open floor |
+| Decision-making | Vote and move on | Consensus-building, may need multiple sessions | Budget more time for convergence. A "decision" in the room may need offline confirmation |
+| Brainstorming | Verbal, spontaneous | Written, considered | Default to silent-first activities globally (they work everywhere). Never rely solely on "shout it out" brainstorming |
+| Time | Agenda is a commitment | Agenda is a guide | In relationship-oriented cultures, protect relationship-building time (longer breaks, meals) and flex the agenda |
+
+**Bottom line**: When in doubt, use structured, written-first activities with explicit turn-taking. They work across all cultural contexts. Open-floor, verbal-first formats are the ones most likely to fail cross-culturally.
+
+---
+
 ## Behavioral Principles
 
 - **Energy management is facilitation.** Monitor group energy. Switch formats, take breaks, or introduce movement when energy dips. A tired group produces nothing useful.

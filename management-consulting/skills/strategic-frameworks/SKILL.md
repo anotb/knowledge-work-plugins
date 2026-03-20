@@ -43,6 +43,8 @@ Apply established strategic frameworks to business questions. Select appropriate
 5. **End with prioritized recommendations.** Analysis without action items is incomplete.
 6. **State key assumptions explicitly.** When client context is incomplete, list 3-5 assumptions at the top of the analysis. Flag which assumptions most affect the conclusions. Example: "Assumes client revenue is $200-400M (sensitivity: if <$100M, organic build becomes infeasible and acquisition is the only viable entry mode)."
 7. **End each framework section with a "So What?"** One to two sentences stating the single most important implication of that framework for the client's decision. Not a summary of findings, but the actionable takeaway.
+8. **Redirect framework requests when appropriate.** Clients often request a specific framework by name ("do a SWOT") when a different framework would better answer their actual question. When this happens: (a) acknowledge the request, (b) apply the requested framework, but (c) flag the better-fit framework and explain why. Example: "You asked for a SWOT, so I've included one below. However, your core question is about competitive advantage sustainability, which VRIO addresses more directly. I've led with VRIO and included SWOT as a complement." Never refuse the requested framework outright; instead, use it as one of the two required frameworks and pair it with the one that better fits the question.
+9. **Validate data early.** Before deep analysis, flag the 2-3 data points that most affect the conclusions and recommend the client validate them. Place these at the top of the analysis (after key assumptions), not buried at the end. Structure as: "Data validation priorities: (1) [data point] ... if this is wrong, [which conclusion] changes. (2) [data point] ... needed to confirm [which recommendation]."
 
 ---
 
@@ -276,11 +278,67 @@ Conclude with Recommended Entry Strategy, sequencing, and key success factors.
 
 **Purpose**: Assess and design platform-based business models.
 
-Identify the platform type (marketplace, innovation platform, social platform, hybrid). Map the ecosystem with columns: Participant Type | Role | Value Created | Value Captured | Incentive to Join.
+**Step 1: Platform Classification**
 
-Assess network effects (same-side, cross-side, data) and their strength. Evaluate platform economics: subsidized side vs. monetized side, multi-homing risk, winner-takes-all dynamics.
+Identify the platform type. This determines the economics and strategic playbook.
 
-Conclude with Platform Design (governance, openness, monetization), Growth Strategy (solving chicken-and-egg, building liquidity), and Defensibility.
+| Platform Type | Core Mechanism | Key Metric | Examples |
+|---|---|---|---|
+| Marketplace | Matches buyers and sellers | Liquidity (match rate, time-to-match) | Airbnb, Uber, eBay |
+| Innovation platform | Enables third-party development | Developer adoption, API calls, app count | iOS, AWS, Salesforce |
+| Social platform | Facilitates user interactions | DAU/MAU ratio, engagement, content creation rate | Facebook, Reddit, Discord |
+| Data platform | Aggregates data to generate insights | Data volume, data freshness, unique data assets | Bloomberg, Palantir |
+| Hybrid | Combines 2+ of the above | Varies by dominant mechanism | Amazon (marketplace + innovation), Google (data + innovation) |
+
+**Step 2: Ecosystem Mapping**
+
+Map participants in a table with columns: Participant Type | Role | Value Created | Value Captured | Incentive to Join | Switching Costs.
+
+**Step 3: Network Effects Analysis**
+
+Network effects are the primary source of platform defensibility. Assess each type:
+
+| Network Effect Type | Description | Strength Assessment | Defensibility |
+|---|---|---|---|
+| **Same-side (direct)** | More users on one side attract more users on the same side (e.g., messaging apps, social networks) | Strong if users actively recruit others; weak if value doesn't scale with user count | High if strong (hard to leave when your network is there) |
+| **Cross-side (indirect)** | More users on one side attract more users on the other side (e.g., more buyers attract more sellers) | Strong if both sides see measurable value from the other's growth; weak if one side is indifferent | Medium to high (depends on multi-homing) |
+| **Data network effects** | More usage generates more data, which improves the product, which attracts more users | Strong if data genuinely improves the core value prop (not just "we have more data"); weak if improvements plateau | High if the improvement curve hasn't flattened |
+| **Content/inventory** | More content/listings attract more consumers, whose demand attracts more content | Strong if supply is fragmented and hard to aggregate elsewhere; weak if supply is concentrated | Medium (content can be multi-homed) |
+
+For each applicable network effect, assess:
+- **Current strength**: Is the flywheel actually spinning, or is it theoretical?
+- **Inflection point**: At what scale does the network effect become self-sustaining? (Often expressed as a user count, transaction volume, or geographic density)
+- **Diminishing returns**: At what point does adding more users/data stop improving the experience? (Search quality at Google doesn't meaningfully improve with the next million queries)
+
+**Step 4: Multi-Homing Risk**
+
+Multi-homing (users participating on competing platforms simultaneously) is the single biggest threat to platform economics. Assess:
+
+| Factor | Low Multi-Homing Risk | High Multi-Homing Risk |
+|---|---|---|
+| Switching costs | High (data, reputation, integrations locked in) | Low (no data portability barriers, easy to join) |
+| User investment | Users build profiles, reputations, content | Users are anonymous or transactional |
+| Differentiated supply | Exclusive or hard-to-replicate supply | Commodity supply available everywhere |
+| Pricing | Users penalized for splitting activity (volume discounts, loyalty rewards) | No cost to participating on multiple platforms |
+| Integration depth | Deep workflow/API integrations | Standalone, shallow usage |
+
+If multi-homing risk is high, the platform must compete on execution every transaction, not on lock-in. Strategy shifts from network effects to operational excellence, curation, and trust.
+
+**Step 5: Platform Economics**
+
+Assess the unit economics and monetization model:
+
+- **Subsidized side vs. monetized side**: Which side do you subsidize to build critical mass? (Usually the side that's harder to attract and whose participation creates more value for the other side.) What's the subsidy cost and how long until the platform is self-sustaining?
+- **Take rate / monetization**: What percentage of value does the platform capture? Sustainable range depends on the platform's value-add (5-15% for marketplaces where platform adds distribution; 20-30% where platform adds trust, payments, insurance; >30% risks disintermediation).
+- **Winner-takes-all dynamics**: Does this market tend toward one dominant platform (strong cross-side effects, low multi-homing) or can multiple platforms coexist (geographic fragmentation, differentiated segments, high multi-homing)?
+- **Margin structure**: Platform businesses often have high gross margins (60-80%+) but require significant investment in growth before profitability. Model the path to contribution margin breakeven by cohort or geography.
+
+**Step 6: Conclusion**
+
+Conclude with:
+- **Platform Design**: Governance model (open vs. curated), openness strategy (API access, data sharing), monetization approach
+- **Growth Strategy**: How to solve the chicken-and-egg problem (single-player mode, seeding supply, concentrating geographically, marquee partnerships). What is the minimum viable liquidity?
+- **Defensibility Assessment**: Which network effects are real vs. theoretical? What is the multi-homing risk? How deep are switching costs?
 
 **So What?** End with: "The platform's defensibility rests on [network effect type]. The critical mass threshold is [X users/transactions]. The biggest risk is [multi-homing/disintermediation/regulation]."
 

@@ -97,6 +97,8 @@ Prioritize ruthlessly. Focus on what could kill the deal or materially change th
 - Material contract summary
 - Insurance policies
 - Data privacy compliance documentation
+- FCPA/anti-bribery compliance program documentation (see FCPA/Anti-Corruption section)
+- ESG reports, sustainability commitments, and environmental liabilities (see ESG section)
 
 ### Minimum Viable DD Request (Time-Constrained)
 
@@ -148,13 +150,13 @@ Key questions: Is the market growing or shrinking? Is growth structural or cycli
 | Logo churn rate | % | Segment comparison | Direction |
 | Average contract duration | months | vs. industry | Direction |
 
-Customer concentration above 20% in top 3 customers is a yellow flag. Above 40% is a red flag. NRR below 100% means the installed base is shrinking, the business must sell faster than it leaks.
+Customer concentration above 20% in top 3 customers is a yellow flag; above 40% is a red flag, as a general rule of thumb, though significance depends on contract duration, switching costs, and industry norms. NRR below 100% means the installed base is shrinking, the business must sell faster than it leaks.
 
 #### Revenue Quality
 
 | Metric | Finding | Assessment |
 |--------|---------|------------|
-| Recurring vs. one-time revenue | % recurring | Strong (>80%) / Moderate (50-80%) / Weak (<50%) |
+| Recurring vs. one-time revenue | % recurring | Strong (>80%) / Moderate (50-80%) / Weak (<50%) (illustrative bands; vary significantly by industry. SaaS businesses typically target >90% recurring; project-based businesses may have structurally lower recurring percentages.) |
 | Revenue recognition risks | Assessment | H/M/L |
 | Backlog / committed revenue | $ | Coverage ratio vs. plan |
 | Pricing power | Assessment | Expanding / Stable / Eroding |
@@ -278,6 +280,32 @@ Management interviews are where you test the narrative against reality. The data
 - Excessive preparation and scripting (often indicates PE coaching that may mask genuine understanding)
 - "Trust me" or "You'll see when you talk to customers" in response to data requests
 
+### FCPA / Anti-Corruption Due Diligence
+
+Critical for any cross-border deal, and increasingly scrutinized in domestic transactions involving government-adjacent customers.
+
+| Area | What to Assess | Red Flags |
+|------|---------------|-----------|
+| Compliance program | Written anti-bribery policy, training records, reporting hotline, designated compliance officer | No written policy, no training records, compliance function reports to legal (conflict of interest) |
+| Third-party intermediaries | Agents, distributors, consultants in high-risk jurisdictions; commission structures | Unusually high commissions (>15-20%), agents with no clear business rationale, payments to shell companies or personal accounts |
+| Government touchpoints | Government customers, permits/licenses, state-owned enterprise relationships | Revenue concentration in government contracts without documented procurement processes |
+| Payment patterns | Cash payments, payments to jurisdictions that don't match contract geography, split invoicing | Payments routed through intermediary jurisdictions, round-number payments with no supporting documentation |
+| Historical issues | Prior investigations, self-disclosures, settlements | Any DOJ/SEC history is a major risk factor; successor liability can attach to acquirers |
+
+**Key principle**: Under the FCPA and UK Bribery Act, acquiring companies can inherit liability for the target's past conduct. DD is not optional for cross-border deals. If the target operates in Transparency International's bottom-third countries, FCPA DD should be Tier 1 priority.
+
+### ESG Due Diligence
+
+ESG DD has moved from "nice to have" to required for most institutional investors, many strategic acquirers, and any deal involving European targets (CSRD, EU Taxonomy).
+
+| Dimension | Key Questions | Valuation Impact |
+|-----------|--------------|-----------------|
+| Environmental | Emissions profile and reduction commitments? Environmental liabilities (contamination, remediation)? Carbon-intensive assets at risk of stranding? Regulatory exposure (carbon pricing, emissions caps)? | Remediation liabilities are direct price adjustments. Carbon-intensive assets may face accelerated depreciation. |
+| Social | Labor practices and supply chain labor risk? DEI metrics and litigation history? Community relations and social license to operate? Health and safety record? | Labor violations create regulatory and reputational risk. Poor H&S records signal operational issues. |
+| Governance | Board composition and independence? Executive compensation alignment with long-term value? Related-party transactions? Whistleblower mechanisms? | Governance gaps are often symptoms of deeper operational problems. |
+
+**Practical approach**: Don't boil the ocean. Focus ESG DD on (1) material financial exposures (environmental liabilities, pending regulation), (2) reputational risks that could affect customer retention or talent acquisition, and (3) alignment with the acquirer's own ESG commitments and reporting obligations. If the acquirer has net-zero commitments, the target's emissions profile directly affects the consolidated position.
+
 ### Financial Due Diligence
 
 #### Quality of Earnings
@@ -288,7 +316,23 @@ Management interviews are where you test the narrative against reality. The data
 | EBITDA | $ | $ | One-time costs, owner compensation, related-party transactions |
 | Net income | $ | $ | Normalizing adjustments |
 
-The gap between reported and adjusted EBITDA tells you how much the seller is dressing up the numbers. Adjustments exceeding 20% of reported EBITDA warrant extra scrutiny.
+The gap between reported and adjusted EBITDA tells you how much the seller is dressing up the numbers. Adjustments exceeding 20% of reported EBITDA warrant extra scrutiny, as a general guideline, though significance depends on the nature of adjustments and business type (owner-operated businesses routinely require larger adjustments).
+
+#### Organic Growth Isolation (Roll-Ups and Serial Acquirers)
+
+For businesses that have grown by acquisition, reported revenue growth is misleading. You need to separate organic growth from acquired growth.
+
+**Organic growth = same-store revenue growth / prior year same-store revenue.** "Same-store" means entities owned for the full comparable period in both years.
+
+| Metric | Calculation | What It Reveals |
+|--------|------------|-----------------|
+| Reported revenue growth | (Current year total revenue - Prior year total revenue) / Prior year total revenue | Total growth including acquisitions. Often impressive but uninformative. |
+| Organic revenue growth | (Current year same-store revenue - Prior year same-store revenue) / Prior year same-store revenue | The underlying growth engine. This is what survives when acquisitions stop. |
+| Acquisition contribution | Reported growth - Organic growth | How dependent the growth story is on M&A. |
+
+**If management can't provide the same-store split, flag it as a data quality concern.** This is a basic metric for any serial acquirer. Inability to produce it suggests either poor integration of financial systems or reluctance to show the organic number. Either is a problem.
+
+**Red flags in roll-up DD**: organic growth below industry average (the platform is buying growth, not creating it), declining organic growth over successive periods (integration is consuming management attention), and no margin improvement in acquired entities post-integration (no operational value-add from the platform).
 
 #### Working Capital
 
@@ -318,7 +362,7 @@ Distinguish maintenance capex (required to keep the business running) from growt
 | Free cash flow | $ | $ | $ | Direction |
 | Cash conversion (FCF/EBITDA) | % | % | % | Direction |
 
-Cash conversion below 70% needs explanation. Common culprits: growing working capital, high capex, or earnings quality issues.
+Cash conversion below 70% needs explanation, for established, asset-light businesses. Capital-intensive industries may have structurally lower conversion. Common culprits: growing working capital, high capex, or earnings quality issues.
 
 ## Phase 4: Risk Assessment
 
@@ -470,7 +514,7 @@ When DD is for an acquisition, integration planning starts during DD, not after 
 | Cost synergy 1 | Cost | $ | $ | $ | H/M/L | Execution risk |
 | Cost synergy 2 | Cost | $ | $ | $ | H/M/L | Execution risk |
 
-Cost synergies are generally more reliable than revenue synergies. Revenue synergies take longer to materialize and depend on customer behavior you can't fully control. Discount revenue synergies by 50% in your base case.
+Cost synergies are generally more reliable than revenue synergies. Revenue synergies take longer to materialize and depend on customer behavior you can't fully control. Revenue synergies typically warrant significant haircuts. The appropriate discount depends on synergy type, execution confidence, and acquirer track record.
 
 ### Day 1 Readiness
 
