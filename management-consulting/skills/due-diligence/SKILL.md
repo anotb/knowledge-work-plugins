@@ -5,9 +5,7 @@ description: Conduct commercial, operational, and strategic due diligence for M&
 
 # Due Diligence
 
-Assess business opportunities through rigorous analytical frameworks. This covers commercial, operational, financial, strategic, and technology due diligence — from scoping the engagement through risk synthesis and investment recommendation.
-
----
+Assess business opportunities through rigorous analytical frameworks. This covers commercial, operational, financial, strategic, and technology due diligence, from scoping the engagement through risk synthesis and investment recommendation.
 
 ## DD Types and When to Use Them
 
@@ -21,8 +19,6 @@ Assess business opportunities through rigorous analytical frameworks. This cover
 | Legal & Regulatory | Is it clean? | Litigation, compliance, contracts, data privacy |
 
 Most transactions require at least commercial, operational, and financial DD. The mix depends on the deal.
-
----
 
 ## Phase 1: Scope Definition
 
@@ -51,11 +47,9 @@ Establish:
 
 Prioritize ruthlessly. Focus on what could kill the deal or materially change the price.
 
----
-
 ## Phase 2: Information Gathering
 
-### Information Request List
+### Standard Information Request List
 
 **Corporate:**
 - Articles of incorporation
@@ -104,7 +98,29 @@ Prioritize ruthlessly. Focus on what could kill the deal or materially change th
 - Insurance policies
 - Data privacy compliance documentation
 
----
+### Minimum Viable DD Request (Time-Constrained)
+
+When time is short (PE secondary, small bolt-on, compressed timeline), request these first. They cover 80% of deal-critical information in 20% of the volume.
+
+**Tier 1 (request immediately, review first)**:
+- Last 2 years audited financials + trailing 12 months management accounts
+- Revenue by customer (top 20 customers, 3 years)
+- Customer churn/retention data
+- Org chart + headcount by function
+- Material contracts summary (top 10 by value)
+- Pending litigation summary
+
+**Tier 2 (request immediately, review after Tier 1)**:
+- Monthly revenue and gross margin detail (24 months)
+- Sales pipeline and bookings data
+- Key vendor contracts
+- Technology architecture overview (1-pager)
+- Cap table and shareholder agreements
+
+**Tier 3 (request if time permits or red flags emerge)**:
+- Full data room contents per standard list above
+
+The goal is to identify deal-killers and major valuation issues within 5-7 business days. Anything that survives Tier 1 and Tier 2 review without red flags is likely worth the full DD investment.
 
 ## Phase 3: Analysis
 
@@ -132,7 +148,7 @@ Key questions: Is the market growing or shrinking? Is growth structural or cycli
 | Logo churn rate | % | Segment comparison | Direction |
 | Average contract duration | months | vs. industry | Direction |
 
-Customer concentration above 20% in top 3 customers is a yellow flag. Above 40% is a red flag. NRR below 100% means the installed base is shrinking — the business must sell faster than it leaks.
+Customer concentration above 20% in top 3 customers is a yellow flag. Above 40% is a red flag. NRR below 100% means the installed base is shrinking, the business must sell faster than it leaks.
 
 #### Revenue Quality
 
@@ -152,6 +168,49 @@ Customer concentration above 20% in top 3 customers is a yellow flag. Above 40% 
 | Pricing | $ | $ | $ | Premium / Par / Discount |
 | Differentiation | Claim | Claim | Claim | Sustainable? |
 | Win rate vs. competitors | % | — | — | Strong / Weak |
+
+#### Unit Economics (SaaS and Subscription Businesses)
+
+For recurring revenue businesses, unit economics are the most revealing lens on business quality. A growing SaaS company can look healthy on a P&L while burning cash on unprofitable customer acquisition.
+
+| Metric | Finding | Benchmark | Assessment |
+|--------|---------|-----------|------------|
+| Customer acquisition cost (CAC) | $ | Varies by segment | Blended and by channel |
+| CAC payback period | months | <18 months (good), <12 months (strong) | Including gross margin |
+| Lifetime value (LTV) | $ | Based on gross margin and churn | By segment if possible |
+| LTV:CAC ratio | X:1 | >3:1 (healthy), >5:1 (strong or underinvesting) | By segment |
+| Gross margin | % | >70% (SaaS), >50% (managed services) | By revenue type |
+| Rule of 40 | Revenue growth % + EBITDA margin % | >40% (strong) | Trajectory matters more than snapshot |
+| Burn multiple | Net burn / net new ARR | <1.5x (efficient), >2x (concern) | For pre-profit companies |
+| Magic number | Net new ARR / prior quarter S&M spend | >0.75 (efficient), <0.5 (inefficient) | Sales efficiency indicator |
+
+**CAC calculation notes**: Fully loaded CAC includes sales and marketing salaries, commissions, marketing spend, sales tools, and allocated overhead. Many companies understate CAC by excluding components. Always ask for the build-up.
+
+**LTV calculation**: LTV = (Average revenue per account * Gross margin %) / Annual churn rate. Use logo churn for conservative estimate, revenue churn for optimistic. For businesses with strong expansion revenue, net revenue retention can substitute for the churn component: LTV = (ARPA * Gross margin %) / (1 - NRR).
+
+**LTV:CAC by segment**: Blended LTV:CAC can mask problems. Enterprise segment might be 5:1 while SMB is 1.5:1. If growth strategy depends on SMB expansion, the blended number is misleading.
+
+#### Cohort Analysis (SaaS and Subscription Businesses)
+
+Cohort analysis is the single most revealing analysis for subscription businesses. It shows the true behavior of customer groups over time, cutting through the aggregation that makes topline metrics look better than reality.
+
+**Revenue cohort analysis**: Group customers by signup quarter. For each cohort, track cumulative revenue retention at 3, 6, 12, 18, 24 months.
+
+| Cohort | Month 0 (ARR) | Month 6 | Month 12 | Month 18 | Month 24 |
+|--------|--------------|---------|----------|----------|----------|
+| Q1 2023 | $1.0M | 95% | 88% | 82% | 78% |
+| Q2 2023 | $1.2M | 93% | 85% | 79% | — |
+| Q3 2023 | $1.4M | 90% | 81% | — | — |
+| Q4 2023 | $1.6M | 87% | — | — | — |
+
+What to look for:
+- **Improving cohorts over time**: Later cohorts retaining better = product-market fit improving, or better customer targeting. Bullish.
+- **Deteriorating cohorts**: Later cohorts retaining worse = possible growth at the expense of quality, or market saturation forcing the company downmarket. Bearish.
+- **Revenue retention above 100%**: Expansion revenue exceeding churn within cohorts. Strong signal for pricing power and product stickiness.
+- **Cliff patterns**: Sharp drop at a specific month (e.g., Month 12) often indicates annual contract non-renewals. Check contract terms.
+- **Cohort shape divergence**: If early cohorts show a different retention curve than recent ones, something structural changed. Investigate.
+
+**Logo cohort analysis**: Same structure but tracking customer count instead of revenue. Divergence between logo and revenue cohorts reveals whether you're losing small customers (less concerning) or large ones (very concerning).
 
 ### Operational Due Diligence
 
@@ -177,7 +236,7 @@ Customer concentration above 20% in top 3 customers is a yellow flag. Above 40% 
 | Development velocity | Metrics | H/M/L | Deploy frequency, lead time, MTTR |
 | Cloud infrastructure | Status | H/M/L | Provider, costs, lock-in risk |
 
-#### Management and Team
+#### Management and Team Assessment
 
 | Dimension | Finding | Risk | Detail |
 |-----------|---------|------|--------|
@@ -190,6 +249,34 @@ Customer concentration above 20% in top 3 customers is a yellow flag. Above 40% 
 | Organizational structure | Assessment | H/M/L | Efficiency, spans of control, layers |
 
 Management assessment often predicts post-deal success better than financial analysis. A mediocre business with a strong team outperforms a strong business with a mediocre team.
+
+#### Management Interview Guide
+
+Management interviews are where you test the narrative against reality. The data room tells you what happened; interviews reveal why, and whether leadership understands their own business.
+
+**Core questions (ask every management team)**:
+1. Walk me through how you win a new customer, from first contact to signed contract. What's your typical sales cycle? (Tests: process maturity, self-awareness about go-to-market)
+2. Which customers have you lost in the last 12 months, and why? (Tests: honesty, customer understanding. Red flag: "We don't really lose customers" when churn data says otherwise)
+3. What are the 2-3 things that keep you up at night about this business? (Tests: self-awareness, strategic thinking. Red flag: "Nothing, business is great")
+4. If you had an extra $5M to invest in the business, where would you put it? (Tests: growth understanding, capital allocation thinking)
+5. Tell me about a time something went significantly wrong operationally. What happened and what did you change? (Tests: learning orientation, operational resilience)
+6. Who are your key people, and what happens if any of them leave? (Tests: talent awareness, succession planning, key person risk)
+7. How do you set prices, and when was the last time you raised them? (Tests: pricing sophistication, competitive position)
+
+**SaaS-specific questions**:
+8. Walk me through your cohort economics. How has CAC payback evolved over the last 2 years? (Tests: unit economics understanding)
+9. What percentage of your revenue comes from customers who've been with you more than 2 years? (Tests: retention quality)
+10. What's your product roadmap, and how much of it is customer-requested vs. market-driven? (Tests: product strategy, customer dependency)
+
+**Triangulation technique**: Ask the same factual question of multiple team members separately. Compare answers. Consistent answers build confidence. Divergent answers on factual matters (market size, competitive position, churn reasons) indicate either poor internal communication or deliberate narrative management.
+
+**Red flags in management responses**:
+- Inability to discuss unit economics or cohort metrics (for a data-driven business)
+- Blaming external factors for all negative trends
+- Defensive response to straightforward questions about customer losses or operational failures
+- Answers that contradict data room documents
+- Excessive preparation and scripting (often indicates PE coaching that may mask genuine understanding)
+- "Trust me" or "You'll see when you talk to customers" in response to data requests
 
 ### Financial Due Diligence
 
@@ -233,8 +320,6 @@ Distinguish maintenance capex (required to keep the business running) from growt
 
 Cash conversion below 70% needs explanation. Common culprits: growing working capital, high capex, or earnings quality issues.
 
----
-
 ## Phase 4: Risk Assessment
 
 ### Risk Categorization
@@ -265,7 +350,7 @@ Examples: operational inefficiencies (often upside opportunities), minor complia
 
 ### Red Flag Indicators
 
-Watch for these — any one of them warrants deeper investigation:
+Watch for these, any one of them warrants deeper investigation:
 
 - Revenue acceleration in the run-up to sale (pulling revenue forward)
 - Unusual changes in accounting policies or estimates
@@ -279,8 +364,6 @@ Watch for these — any one of them warrants deeper investigation:
 
 Red flags are not necessarily deal killers. They're signals to investigate further. Sometimes the explanation is benign. Sometimes it changes the deal.
 
----
-
 ## Phase 5: Synthesis and Recommendation
 
 ### Investment Thesis
@@ -289,6 +372,35 @@ Frame the deal in terms of:
 1. **What makes this attractive** — the strategic rationale and value creation opportunity
 2. **What could go wrong** — the key risks and their mitigations
 3. **What the deal is worth** — implied valuation given the findings
+
+### Bridging DD Findings to Valuation
+
+DD findings should directly inform valuation methodology selection and multiple adjustments. Every material finding translates to a valuation impact.
+
+**How DD findings affect valuation approach**:
+
+| DD Finding | Valuation Impact | Mechanism |
+|------------|-----------------|-----------|
+| High revenue quality (>80% recurring, strong NRR) | Higher multiple | Supports premium to peer multiples. Revenue predictability reduces risk premium. |
+| Customer concentration (>30% in top 3) | Lower multiple or earn-out structure | Discount to peers, or structure portion of consideration as earn-out tied to customer retention. |
+| Strong unit economics (LTV:CAC >4:1) | Higher multiple | Validates growth investment. Each dollar of S&M spend generates predictable returns. |
+| Deteriorating cohorts | Lower multiple | Recent customers are less valuable than historical averages suggest. Adjust revenue projections downward. |
+| Technical debt requiring >$2M remediation | Direct price adjustment | Deduct estimated remediation cost from enterprise value. |
+| Key person dependency (no succession plan) | Retention package + price adjustment | Cost of retention packages deducted from price. Remaining risk discounts the multiple. |
+| Operational inefficiency (below-benchmark margins) | Can increase or decrease value | If acquirer can fix: upside (value creation). If structural: margin risk (discount). |
+| Regulatory risk | Escrow or indemnity | Don't discount the price; structure protection through escrow, indemnity, or reps & warranties. |
+
+**Multiple adjustment framework**: Start with comparable company median multiple. Apply adjustments:
+
+| Factor | Adjustment | Rationale |
+|--------|------------|-----------|
+| Growth premium/discount | +/- 1-3x | Revenue growth vs. peer median |
+| Margin premium/discount | +/- 0.5-1.5x | EBITDA margin vs. peer median |
+| Revenue quality | +/- 0.5-2x | Recurring %, NRR, contract duration |
+| Market position | +/- 0.5-1x | #1-2 vs. #4-5 in category |
+| Customer risk | - 0.5-2x | Concentration, churn, cohort trends |
+| Management quality | +/- 0.5-1x | Track record, depth, PE readiness |
+| Net adjustment | Sum | Implied target multiple vs. peer median |
 
 ### Recommendation Format
 
@@ -336,8 +448,6 @@ Frame the deal in terms of:
 2. [Action — owner — timeline]
 ```
 
----
-
 ## Integration Assessment (M&A Context)
 
 When DD is for an acquisition, integration planning starts during DD, not after close.
@@ -371,7 +481,56 @@ Cost synergies are generally more reliable than revenue synergies. Revenue syner
 - IT systems access and continuity plan
 - Customer-facing team briefed and scripted
 
----
+## PE Investment Context
+
+When conducting DD for a PE investment (buyout, growth equity, or add-on acquisition), the frame shifts from "should we buy this?" to "can we create value and exit profitably?"
+
+### 100-Day Plan Structure
+
+The 100-day plan bridges DD findings to value creation execution. Draft it during DD, refine it pre-close, execute from Day 1.
+
+**Days 1-30: Stabilize and Assess**
+- Confirm DD findings with full data access (post-close you get everything)
+- Retain key talent (sign retention agreements, clarify roles, address uncertainty)
+- Establish reporting cadence and KPI dashboards
+- Identify and address any "Day 1 surprises" (issues that weren't visible in DD)
+- Quick wins: implement 2-3 low-effort improvements identified during DD
+
+**Days 31-60: Design and Prioritize**
+- Finalize value creation plan with prioritized initiatives
+- Size each initiative: revenue impact, cost impact, investment required, timeline
+- Assign initiative owners and establish accountability structure
+- Begin recruiting for identified management gaps
+- Launch strategic pricing review (often the fastest path to margin improvement)
+
+**Days 61-100: Launch and Execute**
+- Kick off top 3-5 value creation initiatives
+- Establish board reporting format and governance rhythm
+- Complete first monthly operating review with new KPI framework
+- Validate or adjust year 1 financial plan based on first 60 days of actuals
+- Finalize technology roadmap and investment timeline
+
+### Exit Scenario Analysis
+
+Model three exit scenarios at entry to establish return expectations and inform hold period strategy.
+
+| Scenario | Revenue at Exit | EBITDA at Exit | Exit Multiple | Enterprise Value | Equity Value | IRR | MOIC |
+|----------|----------------|----------------|---------------|-----------------|-------------|-----|------|
+| Bull | $ | $ | X.Xx | $ | $ | % | X.Xx |
+| Base | $ | $ | X.Xx | $ | $ | % | X.Xx |
+| Bear | $ | $ | X.Xx | $ | $ | % | X.Xx |
+
+**Key assumptions to stress-test**:
+- Revenue growth rate: What if growth is 50% of plan?
+- Margin expansion: What if operational improvements deliver half the expected margin gain?
+- Exit multiple: What if multiples compress by 2-3 turns from entry?
+- Hold period: What if exit takes 6-7 years instead of 4-5?
+
+**PE-specific DD questions**:
+- Management incentive alignment: Is the team properly incentivized for a PE hold period? Do equity arrangements align with value creation and exit timeline?
+- Add-on acquisition pipeline: Are there bolt-on targets that could accelerate growth or expand capabilities?
+- PE readiness of the management team: Can they operate with PE-level reporting, governance, and performance expectations?
+- Prior PE ownership: If the business has been PE-owned before, what was done and what's left to do?
 
 ## Context Adaptation
 
@@ -385,15 +544,13 @@ Adapt the DD approach based on the deal context:
 | **Vendor Assessment** | Operational reliability, financial stability, contractual protections, business continuity |
 | **Internal Assessment** | Capability gaps, improvement priorities, investment needs (drop M&A terminology) |
 
----
-
 ## Working Principles
 
 - **Focus on materiality.** Prioritize issues that could kill the deal or change the price by more than 5%. Don't spend equal time on everything.
 - **Triangulate everything.** Management tells one story. The data room tells another. Customers and suppliers tell a third. The truth is somewhere in the overlap.
 - **Red flags are negotiation tools, not always walk-away signals.** A customer concentration risk discovered in DD becomes a price adjustment or an earn-out structure.
 - **Document all assumptions and limitations.** What you couldn't verify is as important as what you confirmed. Future you (or the lawyer) will need to know.
-- **Connect findings to valuation.** Every DD finding should translate to "and that means the deal is worth more/less/the same because..."
+- **Connect findings to valuation.** Every DD finding should translate to "and that means the deal is worth more/less/the same because..." (See Bridging DD Findings to Valuation section.)
 - **Start integration planning during DD.** The information you gather during DD is the foundation for the integration plan. Don't throw it over the wall and start fresh.
-- **Operational DD reveals upside.** Financial DD finds problems. Operational DD often finds improvement opportunities — inefficiencies the acquirer can fix, capabilities the acquirer can scale.
+- **Operational DD reveals upside.** Financial DD finds problems. Operational DD often finds improvement opportunities, inefficiencies the acquirer can fix, capabilities the acquirer can scale.
 - **Talk to customers and suppliers when possible.** Management representations are necessary but insufficient. External validation changes the picture more often than you'd expect.

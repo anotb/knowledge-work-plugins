@@ -5,7 +5,7 @@ description: Design and facilitate strategy workshops, design thinking sessions,
 
 # Workshop Facilitation
 
-Design, plan, and run effective strategy workshops, design thinking sessions, and innovation sprints. This covers the full lifecycle: objective-setting, participant planning, methodology selection, agenda design, facilitation techniques, and post-workshop follow-through.
+Design, plan, and run effective strategy workshops, design thinking sessions, and innovation sprints. This covers the full lifecycle: objective-setting, participant planning, pre-work design, methodology selection, agenda design, facilitation techniques, and post-workshop follow-through.
 
 ---
 
@@ -32,6 +32,49 @@ Map your participants before designing the agenda. The design should accommodate
 | Skeptics | They'll challenge ideas — plan for productive challenge, not shutdown |
 | Introverts | They won't volunteer — design silent-first activities |
 | Remote participants | They're disadvantaged by default — over-design for their inclusion |
+
+### Managing the CEO / Most Senior Leader
+
+The CEO (or most senior person in the room) requires deliberate role management. Their default behavior shapes the entire session.
+
+**When they should speak:**
+- Opening: setting context, signaling importance, defining the decision they need from the group
+- Closing: confirming decisions, signaling commitment, assigning accountability
+- When explicitly invited to share a perspective the group needs
+
+**When they should NOT speak:**
+- During ideation and brainstorming (kills divergent thinking)
+- During initial sharing rounds (anchors everyone to their position)
+- When evaluating options (others will self-censor around their preference)
+
+**How to manage it:**
+- Brief the CEO before the session: "Your silence during brainstorming is a gift to the group. You'll have dedicated time to react and decide."
+- Use "juniors first" sharing order during evaluations
+- Use anonymous voting before revealing preferences
+- If the CEO jumps in too early: "Let's capture that. I'd like to hear from the rest of the group first, then we'll come back to synthesize."
+- Give the CEO a specific role (e.g., "guardian of the customer perspective") to channel their energy productively
+
+### Pre-Work Design
+
+Well-designed pre-work shifts cognitive load out of the workshop and into individual preparation time. It makes workshop time dramatically more productive.
+
+**Types of pre-work and when to use them:**
+
+| Type | Purpose | Best For | Timing |
+|------|---------|----------|--------|
+| Reading pack | Shared context and baseline knowledge | Strategy offsites, design reviews | Send 5-7 days before; keep under 20 pages |
+| Survey / questionnaire | Surface perspectives before the room, identify alignment gaps | Alignment workshops, retrospectives | Send 7-10 days before; allow 3-5 days to complete |
+| Individual reflection prompts | Force thinking before groupthink takes over | Innovation sessions, strategy decisions | Send 3-5 days before; 3-5 focused questions max |
+| Data analysis or homework | Produce artifacts the workshop will build on | Working sessions, design sprints | Send 5-7 days before; assign specific outputs |
+| Stakeholder interviews | Gather input from people not in the room | Discovery workshops, strategy alignment | Complete 1-2 weeks before |
+
+**Using pre-work outputs in the session:**
+- Open with a summary of pre-work findings (5-10 min) — "Here's what we heard"
+- Use survey results to frame the agenda: "70% of you said X, but 30% disagree — that's what we're here to resolve"
+- Have participants share their individual reflections in pairs before group discussion
+- Never ignore pre-work. If people did it and you don't reference it, they won't do it next time
+
+**Pre-work completion reality:** Expect 60-70% completion. Design the session so it works without pre-work but is better with it. Have a 5-minute "catch-up" option for those who didn't do it.
 
 ### Format Considerations
 
@@ -74,7 +117,7 @@ DAY 1: Map      DAY 2: Sketch   DAY 3: Decide  DAY 4: Prototype  DAY 5: Test
 
 Compressed variants (3-day, 2-day) work but sacrifice depth. The 5-day version produces real user-tested prototypes. Requires a dedicated sprint team and a clear decider.
 
-### Strategy Offsite
+### Strategy Offsite (1-Day)
 
 Best for: Annual planning, strategic direction, competitive positioning
 
@@ -86,7 +129,49 @@ CONTEXT → ANALYSIS → OPTIONS → DECISION → COMMITMENT
             (deep)    go]        (choose)    there]
 ```
 
-Full day minimum. Multi-day for comprehensive strategy development. The most common failure mode is spending all day on context and analysis, then rushing decisions in the last hour. Protect decision time.
+Full day minimum. The most common failure mode is spending all day on context and analysis, then rushing decisions in the last hour. Protect decision time.
+
+### Strategy Offsite (2-Day)
+
+Best for: Comprehensive strategy development, complex multi-option decisions, building deep alignment
+
+The 2-day format is substantially more effective than a single day for complex strategic decisions. Overnight processing produces materially better Day 2 thinking.
+
+**Day 1: Diverge (Context + Options)**
+
+```
+09:00  Opening & Objectives                              [30 min]
+09:30  External Context (market, competitive, customer)   [90 min]
+11:00  Break                                              [15 min]
+11:15  Internal Context (performance, capabilities, gaps) [75 min]
+12:30  Lunch                                              [60 min]
+13:30  Strategic Options Generation                       [90 min]
+15:00  Break                                              [15 min]
+15:15  Options Deep Dive (breakout groups)                [90 min]
+16:45  Day 1 Synthesis & Overnight Reflection             [30 min]
+17:15  Close (dinner optional but valuable)
+```
+
+**Day 2: Converge (Evaluation + Commitment)**
+
+```
+09:00  Overnight Reflections (round-robin, 2 min each)    [30 min]
+09:30  Options Evaluation Against Criteria                 [90 min]
+11:00  Break                                               [15 min]
+11:15  Decision Session (structured debate + vote)         [75 min]
+12:30  Lunch                                               [45 min]
+13:15  Execution Planning (initiatives, owners, timeline)  [90 min]
+14:45  Break                                               [15 min]
+15:00  Commitment & Accountability                         [60 min]
+16:00  Close                                               [15 min]
+```
+
+**Multi-day design principles:**
+- **End Day 1 with divergence, not convergence.** Let people sleep on unresolved options. Overnight processing is real and valuable. Don't force premature closure.
+- **Day 2 energy management.** Day 2 starts slower. The overnight reflection round serves double duty: it surfaces new thinking AND it warms the group back up. Don't skip it.
+- **Dinner on Day 1 is a design element, not a social nicety.** Informal conversation over dinner resolves tensions and builds alignment that structured sessions can't. Seat people strategically (mix functions, pair skeptics with advocates).
+- **Protect Day 2 decision time.** The temptation is to rehash Day 1 analysis. Set a hard rule: "Day 2 is about choosing and committing, not re-analyzing."
+- **Synthesis between days.** The facilitation team should spend 30-60 minutes after Day 1 close synthesizing themes, identifying unresolved tensions, and adjusting the Day 2 agenda accordingly.
 
 ### Innovation Workshop
 
@@ -101,16 +186,6 @@ WARM-UP → FRAME → GENERATE → EVALUATE → PRIORITIZE → PLAN
 ```
 
 Half day to full day. Quantity of ideas matters early; quality filtering comes later. Warm-up exercises are not optional — they shift people out of operational thinking.
-
-### Retrospective
-
-Best for: Team improvement, lessons learned, process optimization
-
-```
-SET THE STAGE → GATHER DATA → GENERATE INSIGHTS → DECIDE ACTIONS → CLOSE
-```
-
-60-90 minutes. Keep it focused. The most important output is 2-3 specific actions with owners and dates, not a comprehensive list of everything that went wrong.
 
 ### Discovery Workshop
 
@@ -203,7 +278,7 @@ Set the tone in the first 5 minutes. Cover:
 | Off-topic tangent | "Great point — I'm going to capture that on the parking lot so we don't lose it. Let's stay focused on [current topic]." |
 | Energy drop | Switch format. Stand up. Do a quick poll. Take an unscheduled break. |
 | Time pressure | "We need to move forward. Let's capture remaining thoughts on sticky notes and focus on decisions." |
-| HiPPO effect (highest-paid person dominates) | Use anonymous voting. Have juniors share before seniors. Pre-collect input. |
+| HiPPO effect (highest-paid person dominates) | Use anonymous voting. Have juniors share before seniors. Pre-collect input. Brief the senior leader beforehand on their role. |
 
 ### Decision-Making Methods
 
@@ -245,13 +320,6 @@ Hybrid is the hardest format to facilitate well. Remote participants are disadva
 - All materials shared digitally before the session
 - Explicit turn-taking that includes remote voices ("Before we continue, let me check in with our remote participants")
 - Polls and voting through digital tools (not hand-raising that remote can't see)
-
-**Technology requirements:**
-- Room camera with wide-angle view
-- Quality microphone (built-in laptop mics are insufficient)
-- Screen sharing capability
-- Digital whiteboard (Miro, Mural, FigJam, or similar)
-- Polling tool for real-time voting
 
 ---
 

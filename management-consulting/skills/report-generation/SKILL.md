@@ -30,16 +30,18 @@ Before writing, establish the framework.
 | Recommendations document | Present findings and proposed actions |
 | Status report | Communicate progress and issues |
 
-### Structure Template
+### Depth and Length Calibration
 
-| Section | Purpose | Typical Length |
+Match report depth to audience and purpose. Not every analysis needs 30 pages.
+
+| Output Level | Word Count | When to Use |
 |---|---|---|
-| Executive Summary | Bottom-line up front | 1-2 pages |
-| Situation/Context | Establish common ground | 2-3 pages |
-| Analysis | Evidence and findings | 8-12 pages |
-| Recommendations | What to do | 3-5 pages |
-| Implementation | How to do it | 4-6 pages |
-| Appendices | Supporting detail | As needed |
+| Executive brief | 500-800 words | Board-level summary, decision memo, time-pressed stakeholders |
+| Working report | 2,000-4,000 words | Standard client deliverable, recommendations with supporting analysis |
+| Deep-dive report | 4,000-8,000 words | Comprehensive strategic assessment, due diligence, regulatory submissions |
+| Full study | 8,000+ words | Multi-workstream transformation reports, market entry studies with appendices |
+
+When in doubt, write shorter. A 3,000-word report that gets read beats a 10,000-word report that doesn't.
 
 ### Tone Calibration
 
@@ -121,6 +123,24 @@ Each recommendation needs:
 - **Impact**: Projected outcomes with current vs. projected metrics
 - **Risks and Mitigations**: What could go wrong and how to address it
 
+### Scenario Analysis
+
+For any recommendation with significant uncertainty, include scenario analysis. This is not optional for strategic assessments or market entry reports.
+
+**Structure each scenario with:**
+
+| Element | Base Case | Upside | Downside |
+|---|---|---|---|
+| Key assumption | [Most likely] | [Optimistic] | [Conservative] |
+| Revenue/benefit impact | $X | $Y | $Z |
+| Probability weighting | 50-60% | 20-25% | 20-25% |
+| Trigger indicators | [What you'd see] | [What you'd see] | [What you'd see] |
+
+**Include:**
+- **Decision triggers**: "If [metric] falls below [threshold] by [date], shift to [alternative plan]"
+- **Sensitivity analysis**: Which 2-3 assumptions most affect the outcome? What happens if each moves +/- 20%?
+- **Break-even analysis**: At what point does the recommendation no longer hold?
+
 ---
 
 ## Step 3: Writing Standards
@@ -169,6 +189,8 @@ Each recommendation needs:
 | Geographic | Map or choropleth |
 | Process or flow | Sankey diagram or flowchart |
 | Hierarchical | Treemap or org chart |
+| Sensitivity / driver ranking | Tornado chart |
+| Scenario comparison | Side-by-side bar or table with conditional formatting |
 
 ### Chart Standards
 
@@ -188,7 +210,32 @@ Use tables for:
 
 ---
 
-## Step 5: Formatting and Polish
+## Step 5: Multi-Author Coordination
+
+For reports with multiple contributors (common on large engagements), establish these upfront:
+
+### Before Writing
+
+- **Single outline owner**: One person owns the overall narrative arc and section structure. Committee-written outlines produce committee-quality reports
+- **Section assignments**: Each section has exactly one author. Shared ownership means nobody owns it
+- **Style guide agreement**: Agree on voice (first person plural "we" vs. third person), tense, heading conventions, and evidence citation format
+- **Placeholder convention**: Use `[TBD: description of needed content]` for sections awaiting input. Never leave blank sections
+
+### During Writing
+
+- **Integration checkpoints**: Schedule two review points: (1) after first drafts of all sections, (2) after revisions. Don't wait for final assembly to discover inconsistencies
+- **Cross-reference log**: Track which sections reference data or findings from other sections. When one section changes, flag dependent sections
+- **Terminology register**: Maintain a short list of key terms and how they're used. "Revenue" vs. "net revenue" vs. "ARR" discrepancies across sections destroy credibility
+
+### Final Assembly
+
+- One person does final assembly and voice harmonization. This takes longer than people expect (budget 1-2 days for a full report)
+- Check that the executive summary reflects the actual content, not an earlier draft's conclusions
+- Verify all cross-references and page numbers
+
+---
+
+## Step 6: Formatting and Polish
 
 ### Document Structure
 
@@ -210,24 +257,7 @@ Executive Summary
 6. Appendices
 ```
 
-### Typography
-
-- Headlines: Bold, 14-16pt
-- Body text: Regular, 11-12pt
-- Captions: Italic, 10pt
-- Line spacing: 1.15-1.5
-
-### Document Control
-
-Every report should have:
-
-| Field | Value |
-|---|---|
-| Version | X.X |
-| Date | Specific date |
-| Classification | Confidentiality level |
-| Author | Name |
-| Reviewer | Name |
+Version, author, and reviewer should be noted on the cover page or in document properties.
 
 ### Quality Checklist
 
@@ -242,9 +272,32 @@ Before finalizing:
 - Grammar and spelling are correct
 - Page numbers present
 - Table of contents is accurate
-- Version control is noted
 - The conclusion matches the evidence
 - The report answers the original question
+- Scenario analysis included for recommendations with significant uncertainty
+
+---
+
+## Executive Presentation Version
+
+For reports that also need a board or executive presentation, produce a 10-slide summary. This is not "put the report on slides." It's a restructured argument for a spoken format.
+
+### 10-Slide Template
+
+| Slide | Content | Notes |
+|---|---|---|
+| 1. Title | Report title, date, classification | Match the report cover |
+| 2. Executive summary | 3-5 bullet recommendation with impact numbers | Someone who sees only this slide gets the full message |
+| 3. Situation | Context the audience agrees with | 2-3 data points, not a wall of text |
+| 4. Complication | What's changed or at risk | Quantify the cost of inaction |
+| 5. Key finding #1 | Strongest analytical finding | One chart or framework, action headline |
+| 6. Key finding #2 | Second finding | One chart or framework, action headline |
+| 7. Key finding #3 | Third finding (if needed) | Merge with #6 if two findings suffice |
+| 8. Recommendation | What to do, quantified impact | Options table if multiple paths |
+| 9. Scenario / sensitivity | Base, upside, downside with key triggers | Tornado chart or scenario table |
+| 10. Next steps | Actions, owners, dates | First action should be achievable this week |
+
+For full presentation design guidance (slide anatomy, storytelling, Q&A handling), see the **executive-presentation** skill.
 
 ---
 
@@ -284,4 +337,4 @@ Before finalizing:
 - Have someone else review before finalizing. The author is the worst judge of clarity.
 - Always consider what could go wrong and address it preemptively.
 - Include specific owners and dates for all recommended actions. Recommendations without accountability don't get implemented.
-- Consider scenario analysis for any recommendation with significant uncertainty.
+- For multi-author reports, invest in integration. A report that reads like five different people wrote it (because they did) loses authority.

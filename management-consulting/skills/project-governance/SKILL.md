@@ -12,7 +12,7 @@ Establish and operate governance structures that ensure clear decision-making, a
 Right-size governance to project complexity. A 3-person engagement doesn't need the same governance as a 50-person transformation.
 
 ### Light Governance (small project, trusted relationship)
-- Project sponsor + engagement manager
+- Project sponsor + engagement manager (EM)
 - Weekly check-ins
 - Minimal formal documentation
 - Suitable for: focused advisory work, small team, established client relationship
@@ -29,6 +29,7 @@ Right-size governance to project complexity. A 3-person engagement doesn't need 
 - Steering committee + project boards per workstream
 - Weekly program review
 - Multiple workstream leads with defined interfaces
+- Project Management Office (PMO) for coordination, reporting, and standards
 - Suitable for: enterprise transformations, multi-year programs, high-risk initiatives
 
 **Selection factors**: project size, number of stakeholders, risk level, organizational culture, regulatory requirements.
@@ -38,7 +39,7 @@ Right-size governance to project complexity. A 3-person engagement doesn't need 
 The charter is the foundational document. Get sign-off before substantive work begins.
 
 **Charter elements**:
-- Project name, sponsor, project director, engagement manager
+- Project name, sponsor, project director, engagement manager (EM)
 - Start date and target end date
 - Problem statement: what problem does this solve?
 - Expected outcomes: what will this achieve?
@@ -48,6 +49,54 @@ The charter is the foundational document. Get sign-off before substantive work b
 - Key milestones with target dates and dependencies
 - Budget by category with tracking columns (budget, spent, remaining)
 - Sign-off section for sponsor and project director
+
+## Stakeholder Mapping
+
+Map stakeholders early. The power/interest grid determines your engagement strategy for each person.
+
+### Power/Interest Grid
+
+```
+                    HIGH POWER
+                        │
+    ┌───────────────────┼───────────────────┐
+    │                   │                   │
+    │   KEEP SATISFIED  │  MANAGE CLOSELY   │
+    │                   │                   │
+    │  Regular updates  │  Active engagement│
+    │  Address concerns │  Joint decisions  │
+    │  Don't surprise   │  Regular 1:1s     │
+    │                   │                   │
+────┼───────────────────┼───────────────────┼────
+    │                   │                   │    HIGH
+LOW │                   │                   │  INTEREST
+INTEREST               │                   │
+    │   MONITOR         │  KEEP INFORMED    │
+    │                   │                   │
+    │  Minimal effort   │  Regular comms    │
+    │  Watch for shifts │  Invite input     │
+    │  in interest      │  Build advocates  │
+    │                   │                   │
+    └───────────────────┼───────────────────┘
+                        │
+                    LOW POWER
+```
+
+### Stakeholder Register
+
+For each stakeholder, document:
+
+| Field | Description |
+|-------|-------------|
+| Name and role | Title and organizational position |
+| Grid position | Power/interest quadrant |
+| Stance | Champion / Supporter / Neutral / Skeptic / Opponent |
+| Key concerns | What they care about, what keeps them up at night |
+| Influence on | Which decisions or workstreams they affect |
+| Engagement approach | How you'll manage the relationship |
+| Owner | Who on the team owns this relationship |
+
+Review the stakeholder map at each phase gate. Power and interest shift as projects progress.
 
 ## RACI Matrix
 
@@ -94,12 +143,34 @@ Clarify decision authority before issues arise. Verbal agreements fade.
 
 Escalate early, not late. Surprises destroy trust faster than bad news delivered promptly.
 
+## Communication Plan
+
+A communication plan goes beyond meeting cadence. It defines who gets what information, through what channel, at what frequency, and who owns the communication.
+
+### Communication Matrix
+
+| Audience | Message Type | Channel | Frequency | Owner | Notes |
+|----------|-------------|---------|-----------|-------|-------|
+| Sponsor | Project health, decisions needed | 1:1 meeting + written brief | Weekly | EM | Keep to 15 min; pre-read sent day before |
+| Steering committee | Strategic progress, major risks, gate decisions | Formal meeting + deck | Monthly | EM / Project Director | 2-page status report pre-circulated |
+| Working team | Task coordination, blockers, priorities | Stand-up / team meeting | Weekly | Team lead | Action-oriented; 30 min max |
+| Extended stakeholders | Progress summary, upcoming changes | Email update / newsletter | Bi-weekly | PMO / Comms lead | Consistent format; RAG dashboard |
+| Affected business units | Impact on their operations, what's changing | Briefing / town hall | As needed (at milestones) | Change lead | Tailor message to audience concerns |
+| Executive leadership (not on SteerCo) | High-level progress, strategic alignment | Executive summary email | Monthly | Sponsor | 3 sentences max; sponsor sends from their name |
+
+### Communication Principles
+- Match the channel to the message. Bad news goes in person (or live video), not email
+- Every communication should answer: "What changed? What does it mean? What do you need to do?"
+- Over-communicate during transitions and go-live periods
+- Keep formats consistent. Stakeholders should know exactly where to look for what
+- Test understanding: if key stakeholders can't articulate the project's purpose, your communication is failing
+
 ## Meeting Cadence
 
 ### Steering Committee
 - **Frequency**: Monthly (or as governance tier dictates)
 - **Duration**: 60-90 minutes
-- **Attendees**: Sponsor, client executive, partner, engagement manager
+- **Attendees**: Sponsor, client executive, partner, engagement manager (EM)
 - **Purpose**: Strategic direction, major decisions, risk review
 - **Agenda structure**: Status overview (5 min), key decisions needed (15 min), deep dive topic (30 min), risks and issues (15 min), next steps (5 min)
 
@@ -110,16 +181,45 @@ Escalate early, not late. Surprises destroy trust faster than bad news delivered
 - **Purpose**: Work coordination, progress tracking, blocker resolution
 - **Agenda structure**: Quick wins and blockers (10 min), workstream updates (30 min), decisions needed (10 min), next week planning (10 min)
 
-### Working Sessions
-- **Frequency**: 2-3x per week as needed
-- **Duration**: 60-90 minutes
-- **Attendees**: As needed for specific work
-- **Purpose**: Analysis, draft development, problem-solving
-
 ### Status Updates
 - **Frequency**: Bi-weekly (written)
 - **Distribution**: Extended stakeholders
 - **Format**: Standardized report (see Status Reporting below)
+
+## Cross-Workstream Dependency Management
+
+For programs with multiple workstreams, unmanaged dependencies are the primary source of delay and rework.
+
+### Dependency Matrix
+
+Map dependencies between workstreams explicitly:
+
+```
+                  PROVIDING WORKSTREAM
+                  WS1    WS2    WS3    WS4
+CONSUMING    WS1   -     D01     -     D02
+WORKSTREAM   WS2   -      -     D03     -
+             WS3  D04     -      -      -
+             WS4   -     D05    D06     -
+```
+
+For each dependency (D01, D02, etc.), document:
+
+| Field | Description |
+|-------|-------------|
+| ID | Unique identifier |
+| Description | What is being provided/consumed |
+| Provider | Workstream and person responsible for delivering |
+| Consumer | Workstream and person who needs it |
+| Due date | When the dependency must be delivered |
+| Status | On track / At risk / Blocked / Delivered |
+| Impact if late | What happens to the consuming workstream |
+
+### Integration Management Practices
+- **Integration lead**: Assign one person (not a workstream lead) to own cross-workstream coordination
+- **Dependency review**: Weekly 30-minute session where workstream leads review the dependency matrix. Focus on upcoming 2-week window
+- **Shared resources**: When workstreams share resources (people, environments, data), document the allocation and create a booking mechanism. "Shared" without governance means "contested"
+- **Interface agreements**: For each major integration point, document: what is handed over, in what format, quality criteria, and the handshake process
 
 ## Stage Gate Framework
 
@@ -274,6 +374,32 @@ Issues are risks that have materialized, or problems that need resolution.
 
 Track each issue with: ID, description, severity, status (open/in progress/resolved), date created, owner, due date, and resolution.
 
+## Benefits Realization Tracking
+
+Benefits don't materialize at project close. They accrue over time and need active tracking.
+
+### Benefits Register
+
+| Field | Description |
+|-------|-------------|
+| Benefit ID | Unique identifier |
+| Description | What benefit is expected |
+| Category | Cost saving / Revenue increase / Risk reduction / Capability / Compliance |
+| Owner | Person accountable for realizing this benefit |
+| Baseline | Current state measurement |
+| Target | Expected improved state |
+| Measurement method | How you'll measure (data source, calculation, frequency) |
+| Realization timeline | When the benefit is expected to materialize (often months after project close) |
+| Status | Not started / Partially realized / Fully realized / At risk |
+
+### Tracking Discipline
+- Measure benefits from project inception, not just at closure
+- Baseline every benefit BEFORE changes are implemented (you can't prove improvement without a starting point)
+- Separate "delivered" (the project produced the capability) from "realized" (the organization captured the value)
+- Report benefits alongside project status at steering committee meetings
+- For financial benefits, reconcile with Finance. A benefit the CFO doesn't recognize isn't a benefit
+- Plan for benefits that lag: cost savings may appear in the first quarter, but revenue growth from a new capability may take 12-18 months
+
 ## Hybrid Delivery Framework
 
 Many consulting engagements blend agile and waterfall approaches. This is pragmatic, not fashionable.
@@ -283,17 +409,70 @@ Many consulting engagements blend agile and waterfall approaches. This is pragma
 - Agile for workstreams with evolving requirements or iterative design
 - Hybrid when different workstreams have different characteristics
 
-**Sprint-phase alignment**: Sprints operate within project phases. Each sprint delivers incremental progress. Phase gates still apply at phase boundaries.
+### How Sprints Relate to Stage Gates
 
-**Hybrid governance elements**:
+Sprints operate within project phases. Each sprint delivers incremental progress toward phase objectives. Phase gates still apply at phase boundaries.
+
+```
+Phase: Analysis
+├── Sprint 1: Data collection & initial analysis
+├── Sprint 2: Deep-dive analysis & hypothesis testing
+├── Sprint 3: Options development & evaluation
+└── GATE 2: Issue Review ◄── Sprint outputs aggregated for gate evidence
+
+Phase: Design
+├── Sprint 4: Solution design (core)
+├── Sprint 5: Solution design (detail) + business case
+├── Sprint 6: Implementation planning + change readiness
+└── GATE 3: Design Approval ◄── Sprint outputs aggregated for gate evidence
+```
+
+**Aggregating agile metrics for waterfall reporting:**
+
+| Agile Metric | Waterfall Equivalent | How to Translate |
+|-------------|---------------------|-----------------|
+| Sprint velocity | % phase complete | Story points completed / total story points in phase |
+| Sprint burndown | Milestone progress | Map sprint goals to phase milestones |
+| Backlog size | Scope status | Total remaining effort vs. baseline estimate |
+| Sprint retrospective findings | Risk/issue register items | Escalate systemic issues; log tactical ones |
+| Definition of Done | Gate evidence | Sprint DoD items map to gate evidence requirements |
+
+### Hybrid Governance Practices
 - Steering committee reviews at phase boundaries (waterfall cadence)
 - Status reporting at sprint cadence (weekly)
-- Scope management through backlog grooming (agile)
-- Quality gates through Definition of Done (per sprint)
+- Scope management through backlog grooming (agile) with change control for phase-level scope changes (waterfall)
+- Quality gates through Definition of Done (per sprint) feeding into stage gate evidence requirements
 
 ## Project Closure
 
-From a governance perspective, closure requires: final status report delivered, steering committee sign-off obtained, and decision rights formally handed back to the client organization. For the full closure methodology (deliverable handover, knowledge transfer, lessons learned, financial reconciliation), see the `project-closeout` skill.
+Close properly. The last impression matters as much as the first.
+
+### Governance Closure Checklist
+
+From a governance perspective, closure requires these minimum actions:
+
+| Action | Owner | Evidence |
+|--------|-------|----------|
+| Final status report delivered | EM | Approved report with final RAG status |
+| All deliverables accepted | Client lead | Signed acceptance forms or email confirmation |
+| Steering committee sign-off | Sponsor | Meeting minutes with formal closure decision |
+| Decision rights handed back | EM + Sponsor | Written confirmation of who now owns what |
+| Open risks transferred | EM | Updated risk register with new owners in client org |
+| Open issues resolved or transferred | EM | Issue log with resolution or transfer status |
+| Benefits baseline established | EM + Client lead | Benefits register with baseline measurements |
+| Lessons learned captured | Team | Document covering what worked, what didn't, what to do differently |
+| Financial reconciliation | EM + Finance | Final budget vs. actual, explanation of variance |
+| Team released | EM | Confirmed return dates, performance feedback completed |
+
+### Post-Closure Benefits Tracking
+
+Governance doesn't end at project close. Establish a 6-12 month benefits tracking cadence:
+- Monthly benefits measurement for the first quarter post-close
+- Quarterly measurement thereafter
+- Assign a client-side benefits owner (not the consulting team)
+- Schedule a 90-day benefits review meeting at project close
+
+For the full closure methodology (deliverable handover, knowledge transfer, transition planning, detailed financial reconciliation), see the `project-closeout` skill.
 
 ## Principles
 

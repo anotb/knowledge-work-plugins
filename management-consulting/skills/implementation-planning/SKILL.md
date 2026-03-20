@@ -1,6 +1,6 @@
 ---
 name: implementation-planning
-description: Bridge strategy to execution through structured option development, business case construction, roadmap design, and implementation planning. Use when translating a strategic recommendation into an investable, executable plan... covering option generation and scoring, financial projections and sensitivity analysis, phased roadmaps with dependencies, and detailed implementation plans with workstreams, governance, and resource allocation. Covers the full arc from "we have a recommendation" to "here's how we execute it."
+description: Bridge strategy to execution through option development, business case construction, roadmap design, and implementation planning. Use when translating a strategic recommendation into an investable, executable plan.
 ---
 
 # Implementation Planning
@@ -15,13 +15,25 @@ Most strategies fail in execution, not in formulation. The gap between "we shoul
 
 The four stages flow naturally but don't always run sequentially. Sometimes you start with options because the path isn't clear. Sometimes the recommendation is already made and you need to jump straight to business case and planning. Meet the work where it is.
 
-```
-  Strategic           Option            Business          Roadmap         Implementation
-  Recommendation  →   Development   →   Case          →   Design      →   Plan
-  "We should..."      "Here are         "Here's why        "Here's        "Here's exactly
-                       the ways          it's worth it"      the order"     how we do it"
-                       we could..."
-```
+### When to Start Where
+
+| Situation | Start At | Skip |
+|-----------|----------|------|
+| Decision not yet made, multiple paths possible | Stage 1 (Options) | Nothing |
+| Recommendation exists, needs funding approval | Stage 2 (Business Case) | Stage 1 |
+| Approved and funded, needs execution plan | Stage 3 (Roadmap) | Stages 1-2 |
+| Roadmap exists, needs operational detail | Stage 4 (Implementation) | Stages 1-3 |
+| Existing plan needs restructuring | Diagnose first, then appropriate stage | Depends |
+
+### Depth Calibration
+
+Match output depth to the request:
+
+- **Decision memo** (500-1,000 words): Executive summary, option comparison table, recommendation. Use when time-pressed or early-stage.
+- **Working analysis** (2,000-4,000 words): Full option evaluation, financial summary, phased roadmap. Standard deliverable.
+- **Deep dive** (4,000-8,000 words): All four stages with detailed financials, workstreams, governance. Full implementation plan.
+
+When not specified, default to working analysis depth.
 
 ---
 
@@ -62,6 +74,14 @@ For each option:
 
 Good option sets include a range: a conservative option, an aggressive option, and something in between. If all your options look similar, you haven't explored the space.
 
+**The "Do Nothing" Baseline**: This is not a throwaway. Model it with the same rigor as other options:
+- Projected costs over 3-5 years (including cost escalation)
+- Competitive deterioration (what happens as competitors move)
+- Opportunity cost (revenue/margin you forgo)
+- Risk accumulation (regulatory, technical debt, talent attrition)
+
+The "do nothing" baseline is the denominator against which all investment returns are measured. A weak baseline makes every option look good. A rigorous one forces honest comparison.
+
 ### Evaluate Options
 
 Score each option against the weighted criteria:
@@ -88,14 +108,21 @@ Beyond the quantitative scoring, assess each option qualitatively:
 
 ### Scenario-Test the Recommendation
 
-Stress-test the leading option under different conditions. At minimum, test against optimistic, base, and pessimistic scenarios.
+Stress-test the leading option(s) under different conditions. Define scenarios with specific assumptions, not just "things go well/badly."
 
-| Option | Optimistic | Base | Pessimistic |
-|--------|-----------|------|-------------|
-| Option A | [Performance] | [Performance] | [Performance] |
-| Option B | [Performance] | [Performance] | [Performance] |
+| Scenario | Key Assumptions | Option A NPV | Option B NPV | Do Nothing Cost |
+|----------|----------------|-------------|-------------|-----------------|
+| Optimistic | [e.g., 20% faster adoption, 10% lower costs] | $XX | $XX | $XX |
+| Base | [e.g., plan assumptions hold] | $XX | $XX | $XX |
+| Pessimistic | [e.g., 6-month delay, 25% cost overrun] | $XX | $XX | $XX |
 
-Run sensitivity analysis on criteria weights: which criteria, if weighted differently, would change the recommendation? If a small shift in weights flips the answer, the decision is closer than it looks.
+Run sensitivity analysis on the key variables. Identify break-even thresholds: at what point does the recommendation flip?
+
+- Which criteria weights, if shifted, would change the recommendation?
+- Which cost or benefit assumptions have the biggest swing on NPV?
+- What's the break-even adoption rate / timeline / cost level?
+
+If small changes flip the answer, the decision is closer than it looks. Say so.
 
 ### Make the Recommendation
 
@@ -121,10 +148,10 @@ A business case that works has these sections, roughly in this order:
 2. **Problem Statement and Cost of Inaction**
 3. **Current State with Baseline Metrics**
 4. **Proposed Solution and Future State**
-5. **Financial Analysis**
+5. **Financial Analysis** (with confidence levels)
 6. **Implementation Overview**
 7. **Risks and Mitigations**
-8. **Recommendation**
+8. **Recommendation and "So What"**
 
 ### Executive Summary
 
@@ -164,28 +191,33 @@ Establish measurable baselines. You can't show improvement without a starting po
 
 ### Financial Analysis
 
-This is the core of the business case. Build it in layers:
+This is the core of the business case. Build it in layers, and tag each line with a confidence level.
+
+**Confidence levels**: Mark each projection line:
+- **High**: Based on actual data, contracts, or historical performance
+- **Medium**: Based on reasonable estimates, benchmarks, or analogous cases
+- **Low**: Dependent on assumptions that haven't been validated (negotiation outcomes, market conditions, adoption rates)
 
 **Investment Required** (what we're spending):
 
-| Category | Year 0 | Year 1 | Year 2 | Year 3 | Total |
-|----------|--------|--------|--------|--------|-------|
-| Capital expenditure | $X | $X | $X | $X | $X |
-| Implementation costs | $X | $X | | | $X |
-| Change management | $X | $X | | | $X |
-| Training | $X | $X | | | $X |
-| Contingency (10-15%) | $X | $X | $X | $X | $X |
-| **Total Investment** | **$X** | **$X** | **$X** | **$X** | **$X** |
+| Category | Confidence | Year 0 | Year 1 | Year 2 | Year 3 | Total |
+|----------|-----------|--------|--------|--------|--------|-------|
+| Capital expenditure | [H/M/L] | $X | $X | $X | $X | $X |
+| Implementation costs | [H/M/L] | $X | $X | | | $X |
+| Change management | [H/M/L] | $X | $X | | | $X |
+| Training | [H/M/L] | $X | $X | | | $X |
+| Contingency (10-15%) | | $X | $X | $X | $X | $X |
+| **Total Investment** | | **$X** | **$X** | **$X** | **$X** | **$X** |
 
 **Benefits Realization** (what we're getting back):
 
-| Benefit | Type | Year 1 | Year 2 | Year 3 | Total |
-|---------|------|--------|--------|--------|-------|
-| [Revenue benefit] | Top-line | $X | $X | $X | $X |
-| [Cost reduction] | Bottom-line | $X | $X | $X | $X |
-| [Risk avoidance] | Quantified risk | $X | $X | $X | $X |
-| [Productivity gain] | Efficiency | $X | $X | $X | $X |
-| **Total Benefits** | | **$X** | **$X** | **$X** | **$X** |
+| Benefit | Type | Confidence | Year 1 | Year 2 | Year 3 | Total |
+|---------|------|-----------|--------|--------|--------|-------|
+| [Revenue benefit] | Top-line | [H/M/L] | $X | $X | $X | $X |
+| [Cost reduction] | Bottom-line | [H/M/L] | $X | $X | $X | $X |
+| [Risk avoidance] | Quantified risk | [H/M/L] | $X | $X | $X | $X |
+| [Productivity gain] | Efficiency | [H/M/L] | $X | $X | $X | $X |
+| **Total Benefits** | | | **$X** | **$X** | **$X** | **$X** |
 
 **Return Metrics**:
 
@@ -198,14 +230,16 @@ This is the core of the business case. Build it in layers:
 
 **Sensitivity Analysis** (how robust are these numbers):
 
-| Variable | -20% | Base Case | +20% | Swing |
-|----------|------|-----------|------|-------|
+Test the variables with the biggest swing on NPV:
+
+| Variable | -20% | Base Case | +20% | NPV Swing |
+|----------|------|-----------|------|-----------|
 | Benefits realization | $XX | $XX | $XX | $XX |
 | Cost overrun | $XX | $XX | $XX | $XX |
 | Timeline delay | $XX | $XX | $XX | $XX |
 | Adoption rate | $XX | $XX | $XX | $XX |
 
-Which variables have the biggest swing? That's where management attention should focus.
+Order by NPV swing (largest first). The top 2-3 variables are where management attention should focus. State explicitly: "The business case remains positive even at [X]% benefit realization, which is the break-even threshold."
 
 **Total Cost of Ownership** (the real long-term cost):
 
@@ -223,6 +257,16 @@ Which variables have the biggest swing? That's where management attention should
 |------|------------|--------|------------|---------------|
 | [Risk 1] | [H/M/L] | [H/M/L] | [What we'll do] | [After mitigation] |
 | [Risk 2] | [H/M/L] | [H/M/L] | [What we'll do] | [After mitigation] |
+
+### Business Case "So What"
+
+Close the business case with a synthesis that distills the entire analysis into three things:
+
+1. **The single most important number**: The one figure that justifies the investment (e.g., "$14.2M NPV over 5 years at a 72% confidence-weighted basis")
+2. **The single biggest risk**: The one thing most likely to derail value delivery, and what you're doing about it
+3. **The one thing that must go right**: The critical success factor without which the business case breaks (e.g., "achieving 80%+ adoption by month 6")
+
+This is not a summary. It's a synthesis: what does all this analysis mean for the decision?
 
 ---
 
@@ -312,7 +356,17 @@ Good milestones are:
 
 ## Stage 4: Implementation Plan
 
-The implementation plan is the most granular level. It translates the roadmap into workstreams with named owners, specific deliverables, and governance mechanisms.
+The implementation plan is the most granular level. It translates the roadmap into workstreams with named owners, specific deliverables, governance mechanisms, and change management touchpoints.
+
+### Mobilization Plan
+
+What happens in the first days after approval. Don't leave a gap between "approved" and "started."
+
+| Timeframe | Actions | Owner |
+|-----------|---------|-------|
+| Day 1 | Confirm sponsorship, announce program, establish program office | Sponsor / Program Lead |
+| Week 1 | Staff core team, set up governance cadence, issue data requests, schedule kickoff | Program Lead |
+| Month 1 | Complete current-state assessment, finalize detailed plan, launch first workstreams, deliver first steering committee update | Program Lead / WS Leads |
 
 ### Define Workstreams
 
@@ -326,6 +380,31 @@ Break the implementation into logical workstreams. Each workstream should be:
 | [WS 1] | [What it covers] | [Name] | [Deliverables] | [Other WS] |
 | [WS 2] | [What it covers] | [Name] | [Deliverables] | [Other WS] |
 | [WS 3] | [What it covers] | [Name] | [Deliverables] | [Other WS] |
+
+### Stakeholder Impact and Alignment
+
+Who is affected, what they care about, and what needs to happen to bring them along.
+
+| Stakeholder Group | Impact | What They Care About | Current Stance | Actions to Align |
+|-------------------|--------|---------------------|----------------|------------------|
+| [Group 1] | [H/M/L] | [Key concerns] | [Supportive/Neutral/Resistant] | [Specific actions] |
+| [Group 2] | [H/M/L] | [Key concerns] | [Supportive/Neutral/Resistant] | [Specific actions] |
+
+### Change Management Touchpoints
+
+Map where change management activities plug into the implementation timeline. (For deep change management planning, see the change-management skill.)
+
+| Phase | Change Activity | Timing | Owner |
+|-------|----------------|--------|-------|
+| Phase 1 | Stakeholder impact assessment | Week 2-3 | Change Lead |
+| Phase 1 | Leadership alignment sessions | Week 3-4 | Sponsor + Change Lead |
+| Phase 1 | Communication plan launch | Week 4 | Change Lead |
+| Phase 2 | Training needs analysis | Start of phase | Change Lead + WS Leads |
+| Phase 2 | Role transition planning | Mid-phase | HR + Change Lead |
+| Phase 2 | Pilot feedback loops | Ongoing | WS Leads |
+| Phase 3 | Full training rollout | Start of phase | Change Lead |
+| Phase 3 | Adoption monitoring and intervention | Ongoing | Change Lead |
+| Phase 3 | Sustainment handover | End of phase | Change Lead + Operations |
 
 ### Develop Detailed Timeline
 
@@ -390,13 +469,24 @@ Budget by workstream:
 | Contingency (10-15%) | | | | $X |
 | **Total** | **$X** | **$X** | **$X** | **$X** |
 
+### Benefits Realization Tracking
+
+Define who owns measurement after the business case is approved. Benefits don't track themselves.
+
+| Benefit | Metric | Baseline | Target | Measurement Frequency | Owner | Data Source |
+|---------|--------|----------|--------|-----------------------|-------|-------------|
+| [Benefit 1] | [KPI] | [Current] | [Target] | [Monthly/Quarterly] | [Name] | [System/report] |
+| [Benefit 2] | [KPI] | [Current] | [Target] | [Monthly/Quarterly] | [Name] | [System/report] |
+
+Review benefits realization at every steering committee. If benefits are tracking below plan, escalate early with a recovery plan or revised forecast.
+
 ### Governance Structure
 
 **Meeting Cadence**:
 
 | Forum | Frequency | Attendees | Purpose | Duration |
 |-------|-----------|-----------|---------|----------|
-| Steering Committee | Bi-weekly | Sponsor, Program Lead, WS Leads | Decisions, escalations | 60 min |
+| Steering Committee | Bi-weekly | Sponsor, Program Lead, WS Leads | Decisions, escalations, benefits tracking | 60 min |
 | Program Review | Weekly | Program Lead, WS Leads | Progress, risks, dependencies | 45 min |
 | Workstream Standup | 2-3x/week | WS Lead, Team | Task coordination, blockers | 15 min |
 
@@ -438,21 +528,7 @@ Contingency plans for high-impact risks:
 
 ---
 
-## Working Across Stages
-
-### When to Start Where
-
-Not every engagement needs all four stages. Match the entry point to the situation:
-
-| Situation | Start At | Skip |
-|-----------|----------|------|
-| Decision not yet made, multiple paths possible | Stage 1 (Options) | Nothing |
-| Recommendation exists, needs funding approval | Stage 2 (Business Case) | Stage 1 |
-| Approved and funded, needs execution plan | Stage 3 (Roadmap) | Stages 1-2 |
-| Roadmap exists, needs operational detail | Stage 4 (Implementation) | Stages 1-3 |
-| Existing plan needs restructuring | Diagnose first, then appropriate stage | Depends |
-
-### Connecting the Stages
+## Connecting the Stages
 
 Each stage feeds the next:
 
@@ -460,27 +536,20 @@ Each stage feeds the next:
 - **Business Case -> Roadmap**: Approved investment envelope constrains the roadmap. Benefits realization timeline shapes phasing.
 - **Roadmap -> Implementation Plan**: Phase structure becomes the implementation timeline. Milestones become governance checkpoints.
 
-### Information That Flows Forward
-
-| From | To | What Carries Over |
-|------|----|-------------------|
-| Options | Business Case | Recommended option, investment estimate, risk profile, trade-offs accepted |
-| Business Case | Roadmap | Approved budget, benefits timeline, key risks, success metrics |
-| Roadmap | Implementation | Phase structure, milestones, dependencies, resource envelope |
-
 ---
 
 ## Key Principles
 
 - **Quantify everything.** "Significant savings" convinces no one. "$4.2M annually" does.
 - **Be honest about trade-offs.** Every option has downsides. Hiding them destroys credibility.
+- **Tag your confidence.** Distinguish "high confidence, based on actuals" from "estimate, +/- 30%." Decision-makers need to know what's solid and what's a bet.
 - **One accountable owner per deliverable.** Shared accountability is no accountability.
 - **The executive summary must stand alone.** It's often the only thing that gets read.
 - **Build in contingency.** 10-15% on both timeline and budget. Things will go wrong.
 - **Include quick wins early.** They build momentum and stakeholder confidence.
 - **The critical path drives everything.** Know it, protect it, track it.
 - **Phase gates prevent premature transitions.** Enforce them even when there's pressure to move faster.
-- **A roadmap is a living document.** Review and update regularly.
 - **Match ambition to organizational capacity.** An aggressive plan that an organization can't absorb is worse than a modest plan it can execute.
-- **Always include "do nothing" as a baseline.** It forces honest comparison.
+- **Always include "do nothing" as a baseline.** Model it with the same rigor as active options.
 - **Connect every initiative to a strategic objective.** If you can't, question why it's in the plan.
+- **End with synthesis, not summary.** State the single most important implication, not a recap of what you covered.

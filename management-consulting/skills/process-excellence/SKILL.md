@@ -7,6 +7,24 @@ description: Apply Lean Six Sigma methodology for process improvement and operat
 
 Apply Lean Six Sigma methodology to analyze, improve, and control business processes. Lean eliminates waste and improves flow. Six Sigma reduces variation and defects. Together they drive both efficiency and effectiveness.
 
+## Lean vs. Six Sigma: When to Use Which
+
+The two methodologies solve different problems. Choosing the wrong lens wastes time.
+
+| Dimension | Lean Focus | Six Sigma Focus |
+|-----------|-----------|----------------|
+| Core problem | Waste and flow | Variation and defects |
+| Primary question | "Why does this take so long?" | "Why is the output inconsistent?" |
+| Typical symptoms | Long cycle times, excess WIP, many handoffs, waiting | High defect rates, rework, unpredictable output quality |
+| Key tools | Value stream mapping, 5S, kanban, pull systems | Control charts, hypothesis testing, DPMO, Cp/Cpk |
+| Best for | Service processes, order fulfillment, onboarding, approval chains | Manufacturing quality, transaction accuracy, compliance processes |
+
+**Use Lean when** the process takes too long, costs too much, or has too many steps. The problem is waste and flow.
+
+**Use Six Sigma when** the process produces inconsistent results, high defect rates, or unpredictable output. The problem is variation.
+
+**Use both when** (most common in practice) you have flow problems AND quality problems. Start with Lean to simplify, then apply Six Sigma to stabilize what remains.
+
 ## DMAIC Methodology
 
 DMAIC (Define, Measure, Analyze, Improve, Control) is the structured approach for improving existing processes. Each phase has specific deliverables and gate criteria before moving to the next.
@@ -28,6 +46,39 @@ Clearly articulate the improvement opportunity before jumping to solutions.
 - Timeline for each DMAIC phase
 - Team: process owner, sponsor, project lead, team members
 
+**Project charter template**:
+
+```
+PROJECT CHARTER: [Process Name] Improvement
+
+Problem Statement:
+[Specific, quantified description of the problem]
+Example: "Order-to-cash cycle time averages 45 days vs. industry benchmark
+of 15 days, trapping ~$20M in working capital and generating $2.1M/year in
+excess financing costs."
+
+Scope:
+  In scope:    [Start point] to [End point]
+  Out of scope: [Explicitly excluded elements]
+
+Success Metrics:
+| Metric           | Baseline | Target   | Improvement |
+|------------------|----------|----------|-------------|
+| Cycle time       | 45 days  | 20 days  | -56%        |
+| DSO              | 62 days  | 38 days  | -39%        |
+| First pass yield | 72%      | 95%      | +32%        |
+
+Timeline:
+  Define:  Weeks 1-2    Measure: Weeks 3-4    Analyze: Weeks 5-6
+  Improve: Weeks 7-10   Control: Weeks 11-12
+
+Team:
+  Sponsor:       [Name, Title]
+  Process Owner:  [Name, Title]
+  Project Lead:   [Name, Title]
+  Team Members:   [Names]
+```
+
 **Digital context**: Assess automation potential, current level of process digitization, data availability, and RPA opportunity. This shapes the analysis approach and solution space.
 
 ### Measure
@@ -37,6 +88,34 @@ Collect baseline data and map the process as it actually operates (not as docume
 **Process mapping**: Create a SIPOC diagram (Suppliers, Inputs, Process, Outputs, Customers) to establish boundaries, then map the detailed process flow with decision points and handoffs.
 
 **Baseline metrics**: For each key metric, document the measurement method, sample size, current baseline, and sigma level.
+
+**Sigma level calculation**: Sigma level translates defect rates into a universal quality metric. Here's how to calculate it:
+
+```
+Step 1: Define what constitutes a "defect" (any output not meeting specification)
+Step 2: Count defects and opportunities
+
+  DPMO = (Number of Defects / Total Opportunities) x 1,000,000
+
+Step 3: Convert DPMO to sigma level:
+
+  | DPMO      | Sigma Level | Yield   | Plain English             |
+  |-----------|-------------|---------|---------------------------|
+  | 691,462   | 1.0 sigma   | 30.9%   | Barely functioning        |
+  | 308,538   | 2.0 sigma   | 69.1%   | Poor                      |
+  | 66,807    | 3.0 sigma   | 93.3%   | Average                   |
+  | 6,210     | 4.0 sigma   | 99.4%   | Good                      |
+  | 233       | 5.0 sigma   | 99.98%  | Very good                 |
+  | 3.4       | 6.0 sigma   | 99.9997%| World class               |
+
+Example: Invoice processing
+  - 10,000 invoices processed per month
+  - 450 contain errors (wrong amount, wrong address, missing PO)
+  - Each invoice has 4 opportunities for error
+  - DPMO = (450 / 40,000) x 1,000,000 = 11,250
+  - Sigma level: ~3.8 (between 3.0 and 4.0)
+  - Target: 4.0 sigma (6,210 DPMO = ~248 errors/month)
+```
 
 **Data collection plan**: Specify each data point, its operational definition, collection method, frequency, and responsible person. Ambiguous definitions produce unreliable data.
 
@@ -133,11 +212,49 @@ Value stream mapping visualizes the end-to-end flow of materials and information
 
 **Summary metrics**: Total lead time, total value-added time, percentage value-added. In most service processes, value-added time is less than 5% of total lead time. The gap is the improvement opportunity.
 
+### Text-Based Value Stream Map Example
+
+```
+ORDER-TO-CASH VALUE STREAM MAP (Current State)
+
+Customer                                                          Customer
+  Order                                                            Payment
+    │                                                                 ▲
+    ▼                                                                 │
+┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐    ┌──────────┐
+│  Order    │    │  Credit  │    │  Order   │    │ Shipping │    │ Invoice  │
+│  Entry    │───▶│  Check   │───▶│ Fulfill  │───▶│          │───▶│ & Collect│
+│           │    │          │    │          │    │          │    │          │
+│ C/T: 15m  │    │ C/T: 2d  │    │ C/T: 3d  │    │ C/T: 2d  │    │ C/T: 5m  │
+│ WIP: 50   │    │ WIP: 200 │    │ WIP: 150 │    │ WIP: 75  │    │ WIP: 300 │
+│ FPY: 85%  │    │ FPY: 70% │    │ FPY: 92% │    │ FPY: 95% │    │ FPY: 80% │
+└──────────┘    └──────────┘    └──────────┘    └──────────┘    └──────────┘
+     │  ▲            │  ▲            │  ▲            │                │  ▲
+     └──┘            └──┘            └──┘            │                └──┘
+    Rework          Rework          Rework           │               Rework
+    (15%)           (30%)           (8%)             │               (20%)
+                                                     │
+                                              Wait: 5d between
+                                              fulfill & ship
+
+TIMELINE:
+├─ 15m ─┤─── 2d ───┤─── 3d ───┤── 5d wait ──┤── 2d ──┤── 5m ──┤
+         ├── 8d wait ──┤
+
+Total Lead Time:    45 days (including rework loops and queue time)
+Value-Added Time:   7 days, 20 minutes
+% Value-Added:      15.6%
+
+BOTTLENECK:  Credit Check (longest queue, lowest FPY, highest rework)
+QUICK WINS:  Automate credit check for existing customers (<$50K)
+             Combine order entry + invoice generation
+```
+
 **Future state design**: Design for continuous flow where possible. Eliminate steps that don't add value. Pull work through the system rather than pushing it. The future state should show reduced lead time, lower WIP, and higher value-added percentage.
 
 ## Process Mining
 
-Process mining uses event log data from IT systems to discover, monitor, and improve actual processes.
+Process mining uses event log data from IT systems to discover, monitor, and improve actual processes. It is most valuable for high-volume transactional processes where the gap between "how we think it works" and "how it actually works" is large.
 
 ### When to Use Process Mining
 
@@ -147,6 +264,15 @@ Process mining uses event log data from IT systems to discover, monitor, and imp
 - Conformance checking against regulatory or policy requirements
 - Identifying automation candidates from high-volume, low-variation paths
 
+### Data Requirements
+
+Process mining requires event logs with three minimum fields: **Case ID** (unique identifier for each process instance, e.g., order number), **Activity** (what happened, e.g., "Create Purchase Order"), and **Timestamp** (when it happened). Additional fields like resource, cost, and department enrich the analysis.
+
+**Common ERP extraction sources:**
+- SAP: TSTCT (transaction codes), CDHDR/CDPOS (change documents), BKPF/BSEG (accounting documents)
+- Oracle: workflow tables, audit trail tables
+- Salesforce: activity history, case history
+
 ### Process Mining Analysis
 
 **Discovery metrics**: Number of process path variants discovered, average case duration, deviation points where the process diverges from the intended flow.
@@ -154,6 +280,42 @@ Process mining uses event log data from IT systems to discover, monitor, and imp
 **Conformance analysis**: Compliance rate, number and percentage of deviating cases, root causes of deviation (are deviations intentional workarounds or genuine errors?).
 
 **Process intelligence findings**: Identify bottlenecks (where cases spend the most time), rework loops (where cases go backwards), and excessive wait times (where cases sit idle).
+
+## Industry Benchmarks
+
+Reference benchmarks for common business processes. Use these to size the improvement opportunity and set realistic targets.
+
+### Order-to-Cash (O2C)
+
+| Metric | Bottom Quartile | Median | Top Quartile | World Class |
+|--------|----------------|--------|--------------|-------------|
+| Cycle time (order to payment) | >45 days | 25-35 days | 15-20 days | <10 days |
+| DSO (Days Sales Outstanding) | >60 days | 40-50 days | 30-35 days | <25 days |
+| Invoice accuracy | <85% | 90-95% | 97-99% | >99.5% |
+| Cost per invoice | >$15 | $8-12 | $4-6 | <$3 |
+| Touchless order rate | <20% | 40-55% | 65-80% | >85% |
+
+### Procure-to-Pay (P2P)
+
+| Metric | Bottom Quartile | Median | Top Quartile | World Class |
+|--------|----------------|--------|--------------|-------------|
+| PO cycle time | >5 days | 2-3 days | <1 day | Same day |
+| Invoice processing time | >15 days | 7-10 days | 3-5 days | <2 days |
+| % invoices matched automatically | <30% | 50-65% | 75-85% | >90% |
+| Cost per PO | >$35 | $15-25 | $8-12 | <$5 |
+| Maverick spend (off-contract) | >40% | 20-30% | 10-15% | <5% |
+
+### Record-to-Report (R2R)
+
+| Metric | Bottom Quartile | Median | Top Quartile | World Class |
+|--------|----------------|--------|--------------|-------------|
+| Days to close (monthly) | >10 days | 6-8 days | 4-5 days | <3 days |
+| Days to close (quarterly) | >15 days | 10-12 days | 6-8 days | <5 days |
+| Journal entry error rate | >5% | 2-3% | <1% | <0.5% |
+| % automated reconciliations | <20% | 40-55% | 70-85% | >90% |
+| Finance FTE per $B revenue | >50 | 35-45 | 25-30 | <20 |
+
+These benchmarks are directional. Actual performance depends on industry, complexity, geography, and ERP maturity. Use them to frame the conversation ("we're in the bottom quartile on X"), not as absolute targets.
 
 ## SIPOC Analysis
 

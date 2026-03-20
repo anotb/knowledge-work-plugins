@@ -52,14 +52,20 @@ Rates are the foundation of every pricing model, even when you don't show them t
 
 **Rate card development:**
 
-| Level | Typical Daily Rate Range | What Drives the Rate |
+These ranges vary significantly by firm tier, geography, and specialization. Use them as orientation, not gospel.
+
+| Level | Daily Rate Range (US Market) | What Drives the Rate |
 |---|---|---|
-| Partner/Director | Top of range | Client relationship, deal origination, quality assurance, experience premium |
-| Principal/Associate Director | Upper-mid range | Workstream leadership, client management, senior problem-solving |
-| Manager/Engagement Manager | Mid range | Day-to-day delivery, team management, analysis oversight |
-| Senior Consultant | Lower-mid range | Core analytical work, deliverable production, client interaction |
-| Consultant | Lower range | Analytical support, research, deliverable drafting |
-| Analyst | Entry range | Data gathering, modeling support, research |
+| Partner/Director | $8,000-15,000/day | Client relationship, deal origination, quality assurance, experience premium |
+| Principal/Associate Director | $5,500-10,000/day | Workstream leadership, client management, senior problem-solving |
+| Manager/Engagement Manager | $3,500-6,500/day | Day-to-day delivery, team management, analysis oversight |
+| Senior Consultant | $2,500-4,500/day | Core analytical work, deliverable production, client interaction |
+| Consultant | $1,800-3,200/day | Analytical support, research, deliverable drafting |
+| Analyst | $1,200-2,200/day | Data gathering, modeling support, research |
+
+MBB firms (McKinsey, Bain, BCG) price at the top of these ranges or above. Big Four consulting practices sit in the middle. Boutique and specialized firms span the full range depending on niche premium. Independent consultants typically price 20-40% below firm rates but keep a much higher share.
+
+Offshore/nearshore delivery typically runs 40-60% of onshore rates for equivalent levels. Blending onshore leadership with offshore execution is a common margin play.
 
 **Rate determination factors:**
 
@@ -165,6 +171,8 @@ For engagements involving proprietary tools, models, or software:
 - License vs. transfer: License your tools for use; don't transfer ownership
 - Usage rights: Define whether the client can use deliverables internally only or share with affiliates
 - Derivative works: Clarify who owns improvements built on your methodology
+- Pricing IP access: License fees can be structured as one-time (typically 15-30% of engagement fee), annual subscription (5-15% of engagement fee per year), or per-user/per-use
+- Platform or tool access bundled with advisory: price the advisory work normally and add the tool access as a separate line item with its own renewal terms
 
 ### Step 5: Discount and Negotiation Strategy
 
@@ -187,6 +195,22 @@ Every engagement involves negotiation. Have a strategy before you enter the room
 - **Discount the total, not the rates.** Cutting your rate card devalues your people. Instead, reduce hours, adjust team composition, narrow scope, or provide a lump-sum discount. Protect the rate card.
 - **Show value first, price second.** If the client is focused on fee before they understand value, you're in a cost negotiation, not a value conversation.
 - **Use anchoring.** Present your recommended option alongside a higher-priced premium option and a stripped-down economy option. The middle option looks reasonable by comparison.
+
+**Navigating procurement:**
+
+Fortune 500 procurement teams are professional negotiators. They are not your buyer; they are the gatekeeper between you and your buyer. Different game, different tactics.
+
+| Procurement Tactic | What They're Doing | How to Respond |
+|---|---|---|
+| Rate benchmarking | Comparing your rates against their database (often outdated or mismatched by scope) | Shift the conversation from rates to total cost of engagement and outcomes. "Our rate is $X but the engagement is 8 weeks, not 12, because we've done this 15 times." |
+| Demand for rate card | Want line-item visibility to negotiate each level down | Provide a rate card but price the engagement as a fixed fee or blended rate. Protect individual rates. |
+| Three-bid requirement | Need competitive quotes to justify selection | Help your sponsor write the requirements in a way that plays to your strengths. Offer to respond to a directed RFP. |
+| Preferred vendor panel | Only buy from approved vendors; getting on takes 3-6 months | Start the panel process early (before you need it). Use a small initial engagement to get in the door. |
+| Payment terms push (Net 60/90) | Standard policy; they do it to everyone | Price it in. Net 90 costs you roughly 2-3% in financing. Either add that to the fee or negotiate payment milestones that front-load cash flow. |
+| Scope unbundling | Break the engagement into pieces to commoditize and bid separately | Resist unless the pieces genuinely can stand alone. Explain integration risk and coordination cost of splitting. |
+| Year-end budget pressure | "We need to spend by December 31 or lose the budget" | Accommodate timing but don't discount for urgency that benefits the client. This is leverage, not a concession. |
+
+Key principle with procurement: maintain a direct relationship with the business sponsor throughout. Procurement can negotiate terms, but the sponsor controls the decision. If procurement is negotiating without sponsor involvement, you're in trouble.
 
 **Pricing sensitivity analysis:**
 
@@ -230,6 +254,72 @@ Present the client's investment case clearly:
 - Payback period (when benefits exceed fees)
 - Confidence level (how certain are the estimates)
 
+### Step 7: Proposal Fee Presentation
+
+How you present pricing in the proposal matters as much as the pricing itself. Poorly presented fees create objections that well-structured fees avoid.
+
+**Fee presentation structure:**
+
+1. **Value context first**: Before any numbers appear, restate the business case. "This engagement will deliver $8-12M in annual run-rate savings" sets the frame before "$1.2M in fees" appears.
+
+2. **Options table**: Present 2-3 options, not one take-it-or-leave-it number.
+
+| Element | Option A (Recommended) | Option B (Comprehensive) | Option C (Focused) |
+|---|---|---|---|
+| Scope | Core transformation + pilot | Core + full rollout + capability building | Diagnostic + recommendations only |
+| Duration | 16 weeks | 24 weeks | 8 weeks |
+| Team | 4 FTE | 6 FTE | 2 FTE |
+| Fee | $1.2M | $1.8M | $480K |
+| Expected ROI | 7-10x | 8-12x | N/A (diagnostic) |
+
+Option A is always the one you want them to buy. Option B makes A look reasonable. Option C exists so they don't feel cornered, but it should be clearly inferior on ROI.
+
+3. **Fee breakdown**: Show enough detail to demonstrate rigor without inviting line-item negotiation. By phase or workstream, not by person-by-person rate card.
+
+4. **What's included / excluded**: Be explicit. Travel, expenses, third-party data, licensing fees. Ambiguity here creates post-sale conflict.
+
+5. **Investment framing**: "Total investment of $1.2M" not "Our fees are $1.2M." Small language choice, meaningful difference in how it lands.
+
+---
+
+## Multi-Workstream and Program Pricing
+
+Large engagements spanning multiple workstreams or running as multi-phase programs need pricing structures beyond single-engagement models.
+
+**Program pricing considerations:**
+
+| Element | Single Engagement | Multi-Workstream Program |
+|---|---|---|
+| Pricing unit | One fee for one scope | Master agreement with workstream-level SOWs |
+| Discounting | Engagement-level | Program-level volume discount (typically 10-20% on aggregate) |
+| Team continuity | Priced per engagement | Premium for guaranteed team continuity across phases |
+| Governance overhead | Included in fee | Price program management separately (typically 8-12% of total program cost) |
+| Risk | Scope-specific | Portfolio risk; some workstreams may subsidize others |
+
+**Master Service Agreement (MSA) + SOW model:**
+
+For programs expected to run 6+ months with multiple workstreams:
+- Negotiate the MSA once (rates, terms, IP, liability)
+- Issue individual SOWs per workstream or phase
+- Apply volume discounts at the MSA level based on aggregate commitment
+- Include a "ramp-down" provision: if the client cuts scope mid-program, rates adjust upward to account for lost volume discount
+
+**Phased engagement economics (land-and-expand):**
+
+Phase 1 (diagnostic or pilot) is often priced at or below target margin to win the work. The economics only work if Phase 2+ materializes.
+
+| Phase | Typical Pricing Approach | Margin Target | Purpose |
+|---|---|---|---|
+| Phase 1: Diagnostic / Assessment | Fixed fee, often discounted 15-25% | 35-45% (below normal) | Prove value, build trust, shape Phase 2 scope |
+| Phase 2: Design / Pilot | Fixed fee or hybrid | 50-60% (target) | Deliver core value, demonstrate results |
+| Phase 3: Implementation / Rollout | T&M or fixed fee per workstream | 55-65% (above target) | Scale what works, capture full value |
+
+Rules for land-and-expand pricing:
+- Phase 1 must generate findings that create urgency for Phase 2. If the diagnostic could conclude "everything's fine," don't discount it.
+- Price Phase 1 so you'd still break even if Phase 2 never happens. Don't bet the engagement economics on expansion.
+- Include a "Phase 2 pricing framework" in the Phase 1 proposal so the client knows what to expect and procurement doesn't reset the negotiation.
+- Track your land-and-expand conversion rate. If less than 60% of Phase 1s convert to Phase 2, your Phase 1 pricing is too aggressive or your Phase 1 delivery isn't compelling enough.
+
 ---
 
 ## Retainer Structures
@@ -270,3 +360,4 @@ Retainers deserve specific attention because they're the most relationship-depen
 - Align payment timing with cost timing. Don't finance the engagement for the client.
 - The best pricing strategy is one the client feels good about. If they feel squeezed, the relationship suffers even if you win the deal.
 - Retainers only work with trust. Don't propose retainers to new clients who haven't seen your work yet.
+- Procurement is a process, not a person. Understand the system and work within it, but never lose your direct line to the business sponsor.

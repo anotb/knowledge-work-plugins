@@ -32,6 +32,20 @@ Before drawing boxes and lines, define what the organization must do to execute 
 | Customer segmentation | Do customer segments warrant separate structures? |
 | Agility model | Traditional hierarchy, agile pods, or hybrid? |
 
+**Customer segmentation as a design input:**
+
+Don't assume segments are pre-defined. The segmentation model is itself a structural decision. Common approaches:
+
+| Basis | When It Works | Structural Implication |
+|---|---|---|
+| Size (enterprise / mid-market / SMB) | Segments have fundamentally different buying processes and service needs | Separate sales motions, possibly separate delivery teams |
+| Industry vertical | Deep domain knowledge drives win rates or delivery quality | Vertical P&Ls, industry practice leads |
+| Needs-based (complex / standard / self-serve) | Product/service complexity varies more than industry | Tiered service model, different cost-to-serve structures |
+| Geography | Regulatory, language, or cultural differences dominate | Regional or country-level autonomy |
+| Value / profitability | 80/20 dynamics are extreme | Key account structures, differentiated service levels |
+
+Test the segmentation: if two proposed segments would be served by the same team, using the same processes, with the same economics, they're not separate segments structurally. Merge them.
+
 **Business model analysis:**
 
 - How does the organization create value?
@@ -114,6 +128,21 @@ For each viable option, assess:
 - Implementation complexity and transition risk
 - Cultural fit (how far is this from how people work today?)
 
+**Making matrix structures work:**
+
+Matrix is the most common structural choice and the most commonly botched. If two dimensions are genuinely equally important and you can't avoid it, here's how to make it survivable:
+
+| Design Element | What to Get Right |
+|---|---|
+| Primary vs. secondary axis | One axis owns the P&L and performance rating. The other influences. Pretending both are equal guarantees neither works. |
+| Decision rights | Map the 20-30 most common decisions explicitly. For each: who decides, who inputs, who's informed. If this feels tedious, it's because it is. Do it anyway. |
+| Conflict escalation | Pre-agree escalation paths and timelines. "Unresolved conflicts escalate to the COO within 48 hours" beats "work it out." |
+| Relationship, not just structure | Matrix only works when the people at the intersections actively build relationships. Budget time for cross-axis team-building, joint planning, co-located offsites. |
+| Performance management | Both axes provide input to performance reviews. Weight the primary axis at 60-70%, secondary at 30-40%. The individual's manager (primary axis) owns the final rating. |
+| Resource allocation | Create a resource allocation forum that meets monthly, not ad hoc. Matrix fights are usually resource fights. Give them a structured venue. |
+
+Signs the matrix is failing: decisions take twice as long as before, people attend twice as many meetings, the same issue gets escalated repeatedly, managers spend more time in coordination meetings than with their teams. If you see these, simplify.
+
 **Detailing the selected design:**
 
 Once a structure is selected, define:
@@ -157,15 +186,24 @@ Group roles into job families with consistent leveling:
 
 Career pathways matter for retention. If the new structure eliminates career paths people were counting on, you'll lose people you didn't intend to.
 
-**Grading framework:**
+**Compensation and incentive realignment:**
 
-| Grade Band | Typical Scope | % of Organization |
+Structural change without incentive realignment is an invitation for people to optimize the old structure while sitting in the new one. This is where most redesigns quietly fail.
+
+| Structural Change | Incentive Implication | What to Redesign |
 |---|---|---|
-| Executive | Enterprise/division-wide accountability | 1-3% |
-| Senior management | Function or large team leadership | 5-10% |
-| Middle management | Team leadership, project ownership | 15-20% |
-| Professional/specialist | Individual contributor, expertise-driven | 30-40% |
-| Operational | Execution-focused, defined processes | 30-40% |
+| Product P&Ls to segment P&Ls | Sales comp tied to product revenue no longer aligns | Rebase sales targets to segment revenue; transition comp over 1-2 cycles with hold-harmless provisions |
+| Centralize shared services | Functional leaders lose headcount, gain efficiency mandate | Tie incentives to service levels, cost-per-transaction, and internal NPS rather than headcount |
+| Create cross-functional teams | Individual function metrics create perverse incentives | Add team-level metrics (30-40% of variable comp) alongside individual metrics |
+| Flatten layers | Removed management roles leave people without clear next step | Create expert/principal tracks with compensation parity to management |
+| Move to matrix | Two bosses, one comp review creates conflict | Primary axis owns comp decision; secondary axis provides structured input with defined weight |
+
+Principles for redesigning incentives during restructuring:
+
+- Change incentives at the same time as structure, not later. "We'll sort out comp in Phase 2" means Phase 1 won't work
+- Use hold-harmless or transition guarantees (typically 6-12 months) to reduce resistance
+- If the new structure creates genuinely lower-earning roles, acknowledge it and manage it; don't pretend it's not happening
+- Test the new incentive model against 3-5 scenarios of actual behavior to check for gaming
 
 ### Step 5: Plan the Transition
 
@@ -197,6 +235,36 @@ The best org design fails if the transition is botched. People experience restru
 - Fine-tune based on reality vs. design intent
 - Measure against success metrics
 
+**Workforce transition mechanics:**
+
+This is the hardest part of any restructure and the part most often handled badly. Be specific.
+
+*Role matching and selection:*
+
+| Scenario | Approach |
+|---|---|
+| Role exists in new structure, incumbent is a clear fit | Direct slot ("you're confirmed in this role"). Do this first and fast to reduce anxiety for the majority. |
+| Role exists, multiple credible candidates | Competitive selection process: defined criteria, structured interviews, transparent timeline. Criteria must be published before the process starts. |
+| Role is eliminated, no equivalent exists | Redundancy. Be honest about it. Don't dress up a redundancy as "we're exploring options" for weeks. |
+| New role, no internal candidate | External hire. Consider whether any displaced employees could be developed into it (redeployment). |
+
+*Selection criteria that actually work:*
+
+Don't just assess "who's good." Define 4-6 criteria specific to the new role's requirements, weighted by importance. Typical criteria: strategic capability for the new mandate (30%), leadership track record (25%), stakeholder relationships critical to the new role (20%), adaptability and learning agility (15%), team composition needs / diversity (10%).
+
+*Redeployment before redundancy:*
+
+Before making anyone redundant, run a redeployment process:
+1. Skills inventory of all displaced employees
+2. Match against all open roles in the new structure (not just their current function)
+3. Assess with a "could succeed with 3-6 months of development" threshold, not "ready now"
+4. Offer retraining or temporary assignments where the gap is closable
+5. For those with no viable match, provide outplacement support, extended notice, and fair severance
+
+*Transition timeline for individuals:*
+
+Everyone should know within 2 weeks of the announcement: (1) whether their role exists in the new structure, (2) if it doesn't, what the process and timeline are, (3) when they'll have a final answer. Leaving people in limbo is the single most damaging thing you can do.
+
 **Risk mitigation:**
 
 Common transition risks and how to handle them:
@@ -220,7 +288,32 @@ Measure whether the redesign is working:
 - Process efficiency improvements
 - Leadership effectiveness ratings
 
-### Step 6: Establish Governance
+### Step 6: Systems and Process Redesign
+
+Structure without process and system changes is just new names on old ways of working. Identify every process and system that assumes the old structure.
+
+**Critical process changes:**
+
+| Process Area | What Breaks in the Old Model | What to Redesign |
+|---|---|---|
+| Financial reporting / P&L | Revenue and cost allocations don't map to new units | Rebuild P&L structure, reallocate shared costs, update transfer pricing |
+| CRM and sales processes | Territories, account ownership, opportunity routing all assume old structure | Reassign accounts, update routing rules, retrain on new coverage model |
+| Performance management | Goals, review cycles, and calibration groups reflect old reporting | Reset goals to new mandate within 30 days; recalibrate at 6 months |
+| Budgeting and planning | Budget owners, approval authorities, and cost centers are wrong | Recut budgets to new structure; this often takes 2-3 months and needs finance partnership |
+| HR systems | Job codes, org hierarchy, compensation bands need updating | Batch update; coordinate with payroll and benefits |
+| Communication channels | Distribution lists, Slack channels, SharePoint sites, meeting invites | Update within first week; stale channels perpetuate old structure |
+
+**Sequencing process changes:**
+
+Not everything can change on Day 1. Prioritize:
+1. **Week 1**: Communication channels, reporting lines, meeting cadences
+2. **Weeks 2-4**: CRM and account ownership, performance goals
+3. **Months 1-3**: Financial reporting, budgets, HR systems
+4. **Months 3-6**: Full P&L restructuring, incentive plan changes
+
+The gap between "new structure announced" and "systems actually reflect new structure" is where most pain lives. Minimize it.
+
+### Step 7: Establish Governance
 
 The new organization needs governance to operate, not just an org chart.
 
@@ -234,15 +327,6 @@ For key decision categories, define who:
 - **Executes**: Carries out the decision
 
 (This is RAPID or RACI by another name. The framework matters less than actually clarifying who does what.)
-
-**Governance cadence:**
-
-| Forum | Purpose | Frequency | Participants |
-|---|---|---|---|
-| Executive committee | Strategic decisions, resource allocation | Weekly/biweekly | C-suite |
-| Operating review | Performance tracking, issue resolution | Monthly | Leaders + 1 |
-| Cross-functional sync | Coordination across units | Weekly | Working level leads |
-| Portfolio review | Investment prioritization | Quarterly | Senior leadership |
 
 **Review and adaptation:**
 
@@ -263,4 +347,5 @@ Org design is not a one-time event. Build in structural review checkpoints:
 - Org design affects people deeply. Communicate honestly, treat people with respect, and don't pretend difficult changes are painless.
 - Simple structures outperform complex ones. If you need a 20-page document to explain how the matrix works, the matrix doesn't work.
 - Design for the next 3-5 years, not for today's problems. But don't design for a future that may never arrive.
+- Incentives drive behavior more reliably than structure does. If the incentives contradict the structure, the incentives win.
 - Build in mechanisms for adaptation. The organization that can restructure quickly beats the one with the perfect structure.

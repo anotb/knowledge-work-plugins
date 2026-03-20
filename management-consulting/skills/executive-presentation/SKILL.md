@@ -16,16 +16,16 @@ Every consulting presentation follows the same logic, whether it's a 5-slide upd
 ### The Pyramid
 
 ```
-                    ┌─────────────┐
-                    │   Answer    │  ← State this first
-                    └──────┬──────┘
-               ┌───────────┼───────────┐
-         ┌─────┴─────┐ ┌──┴──┐ ┌──────┴──────┐
-         │ Argument 1│ │Arg 2│ │ Argument 3  │  ← 2-3 supporting reasons
-         └─────┬─────┘ └──┬──┘ └──────┬──────┘
-           ┌───┼───┐   ┌──┼──┐   ┌────┼────┐
-           │E1 │E2 │   │E3│E4│   │E5  │E6  │  ← Evidence for each
-           └───┴───┘   └──┴──┘   └────┴────┘
+                    +---------------+
+                    |   Answer      |  <- State this first
+                    +-------+-------+
+               +------------+------------+
+         +-----+-----+ +---+---+ +------+------+
+         | Argument 1| | Arg 2 | | Argument 3  |  <- 2-3 supporting reasons
+         +-----+-----+ +---+---+ +------+------+
+           +---+---+   +--+--+   +----+----+
+           |E1 |E2 |   |E3|E4|   |E5  |E6  |  <- Evidence for each
+           +---+---+   +--+--+   +----+----+
 ```
 
 **The Answer** (top of the pyramid): One sentence that is the main point of the presentation. If the audience remembers nothing else, they remember this.
@@ -41,14 +41,14 @@ This structure applies at every level: the deck as a whole, each section, each s
 The narrative arc that carries the pyramid:
 
 ```
-[Situation] ────► [Complication] ────► [Resolution]
-      │                  │                    │
+[Situation] --> [Complication] --> [Resolution]
+      |                  |                    |
    "This is          "But now           "Therefore,
     where we           there's a          we should
     are..."            problem..."         do this..."
 ```
 
-**Situation**: What the audience already knows or agrees with. Establish common ground. Keep it brief — you're not teaching, you're aligning.
+**Situation**: What the audience already knows or agrees with. Establish common ground. Keep it brief... you're not teaching, you're aligning.
 
 **Complication**: What has changed, what's broken, what's at risk. This creates the tension that makes the audience care. Quantify the cost of inaction.
 
@@ -62,9 +62,9 @@ The narrative arc that carries the pyramid:
 
 Before opening any slide tool, write these three things:
 
-1. **The answer in one sentence** — "We should enter the German market through acquisition of [Target] for EUR 120M"
-2. **The three supporting arguments** — Why now, why this target, why acquisition vs. organic
-3. **The evidence for each** — Market data, target financials, comparable transactions
+1. **The answer in one sentence**: "We should enter the German market through acquisition of [Target] for EUR 120M"
+2. **The three supporting arguments**: Why now, why this target, why acquisition vs. organic
+3. **The evidence for each**: Market data, target financials, comparable transactions
 
 If you cannot write these clearly, you are not ready to build slides.
 
@@ -83,48 +83,145 @@ If you cannot write these clearly, you are not ready to build slides.
 
 ### Step 3: Design Each Slide
 
-**The 10/20/30 rule (adapted):**
-- 10 slides maximum for a typical recommendation
-- 20 minutes maximum presentation time
-- 30-point minimum font for projected presentations
-
 **Slide anatomy:**
 
 ```
-┌─────────────────────────────────────────┐
-│ ACTION TITLE (complete sentence)        │  ← The slide's takeaway
-├─────────────────────────────────────────┤
-│                                         │
-│   [Exhibit: chart, table, framework]    │  ← Visual evidence
-│                                         │
-│                                         │
-│                                         │
-│ Source: [data source, date]             │  ← Attribution
-└─────────────────────────────────────────┘
++-------------------------------------------+
+| ACTION TITLE (complete sentence)          |  <- The slide's takeaway
++-------------------------------------------+
+|                                           |
+|   [Exhibit: chart, table, framework]      |  <- Visual evidence
+|                                           |
+|                                           |
+|                                           |
+| Source: [data source, date]               |  <- Attribution
++-------------------------------------------+
 ```
 
 The action title is what distinguishes consulting slides from everything else. "Revenue declined 12% driven by customer churn" not "Revenue Overview." Write it as a complete sentence stating the takeaway. If you can't write the action title, the slide doesn't have a point.
 
-The body is exhibit-driven. Charts, tables, and frameworks dominate — not paragraphs or bullets. One focused exhibit is ideal. Two related exhibits side by side works when they jointly support the action title.
+The body is exhibit-driven. Charts, tables, and frameworks dominate... not paragraphs or bullets. One focused exhibit is ideal. Two related exhibits side by side works when they jointly support the action title.
 
-### Step 4: Refine and Test
-
-**The "So What?" test** — for each slide, ask:
+**The "So What?" test** for each slide:
 - So what? (Why does the audience care about this?)
 - Says who? (Is this credible? What's the source?)
 - What if? (What are the implications?)
 
 If you can't answer "so what?" in one sentence, cut or restructure the slide.
 
-**Rehearsal checklist:**
-- Main message is clear in the first 30 seconds
-- Each slide has one key takeaway
-- Transitions between slides are logical and scripted
-- Data supports the message without overwhelming it
-- Recommendations are specific and actionable
-- Time allocation matches importance (don't spend 10 minutes on context and 2 on recommendations)
-- Backup slides prepared for likely Q&A
-- Technology tested before presenting
+### Step 4: Presentation vs. Leave-Behind
+
+Different formats require different density. Decide which you're building before you start.
+
+| Dimension | Presentation Deck | Leave-Behind / Read-Ahead |
+|-----------|-------------------|---------------------------|
+| **Primary audience** | People in the room | People reading alone, later |
+| **Font size** | 30pt minimum | 18pt minimum |
+| **Content density** | One point per slide | Can layer 2-3 points per page |
+| **Exhibits** | One per slide, annotated | Can include supporting detail |
+| **Action titles** | Short, punchy | Can be longer, more descriptive |
+| **Appendix** | Separate backup slides | Can be inline or appended |
+| **Typical length** | 8-12 slides + backup | 15-30 pages |
+| **Goal** | Drive a decision in the room | Survive forwarding to people who weren't there |
+
+A presentation deck that gets forwarded as a read-ahead usually fails at both jobs. If you know the deck will serve both purposes, add a 1-page executive summary that works standalone, and put supporting detail in clearly labeled appendix sections.
+
+---
+
+## Audience-Specific Guidance
+
+### Know Your Audience
+
+| Audience | What They Want | How to Deliver |
+|----------|---------------|----------------|
+| CEO / Board | Decision, strategic implications, risk | Lead with recommendation, quantify impact, address key risks |
+| CFO | Financial proof, ROI, assumptions | Detailed financials, sensitivity analysis, conservative estimates |
+| COO | Implementation feasibility, resources | Operational plan, resource requirements, timeline |
+| CTO | Technical viability, architecture | Technical assessment, scalability, integration requirements |
+| Steering Committee | Progress, decisions needed, blockers | Status against plan, decision items, escalations |
+| Mixed / Large Group | Alignment, clarity, next steps | Simple message, clear visuals, explicit ask |
+
+### Board Deck Specifics
+
+Board presentations have distinct dynamics. Directors have fiduciary obligations, limited time, and see dozens of proposals.
+
+**Framing**: Connect every recommendation to shareholder value, risk management, or strategic positioning. Boards think in terms of fiduciary duty, not operational efficiency.
+
+**Governance committee expectations**: If the proposal touches audit, compensation, or risk committees, address their specific mandates. An audit committee wants control frameworks. A risk committee wants quantified exposure. A compensation committee wants alignment between incentives and outcomes.
+
+**What boards want to see**:
+- Investment size relative to total capital budget (context, not just the number)
+- Downside scenario and management's plan for it
+- Competitive implications of acting vs. not acting
+- Management's confidence level and basis for it
+- Clear decision requested: approve, approve with conditions, or defer
+
+**What boards don't want**:
+- Operational detail they can't evaluate (save it for backup)
+- Options without a recommendation (they hired management to decide)
+- Surprises (pre-wire key stakeholders before the meeting)
+
+### Appendix and Backup Slides
+
+Every deck should have backup slides ready for Q&A. Build them before you need them.
+
+**Standard backup categories**:
+- Detailed methodology and assumptions
+- Full financial model with sensitivity tables
+- Competitive benchmarking data
+- Risk register with mitigations
+- Alternative scenarios that were considered and rejected
+- Implementation timeline at workstream level
+
+**Formatting backup slides**: Use the same action-title format as the main deck. Label each clearly (e.g., "BACKUP: Detailed NPV Assumptions"). Number them separately from the main deck (B1, B2, B3) so you can reference them quickly.
+
+---
+
+## Data Storytelling
+
+Numbers inform, stories transform. Effective data storytelling means:
+
+- **Lead with the most compelling data point**: Don't bury the headline
+- **Annotate charts**: Call out the insight, don't make readers find it
+- **Show change, not state**: Trends and deltas are more compelling than snapshots
+- **Use comparison**: "3x the industry average" lands harder than "15%"
+- **Connect to consequences**: Every number should answer "and that means..."
+
+### Sensitivity Analysis Formatting
+
+When presenting financial projections with uncertainty, use these formats:
+
+**Tornado chart** (for identifying which variables matter most): List variables vertically, show NPV impact range horizontally. Order by magnitude of swing. The top 2-3 bars are where management attention belongs.
+
+```
+Variable              | NPV Impact Range
+Adoption rate         |=====[----BASE----]==========|  +/- $12M
+Benefit timeline      |=======[--BASE--]========|     +/- $8M
+Implementation cost   |========[-BASE-]======|        +/- $5M
+Discount rate         |=========[BASE]=====|          +/- $3M
+```
+
+**Scenario table** (for communicating overall risk profile):
+
+| Scenario | Key Assumptions | NPV | IRR | Payback | Probability |
+|----------|----------------|-----|-----|---------|-------------|
+| Upside | [2 key drivers] | $XX | XX% | X yrs | XX% |
+| Base | [2 key drivers] | $XX | XX% | X yrs | XX% |
+| Downside | [2 key drivers] | $XX | XX% | X yrs | XX% |
+
+Always state the break-even threshold: "The business case remains positive even if benefits are [X]% below plan."
+
+### Chart Selection
+
+For detailed chart selection guidance (which chart type for which data relationship), see the **report-generation** skill's Data Visualization section. Key presentation-specific rules:
+
+- One chart per slide, making one point
+- Annotate the insight directly on the chart
+- Waterfall charts for financial bridges (revenue to EBITDA, cost drivers)
+- Bar charts for comparisons, line charts for trends
+- Avoid pie charts with more than 4-5 slices
+- Remove all chartjunk: unnecessary gridlines, 3D effects, decorative elements
+- Max 5 rows in any table shown during a live presentation. Move detail to backup slides.
 
 ---
 
@@ -140,57 +237,9 @@ If you can't answer "so what?" in one sentence, cut or restructure the slide.
 | Build to climax | Layer insights | "First we found X, then Y, which led us to Z" |
 | End with action | Clear call to decision | "We recommend you approve Phase 1 by Friday" |
 
-### Data Storytelling
-
-Numbers inform, stories transform. Effective data storytelling means:
-
-- **Lead with the most compelling data point** — don't bury the headline
-- **Annotate charts** — call out the insight, don't make readers find it
-- **Show change, not state** — trends and deltas are more compelling than snapshots
-- **Use comparison** — "3x the industry average" lands harder than "15%"
-- **Connect to consequences** — every number should answer "and that means..."
-
 ---
 
-## Audience Adaptation
-
-### Know Your Audience
-
-| Audience | What They Want | How to Deliver |
-|----------|---------------|----------------|
-| CEO / Board | Decision, strategic implications, risk | Lead with recommendation, quantify impact, address key risks |
-| CFO | Financial proof, ROI, assumptions | Detailed financials, sensitivity analysis, conservative estimates |
-| COO | Implementation feasibility, resources | Operational plan, resource requirements, timeline |
-| CTO | Technical viability, architecture | Technical assessment, scalability, integration requirements |
-| Steering Committee | Progress, decisions needed, blockers | Status against plan, decision items, escalations |
-| Mixed / Large Group | Alignment, clarity, next steps | Simple message, clear visuals, explicit ask |
-
-### Adapting in Real Time
-
-Read the room. Watch for:
-- **Leaning forward, nodding** — they're with you, keep going
-- **Checking phones, side conversations** — you've lost them, skip ahead to the punchline
-- **Furrowed brows, crossed arms** — they disagree, pause and address it
-- **Asking detailed questions early** — they want to go deeper, offer to jump to the relevant section
-
-Be prepared to skip slides, dive deeper, or reorder based on audience signals. A rigid delivery of all 10 slides is worse than a responsive delivery of 6.
-
----
-
-## Visual Design
-
-### Chart Selection
-
-| Chart Type | Use For | Best Practice |
-|------------|---------|---------------|
-| Bar chart | Comparing categories | Sort by value; horizontal bars for long labels |
-| Line chart | Showing trends over time | Max 3-4 lines; clear labels |
-| Pie chart | Parts of a whole | Max 5 slices; avoid 3D |
-| Waterfall | Showing drivers of change | Clear positive/negative colors; label each bridge |
-| Table | Detailed comparison data | Highlight key numbers; max 5 rows in main deck |
-| Scatter | Correlation between variables | Label outliers; add trend line if meaningful |
-
-### Design Principles
+## Design Principles
 
 - Use brand colors consistently (client's or firm's, depending on context)
 - Limit to 3-4 colors per slide
@@ -199,8 +248,6 @@ Be prepared to skip slides, dive deeper, or reorder based on audience signals. A
 - White space is a feature, not wasted space
 - Use consistent fonts and sizes throughout
 - Consider accessibility (color-blind friendly palettes)
-- For projected presentations: larger fonts, fewer elements, higher contrast
-- For leave-behind documents: denser layout is acceptable
 
 ---
 
@@ -225,8 +272,8 @@ When a full deck is overkill:
 3. [Key finding 3 with evidence]
 
 ## Value
-- [Benefit 1 — quantified]
-- [Benefit 2 — quantified]
+- [Benefit 1 -- quantified]
+- [Benefit 2 -- quantified]
 
 ## Implementation
 - Timeline: [Duration]
@@ -243,8 +290,8 @@ When a full deck is overkill:
 [What you need from the decision-maker, by when]
 
 ## Next Steps
-1. [Immediate action — owner — date]
-2. [Follow-up action — owner — date]
+1. [Immediate action -- owner -- date]
+2. [Follow-up action -- owner -- date]
 ```
 
 ---
@@ -260,14 +307,12 @@ For every presentation, build an anticipation table:
 | "Why not option B?" | They may prefer it | Data comparison showing A outperforms | "Happy to model both scenarios" |
 | "What's the downside?" | Acknowledging risk | Quantified risk with mitigation plan | "We've stress-tested three scenarios" |
 
-Have backup slides with detailed methodology, additional data tables, alternative scenarios, risk analysis, and competitive benchmarking.
-
 ### Response Framework
 
-1. **Listen completely** — don't interrupt, let them finish, acknowledge the question
-2. **Confirm understanding** — "So what you're asking is..." or "Let me make sure I understand..."
-3. **Answer directly** — lead with the answer, support with evidence, be concise
-4. **Confirm resolution** — "Does that address your question?"
+1. **Listen completely**: Don't interrupt, let them finish, acknowledge the question
+2. **Confirm understanding**: "So what you're asking is..." or "Let me make sure I understand..."
+3. **Answer directly**: Lead with the answer, support with evidence, be concise
+4. **Confirm resolution**: "Does that address your question?"
 
 If you don't know the answer: say so. "I don't have that data with me. I'll follow up by [date]." Credibility is built by honesty, not by bluffing.
 
@@ -280,8 +325,6 @@ If you don't know the answer: say so. "I don't have that data with me. I'll foll
 - **Quantify or don't claim it.** Unsupported claims erode credibility. Attach a number, a source, or a date to every assertion.
 - **Design for the skeptic in the room.** Assume at least one audience member will challenge your logic. Build the pyramid so each level withstands scrutiny independently.
 - **Less content, more conviction.** A 7-slide deck delivered with authority beats a 30-slide deck that hedges. Cut ruthlessly and own what remains.
-- **Rehearse transitions, not just slides.** The story arc breaks when transitions are weak. Script the bridge sentence between each section.
-- **Adapt in real time.** Read body language and questions. Be prepared to skip slides, dive deeper, or reorder based on audience signals.
 - **Consider the hybrid audience.** When presenting to both in-room and remote participants, design for the screen first. Ensure virtual participants can read every element.
 
 ---

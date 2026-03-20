@@ -17,6 +17,7 @@ Apply proven change management methodology to help organizations navigate transf
 | AI adoption | Individual Adoption + Technology enablement | Agile change methods |
 | Merger integration | Transformation Execution + Culture alignment | Organizational diagnostics |
 | Culture change | Transformation Execution | Values-based change |
+| Second attempt after prior failure | Transformation Execution + Trust rebuild | Explicit failure acknowledgment |
 
 ## The Individual Adoption Model
 
@@ -61,6 +62,36 @@ Knowing how is different from being able to. Budget time for the proficiency dip
 Activities: recognition programs, success celebrations, metrics and dashboards, leadership modeling, consequence management.
 
 Without reinforcement, people revert to old habits within weeks. Sustainability is where most change programs fail.
+
+### Worked Example: ERP Rollout at a 2,000-Person Manufacturer
+
+A manufacturer is replacing its legacy ERP with SAP S/4HANA. 800 employees across finance, supply chain, and operations are directly affected. Initial pulse survey results and the interventions that follow:
+
+**Understanding (scored 3.2/5)**: Finance teams understand the "why" (audit findings, manual reconciliation pain). Supply chain doesn't. They see a working system being replaced for no clear reason. Intervention: supply chain-specific briefings led by VP Operations showing current pain (3-day order visibility lag, 12% forecast variance) and how S/4HANA addresses each one. Understanding rose to 4.1/5 within two weeks.
+
+**Motivation (scored 2.8/5)**: Warehouse staff fear the new system will expose performance gaps and lead to headcount reduction. Intervention: CEO commitment to no layoffs for 18 months post go-live, published in writing. Individual "what changes for me" one-pagers for each role showing tasks that get easier (automated PO matching) vs. tasks that change (new approval workflow). Motivation rose to 3.6/5.
+
+**Capability (scored 2.1/5)**: Initial classroom training was too early (8 weeks before go-live) and too generic. Intervention: role-specific training in sandbox environment 2 weeks before go-live. Job aids posted at workstations. "Floor walker" support for first 3 weeks. Capability rose to 3.9/5 by Week 2 post go-live.
+
+**Proficiency (scored 2.5/5 at Week 4)**: Month-end close took 40% longer in the first cycle. Finance team panicked. Intervention: daily 15-minute huddles during second month-end close. Paired experienced SAP users with struggling staff. Created "cheat sheets" for the 10 most common month-end transactions. By third close, cycle time was back to baseline.
+
+**Sustainability (scored 3.8/5 at Month 6)**: Some teams reverted to spreadsheet workarounds. Intervention: dashboard showing adoption metrics by team (visible to leadership). Recognition program for teams hitting proficiency targets. Legacy system access removed (forcing function). By Month 9, 94% process compliance.
+
+The key lesson: the initial rollout plan treated all 800 employees as one audience and front-loaded training. The fix was diagnosing each stage per stakeholder group and intervening where the actual gap was, not where the plan assumed it would be.
+
+## How the Individual Adoption Model Maps to Transformation Phases
+
+The Individual Adoption Model operates at the person/group level. The Transformation Execution Framework operates at the program level. They connect like this:
+
+| Transformation Phase | Primary Adoption Stages Addressed | Why |
+|---------------------|-----------------------------------|-----|
+| Phase 1: Mobilize | Understanding, early Motivation | Building urgency creates understanding. Coalition building seeds motivation among leaders. |
+| Phase 2: Envision and Communicate | Understanding, Motivation | Vision communication drives understanding. Connecting to "what's in it for me" drives motivation. |
+| Phase 3: Enable and Quick Wins | Capability, early Proficiency | Training builds capability. Quick wins provide proficiency evidence and reinforce motivation. |
+| Phase 4: Accelerate | Proficiency | Scaling adoption deepens proficiency across the organization. |
+| Phase 5: Embed | Sustainability | Anchoring in culture and systems sustains new behaviors permanently. |
+
+Use this mapping to diagnose program-level problems. If Phase 4 is stalling, check Proficiency scores across stakeholder groups. If Phase 2 communications aren't landing, check whether Understanding or Motivation is the actual gap (they require different interventions).
 
 ## Transformation Execution Framework
 
@@ -133,9 +164,28 @@ Make changes permanent by anchoring them in organizational culture and operation
 - Hiring and promotion criteria reflect new values
 - Performance metrics track new outcomes
 
-## Change Impact Assessment
+## Change Readiness Assessment
 
-Before designing a change approach, assess what you're dealing with.
+Before designing a change approach, assess organizational readiness. Score each dimension 1-5 for each stakeholder group.
+
+### Readiness Scorecard
+
+| Dimension | Assessment Questions | Score (1-5) | Risk Level |
+|-----------|---------------------|-------------|------------|
+| Leadership alignment | Do senior leaders agree on the need, vision, and approach? | _ | Low (4-5) / Med (3) / High (1-2) |
+| Change history | Have past changes been well-managed? Do people trust the organization to change successfully? | _ | Low (4-5) / Med (3) / High (1-2) |
+| Current change load | How many other changes are people absorbing right now? (See saturation assessment below) | _ | Low (4-5) / Med (3) / High (1-2) |
+| Organizational capacity | Does the organization have the skills, resources, and bandwidth for this change? | _ | Low (4-5) / Med (3) / High (1-2) |
+| Culture compatibility | Does the organizational culture support or resist the type of change being proposed? | _ | Low (4-5) / Med (3) / High (1-2) |
+| Urgency | Do people feel genuine urgency, or is this perceived as optional? | _ | Low (4-5) / Med (3) / High (1-2) |
+
+**Interpreting the scorecard**:
+- Average 4.0+: High readiness. Standard change approach. Focus on speed.
+- Average 3.0-3.9: Moderate readiness. Invest in readiness-building before launching. Address lowest-scoring dimensions first.
+- Average below 3.0: Low readiness. Don't launch until you've moved at least 2 dimensions above 3. Consider smaller initial scope or phased approach.
+- Any single dimension at 1: Treat as a blocker. A perfect score on every other dimension won't compensate for a 1 in leadership alignment or change history.
+
+### Change Impact Assessment
 
 **Change profile dimensions**:
 - Scope: enterprise, functional, or team-level
@@ -144,6 +194,59 @@ Before designing a change approach, assess what you're dealing with.
 - Urgency: how quickly does this need to happen
 
 **Stakeholder readiness**: For each affected group, assess impact level, change complexity, and current readiness (ready, resistant, or uncertain).
+
+## Change Saturation Assessment
+
+Change saturation is the cumulative burden of concurrent changes on a population. It's the most common undiagnosed cause of change failure. A well-designed change program will still fail if people are already overwhelmed.
+
+### Measuring Saturation
+
+For each affected group, map all active and planned changes:
+
+| Change Initiative | Affected Population | Phase | Impact Level (H/M/L) | Start | End |
+|-------------------|---------------------|-------|----------------------|-------|-----|
+| ERP implementation | Finance, Operations | Active | High | Q1 | Q3 |
+| Office relocation | All staff | Planning | Medium | Q2 | Q2 |
+| New performance management system | All managers | Active | Medium | Q1 | Q4 |
+| Restructuring (your initiative) | Operations | Planning | High | Q3 | Q1+1 |
+
+**Saturation indicators**:
+- More than 2 high-impact changes hitting the same group simultaneously: red flag
+- Cumulative change load exceeding 3 active initiatives per group: performance degradation likely
+- Back-to-back changes with no stabilization period: adoption of both will suffer
+
+**Response options when saturation is high**:
+- Sequence: delay your change until a current initiative completes
+- Consolidate: combine change programs that affect the same population (joint communications, shared training)
+- Reduce scope: phase the change to limit concurrent impact
+- Increase support: more champions, more coaching, more time for adoption
+- Defer non-essential changes: negotiate with other program owners to create breathing room
+
+## Change Team Sizing and Resourcing
+
+### Team Structure and Ratios
+
+| Role | Ratio | Notes |
+|------|-------|-------|
+| Change manager | 1 per 500-1,000 affected employees | Full-time dedicated. For complex changes (culture, multiple systems), use the lower end. |
+| Change champions | 1 per 30-50 affected employees | Part-time (10-20% of time). Selected for credibility, not seniority. |
+| Executive sponsor | 1 per program | Must dedicate 2-4 hours/week minimum. A sponsor who delegates everything isn't sponsoring. |
+| Training lead | 1 per major system/process change | Owns curriculum design, delivery coordination, proficiency measurement. |
+| Communications lead | 1 per program | Owns messaging calendar, channel strategy, feedback loops. |
+
+### Budget Allocation
+
+Change management budget as a percentage of total project cost:
+
+| Change Type | Budget % | Rationale |
+|-------------|----------|-----------|
+| Technology implementation | 15-20% of project budget | Training, communications, adoption support |
+| Process redesign | 10-15% of project budget | Lighter technology component, heavier behavioral |
+| Organizational restructuring | 20-25% of project budget | High emotional impact, retention risk, culture work |
+| Culture change | 25-30% of program budget | Long timeline, deep behavioral shift, sustained reinforcement |
+| Digital/AI transformation | 15-25% of project budget | Skill building, fear management, ongoing adaptation |
+
+These ratios are based on programs that achieved target adoption rates. Under-resourced change programs (below 10% of project budget) correlate with adoption rates below 60% and extended timelines.
 
 ## Stakeholder Analysis and Management
 
@@ -172,6 +275,8 @@ Champion responsibilities:
 
 Champions need investment: training, materials, time allocation, and visible recognition from leadership.
 
+**Selecting champions**: Don't just pick enthusiasts. The best champions are respected operators who are initially skeptical but persuadable. A converted skeptic is far more credible than a natural enthusiast. Avoid selecting only managers; include individual contributors with informal influence.
+
 ## Resistance Management
 
 Resistance is information. It tells you what you haven't addressed yet.
@@ -185,6 +290,7 @@ Resistance is information. It tells you what you haven't addressed yet.
 | Habit and comfort | Old behaviors persist | Practice opportunities, reminders, nudges |
 | Loss of status or influence | Risk aversion, undermining | New roles, recognition, involvement |
 | Lack of trust | Skepticism, cynicism | Consistent follow-through, credibility building |
+| Prior change failure | "We tried this before" | Explicit acknowledgment, differentiated approach (see below) |
 
 ### Resistance Response Playbook
 
@@ -194,6 +300,27 @@ Resistance is information. It tells you what you haven't addressed yet.
 | Passive non-compliance | Low adoption metrics | Targeted coaching, peer support, identify barriers | If systemic: adjust approach |
 | Shadow processes | Teams using old methods | Understand why, address gaps in new process | If widespread: pause and fix |
 | Influencer resistance | Key person undermining | Private conversation, address concerns, co-create solution | If unresolved: sponsor engagement |
+| Malicious compliance | Following the letter but not the spirit | Investigate whether the process has genuine gaps | If intentional: direct conversation about commitment |
+
+## Managing Second-Attempt Changes
+
+Second-attempt programs (where a prior initiative addressing similar goals failed or was abandoned) are common and require distinct tactics. The biggest obstacle isn't the change itself; it's the scar tissue from the last attempt.
+
+### Why Second Attempts Fail Differently
+
+First attempts fail on execution. Second attempts fail on trust. The population remembers the disruption, the broken promises, and the eventual quiet abandonment. "This time it's different" is the least convincing sentence in change management.
+
+### Second-Attempt Playbook
+
+**1. Acknowledge the failure explicitly.** Don't pretend the prior attempt didn't happen. Name it. "In 2023 we rolled out [X]. It didn't achieve what we intended. Here's what we've learned." Vague references ("lessons learned from past initiatives") signal that leadership hasn't actually reckoned with what went wrong.
+
+**2. Diagnose the prior failure honestly.** Was it scope? Resourcing? Timing? Leadership commitment? Technology? Identify the actual root cause and explain (credibly) what's different this time. If nothing structural has changed, don't proceed.
+
+**3. Earn credibility through early evidence.** Don't ask for trust upfront. Instead, demonstrate competence through small, visible actions before asking for broader commitment. A successful pilot carries more weight than a compelling presentation when trust is low.
+
+**4. Engage prior skeptics early.** The people who said "this won't work" last time were right. Invite them in. Their credibility with the broader population is high precisely because they were vindicated. Converting them (or at least neutralizing their opposition) is higher-leverage than rallying existing supporters.
+
+**5. Build in explicit "we'll stop if" criteria.** Give people an off-ramp. Publish clear criteria under which the program would be paused or modified. This counteracts the "they'll push this through regardless" cynicism that poisons second attempts.
 
 ## Communication Strategy
 
@@ -222,6 +349,12 @@ For AI and digital transformations, communication must explicitly address:
 - Transparency about AI use and its limitations
 - Human judgment remaining central to decisions
 
+Common resistance patterns specific to digital/AI transformations:
+- "The system will make mistakes and I'll be blamed" (address accountability)
+- "I'll become less valuable if anyone can do my job with a tool" (reframe as skill evolution, not replacement)
+- Data migration anxiety: people fear losing historical information or context (validate these fears, they're often justified)
+- Tool fatigue from prior digital rollouts that were abandoned (treat as second-attempt change)
+
 ## Training and Enablement
 
 ### Training Design
@@ -246,7 +379,7 @@ Don't train too early (people forget) or too late (people feel abandoned). The s
 - Percentage of employees aware of the change
 - Percentage of managers prepared to lead the change
 - Training completion rate
-- Change saturation score (are people overwhelmed by concurrent changes?)
+- Change saturation score (see Change Saturation Assessment section)
 
 ### Lagging Indicators (confirm success)
 
