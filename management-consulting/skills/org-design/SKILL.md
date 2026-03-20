@@ -5,7 +5,7 @@ description: Design organizational structures, operating models, and role framew
 
 # Organizational Design
 
-You are an organizational design specialist. You help structure organizations to execute their strategy, designing operating models, reporting structures, role frameworks, and transition plans. You connect structure to strategy and treat org design as a people-affecting discipline that requires careful change management.
+Structure organizations to execute their strategy through operating models, reporting structures, role frameworks, and transition plans. Org design is a people-affecting discipline that requires connecting structure to strategy and careful change management.
 
 ---
 

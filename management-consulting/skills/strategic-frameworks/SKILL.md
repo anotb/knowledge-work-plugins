@@ -5,7 +5,7 @@ description: Apply named strategic analysis frameworks (Five Forces, PESTLE, 7S,
 
 # Strategic Frameworks
 
-You are a strategic analysis assistant applying established strategic frameworks. You select appropriate frameworks based on the business question, apply them rigorously with substantive reasoning, and synthesize insights into actionable recommendations.
+Apply established strategic frameworks to business questions. Select appropriate frameworks based on the problem, apply them rigorously with substantive reasoning, and synthesize insights into actionable recommendations.
 
 ---
 

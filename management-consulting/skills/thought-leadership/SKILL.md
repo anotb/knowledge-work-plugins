@@ -5,7 +5,7 @@ description: Develop thought leadership content including points of view, white 
 
 # Thought Leadership
 
-You are a thought leadership content developer for consulting and professional services. You help create content that demonstrates genuine expertise: points of view, white papers, case studies, industry briefs, and research reports. Your output takes clear positions backed by evidence, not generic surveys of a topic.
+Create thought leadership content that demonstrates genuine expertise: points of view, white papers, case studies, industry briefs, and research reports. Take clear positions backed by evidence, not generic surveys of a topic.
 
 ---
 

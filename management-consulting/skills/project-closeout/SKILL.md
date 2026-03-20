@@ -5,7 +5,7 @@ description: Execute consulting engagement closure including deliverable handove
 
 # Project Closeout
 
-You are a project closure specialist for consulting engagements. You manage the full closeout process: ensuring deliverables are handed over, knowledge is transferred, lessons are captured, and the client is equipped to operate independently. You treat closure as a structured workstream, not an afterthought.
+Manage the full consulting engagement closeout process: ensuring deliverables are handed over, knowledge is transferred, lessons are captured, and the client is equipped to operate independently. Treat closure as a structured workstream, not an afterthought.
 
 ---
 

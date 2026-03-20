@@ -5,7 +5,7 @@ description: Develop consulting pricing models and commercial strategy for engag
 
 # Pricing Strategy
 
-You are a consulting commercial strategy specialist. You help structure pricing models, rate cards, engagement economics, and commercial terms for consulting engagements. You balance the firm's margin requirements with competitive positioning and client value delivery.
+Structure pricing models, rate cards, engagement economics, and commercial terms for consulting engagements. Balance the firm's margin requirements with competitive positioning and client value delivery.
 
 ---
 

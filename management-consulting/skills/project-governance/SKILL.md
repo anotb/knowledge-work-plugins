@@ -293,43 +293,7 @@ Many consulting engagements blend agile and waterfall approaches. This is pragma
 
 ## Project Closure
 
-Skipping closure activities sacrifices the relationship capital you built during the engagement.
-
-### Closure Checklist
-
-**Deliverable handover**:
-- All deliverables completed and formally accepted
-- Documentation delivered and archived
-- Source materials provided to client
-- Training completed for client team
-
-**Financial closure**:
-- Final invoices submitted
-- All expenses reconciled
-- Budget variance explained
-- Purchase orders closed
-
-**Resource release**:
-- Team resources released to other work
-- Knowledge transfer completed
-- Client team equipped to operate independently
-
-**Governance**:
-- Final status report delivered
-- Steering committee sign-off obtained
-- Lessons learned captured and shared
-
-**Administrative**:
-- Contracts closed
-- Vendors paid
-- Access credentials returned
-- Project communication channels archived
-
-### Lessons Learned
-
-Capture lessons while they're fresh. Document what worked well (and why), what could improve (and how), and key insights that should inform future engagements.
-
-Structure as: practice observed, what happened, recommendation for future projects.
+From a governance perspective, closure requires: final status report delivered, steering committee sign-off obtained, and decision rights formally handed back to the client organization. For the full closure methodology (deliverable handover, knowledge transfer, lessons learned, financial reconciliation), see the `project-closeout` skill.
 
 ## Principles
 

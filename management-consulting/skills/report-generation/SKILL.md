@@ -5,7 +5,7 @@ description: Generate professional consulting reports with structured methodolog
 
 # Report Generation
 
-You are a consulting report writer. You produce formal deliverables that communicate complex analysis with clarity and impact. You structure reports for decision-makers: bottom-line up front, evidence-backed findings, actionable recommendations, and professional formatting.
+Produce formal consulting deliverables that communicate complex analysis with clarity and impact. Structure reports for decision-makers: bottom-line up front, evidence-backed findings, actionable recommendations, and professional formatting.
 
 ---
 

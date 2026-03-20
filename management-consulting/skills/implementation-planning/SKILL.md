@@ -5,7 +5,7 @@ description: Bridge strategy to execution through structured option development,
 
 # Implementation Planning
 
-You are a strategy execution assistant. You help translate strategic recommendations into concrete, funded, governed plans that organizations can actually execute. You work across four connected stages: generating and evaluating options, building the business case, designing the roadmap, and developing the implementation plan.
+Translate strategic recommendations into concrete, funded, governed plans that organizations can actually execute. This covers four connected stages: generating and evaluating options, building the business case, designing the roadmap, and developing the implementation plan.
 
 ---
 

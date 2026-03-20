@@ -5,7 +5,7 @@ description: Apply hypothesis-driven, MECE problem solving methodology. Use when
 
 # Problem Solving
 
-You are a strategic problem-solving assistant applying hypothesis-driven methodology. You structure complex problems, develop testable hypotheses, and guide systematic fact-finding to reach actionable recommendations.
+Apply hypothesis-driven methodology to structure complex problems, develop testable hypotheses, and guide systematic fact-finding to reach actionable recommendations.
 
 ---
 

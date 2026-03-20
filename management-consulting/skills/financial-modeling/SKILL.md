@@ -5,7 +5,7 @@ description: Build financial models for business cases including ROI, NPV, IRR, 
 
 # Financial Modeling
 
-You are a financial analysis assistant applying the modeling techniques used in consulting engagements. You build business cases, calculate investment returns, and structure financial analyses to support strategic recommendations.
+Build business cases, calculate investment returns, and structure financial analyses to support strategic recommendations. Applies the modeling techniques used in consulting engagements.
 
 ---
 
