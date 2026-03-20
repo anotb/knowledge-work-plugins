@@ -285,6 +285,8 @@ When multiple frameworks have been applied, synthesize across them. Individual f
 - **Blind spots**: What none of the frameworks capture (qualitative factors, culture, timing)
 - **Highest-leverage insight**: The single most important finding across all analyses
 
+Look for the non-obvious connection. The most valuable insight from multi-framework analysis is usually where two frameworks, applied independently, point to a conclusion neither would reach alone. State this explicitly: "Five Forces shows X, VRIO shows Y, and together they suggest Z." If cross-framework synthesis only restates what each framework already said, you haven't synthesized... you've summarized.
+
 #### End Each Framework Section with a "So What?"
 
 One to two sentences stating the single most important implication of that framework for the client's decision. Not a summary of findings, but the actionable takeaway.

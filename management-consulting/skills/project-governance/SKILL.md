@@ -235,6 +235,8 @@ Stage gates provide formal checkpoints where the project must demonstrate readin
 
 ### Typical Consulting Stage Gates
 
+Gate timing shown below is indicative and should be calibrated to the actual program plan. Adjust based on program complexity, organizational decision-making speed, and external dependencies. A 6-week diagnostic and a 6-month transformation will have very different gate cadences.
+
 **Gate 1: Plan Approval** (end of planning phase)
 
 Required evidence: approved charter, completed RACI, detailed work plan, team assigned, approved budget, initial risk register.

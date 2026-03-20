@@ -238,6 +238,7 @@ Before finalizing any deliverable:
 - The deliverable answers the original question
 - Scenario analysis included for recommendations with significant uncertainty
 - Specific owners and dates for all recommended actions
+- When citing benchmarks or peer comparisons, flag the source explicitly. "Industry benchmarks suggest..." is weaker than "Per [Source/analysis], the benchmark is X." If no published source exists, say "based on our analysis" or "directional estimate based on [basis]." Unsourced benchmarks invite challenge and erode credibility.
 
 ---
 

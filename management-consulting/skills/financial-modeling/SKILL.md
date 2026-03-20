@@ -184,12 +184,23 @@ For business or company valuation:
 
 **Revenue Projections**: Revenue, growth rate, gross profit, gross margin, EBITDA, and EBITDA margin for current year through Year 5. Model growth rate deceleration explicitly (high-growth companies at $30M revenue typically decelerate 3-4 percentage points per year).
 
+Revenue projection methodology depends on business maturity:
+- **Mature businesses**: Apply growth rate decay. Start from the current growth rate and decelerate toward GDP growth or industry average over the projection period. A 10% grower at $500M revenue is not growing 10% in Year 5.
+- **Subscription/SaaS businesses**: Use cohort-based projections. Model existing customer revenue (base revenue x net retention rate) separately from new customer revenue (new logos x average ACV x ramp). This exposes the real growth engine and avoids masking churn behind gross bookings.
+- **Early-stage/high-growth**: Use a top-down reasonableness check (implied market share in Year 5) alongside the bottom-up build to catch hockey-stick projections that imply implausible market capture.
+
 **Unlevered Free Cash Flow (UFCF)**: Build from EBITDA:
 - EBITDA
-- Less: taxes on EBIT (EBIT x tax rate)
-- Less: capex (or capitalized development costs)
-- Less: change in net working capital
+- Less: taxes on EBIT (EBIT x tax rate). Use the marginal tax rate, not the effective rate, for incremental cash flow analysis.
+- Less: capex (or capitalized development costs). Distinguish maintenance capex (required to sustain current operations) from growth capex (investment in new capacity or capabilities).
+- Less: change in net working capital. Model each component (receivables, inventory, payables) as a percentage of revenue or COGS. Watch for businesses where working capital is a significant cash drag during growth.
 - Equals: Unlevered Free Cash Flow
+
+**Terminal Value**: Terminal value often represents 60-80% of total enterprise value, so the methodology choice matters.
+
+- **Exit Multiple method**: Year 5 EBITDA (or revenue for high-growth/pre-profit businesses) x an appropriate comparable multiple. Use when market comparables exist and the business will likely be sold or valued on a multiples basis. Select the multiple from comparable transactions, not from current trading multiples (which fluctuate with market sentiment).
+- **Gordon Growth Model**: Year 5 FCF x (1 + g) / (WACC - g). More conservative; appropriate when the business is expected to reach steady state. The terminal growth rate (g) should not exceed long-term GDP growth (2-3% nominal) for most businesses. Using a higher g implies the business will eventually become larger than the economy.
+- **When to weight each**: Use exit multiple as primary for businesses with clear comparable sets and likely M&A or IPO exit paths. Use Gordon Growth as a floor or sanity check. When the two methods diverge significantly, explain why (usually because the exit multiple embeds growth expectations above the terminal growth rate) and state which you're using as primary.
 
 **WACC Calculation**: Build up from components:
 
@@ -203,13 +214,6 @@ For business or company valuation:
 | Cost of debt (after-tax) | [X]% | If applicable |
 | Debt/equity weights | [X]/[X] | Target structure |
 | **WACC** | **[X]%** | |
-
-**Terminal Value**: Calculate using both methods and explain which to weight:
-
-- **Exit Multiple**: Year 5 revenue or EBITDA x appropriate multiple. Use for growth companies where market comparables exist.
-- **Gordon Growth**: Year 5 FCF x (1 + g) / (WACC - g). Conservative; tends to undervalue high-margin recurring-revenue businesses.
-
-When the two methods diverge significantly, explain why and state which you're using as primary vs. floor.
 
 **Valuation Summary**: PV of projected FCFs + PV of terminal value = enterprise value. Show implied multiples (EV/Revenue, EV/EBITDA) as sanity check against comparable transactions.
 

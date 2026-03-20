@@ -36,6 +36,8 @@ The right pricing model depends on the engagement, not on preference. Understand
 | Client relationship | New / Existing / Strategic | Strategic accounts may warrant investment pricing |
 | Outcome measurability | Measurable / Partially / Not measurable | Measurable outcomes enable value-based or outcome-based pricing |
 
+The engagement characteristics above determine which pricing model fits. A clearly scoped, deliverable-driven engagement points toward fixed fee; an evolving advisory relationship points toward retainer or T&M. The table below maps each model to its conditions and risk profile.
+
 **Pricing model options:**
 
 | Model | How It Works | Best When | Risk Profile |
@@ -76,6 +78,8 @@ These ranges vary significantly by firm tier, geography, and specialization. Use
 MBB firms (McKinsey, Bain, BCG) price at the top of these ranges or above. Big Four consulting practices sit in the middle. Boutique and specialized firms span the full range depending on niche premium. Independent consultants typically price 20-40% below firm rates but keep a much higher share.
 
 Offshore/nearshore delivery typically runs 40-60% of onshore rates for equivalent levels. Blending onshore leadership with offshore execution is a common margin play.
+
+Once the rate card is established, calibrate it against these factors. Rates aren't set in isolation; they shift based on context, competition, and the specific engagement.
 
 **Rate determination factors:**
 
@@ -206,7 +210,7 @@ Every engagement involves negotiation. Have a strategy before you enter the room
 
 **Discount types and when to use them:**
 
-These are directional. Your discount strategy should reflect your margin analysis and competitive position.
+These are directional. Your discount strategy should reflect your margin analysis and competitive position. Read the discount ranges below in context of your walk-away margin; a 15% volume discount is sensible if you're starting from 60% gross margin but dangerous if you're at 42%.
 
 | Discount Type | Illustrative Range | Justification |
 |---|---|---|
@@ -275,7 +279,7 @@ Government and public sector engagements operate under fundamentally different r
 
 **Pricing sensitivity analysis:**
 
-Model three scenarios before presenting:
+Before presenting any fee, model the economics under three scenarios. This isn't academic; it's your preparation for the negotiation. Know in advance what each concession costs you.
 
 | Scenario | Assumptions | Fee | Margin |
 |---|---|---|---|
@@ -296,6 +300,8 @@ For any engagement above commodity rates, you need a value story. Clients buy ou
 | Risk reduction | Expected loss avoided or probability reduced | Compliance program reduces expected regulatory fines |
 | Speed to market | Value of time saved | Launching 3 months earlier captures $3M in first-mover revenue |
 | Capability building | Cost of alternative capability development | Building internal team would cost $4M and take 18 months |
+
+Once the value drivers are quantified, decide how to share that value with the client. The model you choose signals your confidence in the value estimate and shapes the fee conversation.
 
 **Value-sharing models:**
 

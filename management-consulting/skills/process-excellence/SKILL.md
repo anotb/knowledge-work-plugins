@@ -176,7 +176,7 @@ Fishbone (Ishikawa) diagram: Organize potential causes into categories (People, 
 
 Design and deploy optimized process solutions.
 
-**Solution evaluation matrix**: Score each potential solution on impact, effort, cost, and risk. Separate high-impact/low-effort wins from longer-term structural changes.
+**Solution evaluation matrix**: Score each potential solution on impact, effort, cost, and risk. Separate high-impact/low-effort wins from longer-term structural changes. Impact estimates require baseline process data from the Measure phase. If the matrix is built before Measure data is available, leave impact scores blank and flag them as pending. After populating with actuals, re-score the matrix and use it to drive the pilot selection conversation with the process owner.
 
 **Pilot before rollout**: Test improvements in a controlled setting before full implementation. Measure pilot results against baseline and target. A solution that works in theory but fails in practice isn't a solution.
 

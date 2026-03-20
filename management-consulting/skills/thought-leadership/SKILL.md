@@ -177,6 +177,9 @@ Openings to avoid:
 - "It's no secret that..." (then why are you writing about it?)
 - "As organizations increasingly..." (slow, passive, generic)
 - "The world of [X] is undergoing a transformation..." (could open any article about anything)
+- "Now more than ever..." (every era says this; it never adds information)
+
+**The discomfort test**: Take a position the reader might disagree with. If everyone would nod along, the thesis isn't sharp enough. The best thought leadership makes the reader uncomfortable before persuading them. A safe opening that offends no one also interests no one.
 
 ### The Consulting Voice
 
@@ -192,7 +195,7 @@ Consulting thought leadership has a distinctive voice that separates it from jou
 
 4. **Use "we believe" deliberately.** Reserve it for genuine opinion that goes beyond the data. "We believe the next 18 months will determine market position for a generation" is a belief. "Organizations with flatter structures make faster decisions" is a finding. Don't confuse them.
 
-5. **Avoid consultant cliches.** "Best practice," "world-class," "synergies," "leverage" (as a verb), "holistic," "robust" -- these signal lazy thinking. Say the specific thing. Instead of "best practice," describe what the best performers actually do. Instead of "holistic approach," name the three things you'd integrate.
+5. **Avoid consultant cliches.** "Best practice," "world-class," "synergies," "leverage" (as a verb), "holistic," "robust," "unlock value," "drive transformation," "navigate complexity" -- these signal lazy thinking and TED-talk sheen. Say the specific thing. Instead of "best practice," describe what the best performers actually do. Instead of "holistic approach," name the three things you'd integrate. Instead of "unlock value," say what the value is and where it comes from.
 
 6. **Show your work.** Describe the analysis, not just the conclusion. "When we mapped decision latency against organizational layers, the correlation broke at layer 6" is more convincing than "Too many layers slow decisions."
 

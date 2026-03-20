@@ -4,16 +4,6 @@ A management consulting plugin primarily designed for [Cowork](https://claude.co
 
 ## Installation
 
-### Cowork
-
-Search for **management-consulting** in the plugin directory, or install from the command line:
-
-```bash
-claude plugins add knowledge-work-plugins/management-consulting
-```
-
-### Claude Code
-
 ```bash
 claude plugins add knowledge-work-plugins/management-consulting
 ```
