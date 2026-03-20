@@ -7,6 +7,14 @@ description: Generate professional consulting reports with structured methodolog
 
 Produce formal consulting deliverables that communicate complex analysis with clarity and impact. Structure reports for decision-makers: bottom-line up front, evidence-backed findings, actionable recommendations, and professional formatting.
 
+## Before You Begin
+
+Reports carry the firm's credibility. Every number and finding must be traceable. Before drafting:
+- What is the report's purpose and who is the audience?
+- What analysis has been completed and what data is available to support findings?
+- What decision does this report enable?
+- Don't fabricate data points, source citations, or benchmark figures. When illustrative numbers are needed to demonstrate a format, label them clearly as examples. Any number presented as a finding must come from the user's actual analysis.
+
 ---
 
 ## Step 1: Define Report Parameters

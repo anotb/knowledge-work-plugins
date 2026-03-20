@@ -7,6 +7,14 @@ description: Design organizational structures, operating models, and role framew
 
 Structure organizations to execute their strategy through operating models, reporting structures, role frameworks, and transition plans. Org design is a people-affecting discipline that requires connecting structure to strategy and careful change management.
 
+## Before You Begin
+
+Org design has direct people impact, so working from accurate information matters. Ask for:
+- What is the strategic driver for the redesign (growth, cost reduction, M&A integration, capability gap)?
+- What is the current structure (headcount, layers, key functions)?
+- What has been tried before, and what constraints exist (union agreements, regulatory requirements, cultural norms)?
+- Don't generate specific headcount numbers, reporting lines, or span-of-control data. Present benchmarks as typical ranges and ask the user to confirm how their organization compares.
+
 ---
 
 ## The Org Design Process

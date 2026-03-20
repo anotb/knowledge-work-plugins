@@ -7,6 +7,14 @@ description: Design and execute organizational change management programs. Cover
 
 Apply change management methodology to plan, execute, and sustain organizational change. This covers the full lifecycle: building the case for change, designing the approach, managing resistance, enabling adoption, and sustaining new ways of working.
 
+## Before You Begin
+
+If the user hasn't provided the following, ask for them rather than inventing details:
+- What is the change initiative? What's actually changing (system, process, structure, culture)?
+- How many people are affected, and which stakeholder groups?
+- Has there been a prior attempt at this change, and if so, what happened?
+- Present any team sizing ratios, budget percentages, or adoption benchmarks as general guidelines, not facts about the user's organization. When citing numbers the user didn't provide, flag them: "I'm using a typical benchmark of X based on [source]. Please confirm or provide your actual figure."
+
 ## Choosing the Right Approach
 
 | Situation | Primary Approach | Supporting Elements |
@@ -128,7 +136,7 @@ A useful vision is specific enough to guide decisions. "World-class operations" 
 - Two-way dialogue, not just broadcast
 - Leaders model the change they communicate
 - Multiple formats for different learning styles
-- Repetition matters: people need to hear a message 5-7 times before it sticks
+- Repetition matters: people typically need to hear a message multiple times before it lands
 
 Channels to plan: town halls, team meetings, leadership updates, newsletters, intranet, video, informal conversations.
 

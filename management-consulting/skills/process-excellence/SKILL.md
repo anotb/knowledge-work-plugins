@@ -7,6 +7,14 @@ description: Apply Lean Six Sigma methodology for process improvement and operat
 
 Apply Lean Six Sigma methodology to analyze, improve, and control business processes. Lean eliminates waste and improves flow. Six Sigma reduces variation and defects. Together they drive both efficiency and effectiveness.
 
+## Before You Begin
+
+Process improvement requires real process data. Ask for it rather than building on assumptions:
+- What process is in scope, and what are its boundaries (start point, end point)?
+- What metrics exist today (cycle time, error rates, volumes, cost per transaction)?
+- What has been tried before to improve this process?
+- Present industry benchmarks as reference points for comparison, not as targets for the user's specific process. When using numbers the user hasn't provided, flag them: "I'm using the median industry benchmark of X days for [process type]. How does your actual cycle time compare?"
+
 ## Lean vs. Six Sigma: When to Use Which
 
 The two methodologies solve different problems. Choosing the wrong lens wastes time.

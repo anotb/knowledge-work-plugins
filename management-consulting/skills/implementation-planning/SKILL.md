@@ -7,6 +7,14 @@ description: Bridge strategy to execution for consulting engagements through opt
 
 Translate strategic recommendations into concrete, funded, governed plans that organizations can actually execute. This covers four connected stages: generating and evaluating options, building the business case, designing the roadmap, and developing the implementation plan.
 
+## Before You Begin
+
+Implementation plans built on assumptions instead of facts produce plans nobody can execute. Ask for:
+- What is the strategic recommendation or decision that this plan serves?
+- What budget and resource constraints exist?
+- What is the organizational capacity for change (other initiatives underway, team bandwidth)?
+- When using cost estimates, benefit projections, or timeline assumptions the user hasn't confirmed, label them as illustrative: "I'm assuming X based on [comparable engagements / industry benchmarks]. Please confirm or provide your actual figure."
+
 ---
 
 ## The Strategy-to-Execution Arc

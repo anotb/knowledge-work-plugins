@@ -7,6 +7,14 @@ description: Conduct commercial, operational, and strategic due diligence for M&
 
 Assess business opportunities through rigorous analytical frameworks. This covers commercial, operational, financial, strategic, and technology due diligence, from scoping the engagement through risk synthesis and investment recommendation.
 
+## Before You Begin
+
+If the user hasn't provided key inputs, ask for them rather than fabricating deal details:
+- What is the target company, its industry, and approximate size (revenue, headcount)?
+- What is the transaction type (acquisition, PE investment, partnership, vendor assessment)?
+- What financial data is available (actuals, management accounts, data room access)?
+- Present assessment thresholds (e.g., customer concentration flags, cash conversion benchmarks) as general guidelines, not absolute rules. When using numbers the user didn't provide, flag them: "I'm assuming X based on [typical range for this deal type]. Please confirm or provide actuals."
+
 ## DD Types and When to Use Them
 
 | DD Type | Core Question | Focus Areas |

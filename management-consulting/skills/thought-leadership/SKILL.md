@@ -7,6 +7,14 @@ description: Develop thought leadership content including points of view, white 
 
 Create thought leadership content that demonstrates genuine expertise: points of view, white papers, case studies, industry briefs, and research reports. Take clear positions backed by evidence, not generic surveys of a topic.
 
+## Before You Begin
+
+Thought leadership credibility depends on what the firm can actually claim. Before drafting:
+- What engagement experience can the firm reference? What industries, what scale, what results?
+- What is the firm's actual point of view on this topic? Has anything been published before?
+- Who is the target audience and what is the business purpose (lead generation, credibility, recruitment)?
+- Never fabricate first-person experience claims like "across 40+ engagements we've observed..." unless the user provides that data. Instead, use conditional framing: "organizations that do X tend to see Y" or "research and practitioner evidence suggests..." Only claim specific firm experience if the user provides it.
+
 ---
 
 ## Asset Types
@@ -176,9 +184,9 @@ Consulting thought leadership has a distinctive voice that separates it from jou
 
 **Rules for the consulting voice:**
 
-1. **Claim the experience directly.** "Across 40+ operating model transformations" or "In our work with financial services clients over the past five years." Don't hedge with "many companies find that..." when you can say "we've seen this pattern in 7 of the last 10 engagements."
+1. **Claim the experience directly, but only what's real.** "Across 40+ operating model transformations" or "In our work with financial services clients over the past five years." Don't hedge with "many companies find that..." when you can say "we've seen this pattern in 7 of the last 10 engagements." However, only claim specific engagement counts or first-person experience if the firm can substantiate them. When generating content without verified engagement data, use evidence-based framing instead: "Organizations that successfully navigate this transition typically..." or "Research and practitioner evidence suggests..." Fabricating engagement statistics (e.g., "across 40+ transformations we observed...") for published content is a credibility risk. If the user provides specific firm experience to reference, use it; otherwise, frame insights as industry patterns, not personal claims.
 
-2. **Be specific about scale.** "Most companies" is weak. "In 23 of 30 organizations we assessed" is credible. Numbers don't need to be exact (use "30+" or "roughly two-thirds") but they need to be there.
+2. **Be specific about scale.** "Most companies" is weak. "In 23 of 30 organizations we assessed" is credible. Numbers don't need to be exact (use "30+" or "roughly two-thirds") but they need to be there. When you don't have the firm's actual numbers, use conditional framing: "Firms that have conducted 20+ transformations in this space report that..." rather than asserting a count as your own.
 
 3. **Name what surprised you.** The most credible thing a consultant can write is "We expected X but found Y." It signals genuine inquiry, not marketing dressed as analysis.
 

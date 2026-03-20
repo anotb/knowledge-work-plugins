@@ -7,6 +7,14 @@ description: Develop consulting pricing models and commercial strategy for engag
 
 Structure pricing models, rate cards, engagement economics, and commercial terms for consulting engagements. Balance the firm's margin requirements with competitive positioning and client value delivery.
 
+## Before You Begin
+
+Pricing depends entirely on firm-specific economics. Ask for real inputs rather than generating fee proposals from generic assumptions:
+- What is the firm's actual rate card by level (or at least the tier: MBB, Big Four, boutique, independent)?
+- What are the target margins for this type of engagement?
+- What is the competitive context (sole source, beauty parade, incumbent relationship)?
+- Don't generate specific fee proposals without confirmed rates. Present rate ranges as market orientation, not as the user's pricing: "I'm using illustrative rates based on [mid-market US consulting]. Adjust to your actual rate card."
+
 ---
 
 ## The Pricing Process

@@ -7,6 +7,14 @@ description: Execute consulting engagement closure including deliverable handove
 
 Manage the full consulting engagement closeout process: ensuring deliverables are handed over, knowledge is transferred, lessons are captured, and the client is equipped to operate independently. Treat closure as a structured workstream, not an afterthought.
 
+## Before You Begin
+
+Closeout depends on what was delivered and what remains. Confirm before proceeding:
+- What is the engagement size and duration (to calibrate closeout effort)?
+- What deliverables were produced and what is their acceptance status?
+- Is this a successful completion, early termination, or transition to BAU?
+- Don't generate deliverable lists, financial reconciliation figures, or benefits data. Ask what exists and work from what the user provides.
+
 ---
 
 ## Closeout Effort Estimation

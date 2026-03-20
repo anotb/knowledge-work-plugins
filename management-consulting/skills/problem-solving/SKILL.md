@@ -7,6 +7,13 @@ description: Apply hypothesis-driven, MECE problem solving methodology. Use when
 
 Apply hypothesis-driven methodology to structure complex problems, develop testable hypotheses, and guide systematic analysis to reach actionable recommendations.
 
+## Before You Begin
+
+Good problem solving starts with understanding the actual problem, not assuming one. Before structuring:
+- Ask clarifying questions about the problem before jumping to an issue tree. What exactly is happening? Since when? How is it measured?
+- Seize on contradictions or tensions in the prompt as signals worth investigating (e.g., "costs are rising but headcount is flat" or "NPS is up but revenue is down")
+- Ask for the data that's available vs. what needs to be gathered. Don't fabricate baseline metrics, financial figures, or market data. When illustrating a structure with example numbers, flag them clearly: "Using $X as an illustrative figure to show the math. Replace with actuals."
+
 Two modes of operation:
 - **Structuring mode** (no data provided): Build the issue tree, form hypotheses, design the analytical workplan, and specify what data would prove or disprove each hypothesis. The output is a roadmap for the analysis.
 - **Analysis mode** (data provided): Run the analysis, test hypotheses against the data, synthesize findings, and deliver recommendations. The output is answers.
@@ -28,6 +35,8 @@ A good problem definition covers:
 - **Quantification**: Size the problem. What is the financial impact of the status quo? What is the value of solving it? Anchor all subsequent prioritization to these numbers. If exact figures aren't available, estimate the order of magnitude.
 - **Success Criteria**: What does a successful solution look like? How will we measure it? What are the constraints? What is the decision timeline?
 - **Out of Scope**: What are we NOT solving for? What boundaries exist?
+
+**Look for contradictions and tensions in the problem statement.** These are signals, not just facts to accept. "Market share declined despite increased marketing spend" contains a tension (more spend should equal more share). "Customer satisfaction scores are high but churn is rising" is another. Name the tension explicitly and make it a primary hypothesis driver. The most valuable problems to solve are often hiding in the gap between two things that shouldn't both be true.
 
 **Validate the premise before proceeding:**
 

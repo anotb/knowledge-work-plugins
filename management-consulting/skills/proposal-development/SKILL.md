@@ -7,6 +7,14 @@ description: Develop consulting proposals and manage the business development li
 
 Manage the full business development lifecycle for consulting engagements: assess opportunities, develop proposals, draft SOWs, build pitch decks, prepare oral defenses, and articulate value propositions.
 
+## Before You Begin
+
+Proposals built on guesses lose deals. Ask for the inputs that shape the response:
+- What is the opportunity (RFP, inbound request, or proactive pursuit)? Is the source document available?
+- What is the firm's relevant experience and which case studies can be referenced?
+- What is the competitive landscape (who else is bidding, what's the client's selection process)?
+- Don't fabricate case study results, client names, or team credentials. Use placeholders where the user needs to supply firm-specific content: "[Insert relevant case study with quantified results]."
+
 Determine which stage of the BD lifecycle the user needs, then execute accordingly. A full pursuit flows through these stages in order, but the user may enter at any point.
 
 ### Stage 1: Opportunity Assessment

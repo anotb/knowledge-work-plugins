@@ -7,6 +7,14 @@ description: Create executive presentations using consulting-style top-down stru
 
 Structure presentations for maximum clarity and impact with senior audiences. The core discipline is top-down structured communication: state the recommendation first, then support it with evidence organized in a logical pyramid.
 
+## Before You Begin
+
+Before designing the deck, ask for context that shapes every structural decision:
+- Who is the audience (role, seniority, prior exposure to this topic)?
+- What decision does this presentation need to enable?
+- What format is required (live presentation, leave-behind, or both)?
+- Don't fabricate data points, financial figures, or case study results for slides. If the user hasn't provided specific numbers, use placeholders and flag them: "This slide needs [specific data]. I'm showing a placeholder based on [typical range]."
+
 ---
 
 ## Top-Down Communication Structure

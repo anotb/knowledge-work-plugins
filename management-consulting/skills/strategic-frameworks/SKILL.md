@@ -7,6 +7,14 @@ description: Apply named strategic analysis frameworks (Five Forces, PESTLE, McK
 
 Apply established strategic frameworks to business questions. Select appropriate frameworks based on the problem, apply them rigorously with substantive reasoning, and synthesize insights into actionable recommendations.
 
+## Before You Begin
+
+Frameworks applied to guessed inputs produce confident-sounding nonsense. Before analyzing:
+- What is the company, its industry, and approximate scale (revenue, headcount, geography)?
+- What specific strategic question needs answering?
+- What data is available (market research, internal metrics, competitive intelligence)?
+- When working without confirmed data, flag every estimate with its basis and confidence level. Present market sizes, share figures, and growth rates as directional estimates to be validated, not as established facts about the user's situation.
+
 ---
 
 ## Framework Selection Guide

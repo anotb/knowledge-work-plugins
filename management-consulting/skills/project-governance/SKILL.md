@@ -7,6 +7,14 @@ description: Establish and manage project governance for consulting engagements.
 
 Establish and operate governance structures that ensure clear decision-making, accountability, and stakeholder alignment throughout a consulting engagement. This covers the full project management lifecycle: from initial governance setup through ongoing status reporting, risk management, and project closure.
 
+## Before You Begin
+
+Governance should be right-sized to the engagement. Confirm the basics:
+- What is the project size and complexity (team size, duration, number of workstreams)?
+- What governance structures does the client already use?
+- Who are the key decision-makers and what is the reporting culture?
+- Don't fabricate stakeholder names, RACI assignments, or risk register entries. These require real project context. Ask what exists and build from there.
+
 ## Governance Structure Selection
 
 Right-size governance to project complexity. A 3-person engagement doesn't need the same governance as a 50-person transformation.

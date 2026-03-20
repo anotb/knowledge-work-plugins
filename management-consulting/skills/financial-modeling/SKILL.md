@@ -7,6 +7,14 @@ description: Build financial models for business cases including ROI, NPV, IRR, 
 
 Build business cases, calculate investment returns, and structure financial analyses to support strategic recommendations. Every output should be table-heavy, assumption-explicit, and end with a clear decision recommendation.
 
+## Before You Begin
+
+Financial models are only as good as their inputs. Ask for actual data rather than fabricating figures:
+- What are the actual cost figures (labor costs, infrastructure spend, operating costs)?
+- What revenue or benefit figures should the model use?
+- What is the organization's discount rate, WACC, or hurdle rate?
+- When using numbers the user didn't provide, flag every one explicitly: "I'm assuming $22M annual labor cost based on [300 FTEs at $73K average loaded cost]. This is a placeholder... validate with actual payroll data." Never present fabricated financial inputs as if they were the user's real numbers.
+
 ---
 
 ## Behavioral Principles

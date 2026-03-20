@@ -9,6 +9,14 @@ Take a consulting engagement from "we just won this work" to "the engagement is 
 
 The goal is shared understanding and momentum, not a stack of templates. Every artifact here should earn its place by driving alignment or unblocking work.
 
+## Before You Begin
+
+This skill naturally prompts for information at each phase, but confirm these basics early:
+- What was the scope sold (SOW or proposal available)?
+- Who is the client sponsor and key stakeholders?
+- What is the timeline and team composition?
+- Don't generate stakeholder names, political dynamics, or engagement history. Ask the user for these details rather than guessing.
+
 ## Phase 0: Sales-to-Delivery Transition
 
 The gap between "we won" and "we start" is where engagements get scoped wrong. Before you do anything else, understand what was sold.

@@ -7,6 +7,14 @@ description: Design and facilitate consulting workshops including strategy offsi
 
 Design, plan, and run effective strategy workshops, design thinking sessions, and innovation sprints. This covers the full lifecycle: objective-setting, participant planning, pre-work design, methodology selection, agenda design, facilitation techniques, and post-workshop follow-through.
 
+## Before You Begin
+
+Workshop design must fit the actual context. Confirm before designing:
+- What is the workshop's objective and what decisions or outputs are expected?
+- Who are the participants (seniority mix, number of people, in-person vs. virtual)?
+- How much time is available and what format constraints exist?
+- Don't generate participant names, organizational dynamics, or pre-existing tensions. Ask who will be in the room and what the group dynamics look like.
+
 ---
 
 ## Workshop Planning
@@ -424,6 +432,6 @@ Facilitation norms vary across cultures. These are tendencies, not rules, but ig
 - **Energy management is facilitation.** Monitor group energy. Switch formats, take breaks, or introduce movement when energy dips. A tired group produces nothing useful.
 - **Silence is productive.** Allow 10-15 seconds of silence after questions. Resist the urge to fill every pause. The best insights often come after the obvious answers have been exhausted.
 - **Design for introverts first.** Silent writing before group sharing ensures all voices are captured, not just the loudest. "Think, write, share" is almost always better than "who wants to go first?"
-- **The real workshop happens after.** Outcomes without follow-through are theater. Prioritize actionable commitments over polished deliverables.
+- **Follow-through is the deliverable.** Prioritize actionable commitments over polished in-session outputs. A workshop that produces beautiful artifacts but no follow-up actions was a waste of everyone's time.
 - **Timebox ruthlessly.** Workshops that run over lose energy and credibility. End on time. If you're running behind, cut content — never cut the closing or decision-making.
 - **Have backup activities ready.** If an activity falls flat or finishes early, you need alternatives. Preparation separates good facilitators from great ones.
