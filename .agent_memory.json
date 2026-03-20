@@ -1,0 +1,7 @@
+[
+  {
+    "timestamp": "2026-02-13T03:24:47.300148",
+    "category": "test_plan",
+    "content": "Management Consulting Plugin Test Plan\n\n## Skills to Test (representative sample):\n1. problem-solving - Test with \"revenue decline\" problem\n2. strategic-frameworks - Test with \"Five Forces\" for SaaS industry\n3. financial-modeling - Test with ROI calculation for automation investment\n4. change-management - Test with digital transformation scenario\n\n## Commands to Test (representative sample):\n1. /kickoff - Digital Transformation project\n2. /framework-apply - SWOT for a startup\n3. /proposal-develop - Strategy engagement for retail company\n4. /financial-analysis - ROI for new product launch\n5. /stakeholder-map - ERP implementation\n6. /change-plan - Cloud migration\n7. /process-improve - Order fulfillment process\n8. /risk-register - IT modernization project"
+  }
+]

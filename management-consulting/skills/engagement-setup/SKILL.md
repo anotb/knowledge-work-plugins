@@ -647,3 +647,4 @@ These aren't platitudes. They're the things that separate engagements that work 
 - Working arrangements feel bureaucratic until the first miscommunication. Then they feel essential.
 - Quick wins in the first two weeks buy goodwill that carries you through the hard middle of the engagement.
 - For hybrid engagements, relationships require deliberate effort. Schedule the informal conversations that would happen naturally in person.
+

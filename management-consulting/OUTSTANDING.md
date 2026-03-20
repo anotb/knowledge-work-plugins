@@ -1,64 +1,105 @@
-# Master Outstanding Items
+# Master Outstanding Items (Updated Post-R4)
 
-## Track 1: Skill Quality - COMPLETED Items
-- [x] problem-solving: tree diagnostic, structuring mode
-- [x] strategic-frameworks: Platform Strategy, client redirection, data validation
-- [x] financial-modeling: FX, inflation, EVA, numbers reframed
-- [x] executive-presentation: pre-wire, flex structure, live edits
-- [x] workshop-facilitation: risk register, cultural facilitation, tech backup
-- [x] process-excellence: RPA, service TIMWOODS, process mining tools
-- [x] report-generation: PE IC memo, version control, before/after prose
-- [x] engagement-setup: IT access blocking, practical logistics
-- [x] proposal-development: JV bids, BAFO, timeline strategy
-- [x] implementation-planning: program recovery, revision vs escalation
-- [x] org-design: cultural context, predetermined answers
-- [x] change-management: ROI measurement, cultural archetypes, budget caveat
-- [x] due-diligence: FCPA, ESG, organic growth isolation
-- [x] pricing-strategy: by engagement type, beauty parade, public sector
-- [x] project-governance: steering disengagement, mid-engagement reorgs
-- [x] project-closeout: performance reviews, early termination playbook
-- [x] thought-leadership: client approvals, practice coordination
-- [x] Numbers audit: all 17 findings fixed across 7 skills
-- [x] PPTX: Harvey ball, RACI, RAG dashboard, Gantt patterns
-- [x] AI slop: 6 items fixed
-- [x] ADKAR/Kotter citations added
-- [x] Description optimization: 4 rewrites applied
-- [x] SteerCo abbreviation expanded
+## Structural Changes
+- [ ] Merge: report-generation + executive-presentation → "client-deliverables" (user approved)
+- [ ] Merge: problem-solving + strategic-frameworks → "strategic-analysis" (user approved)
+- [ ] Update README for 15 skills (down from 17)
+- [ ] Update plugin.json if needed
+- [ ] Clean up empty directories after merges
 
-## Track 1: Skill Quality - REMAINING Items
+## R4 Feedback: What Would Get Each Skill to Perfect
 
-### Cross-Cutting
-- [ ] Stakeholder mapping dedup (engagement-setup, project-governance, change-management share framework)
-- [ ] Cross-skill failure recovery (partial coverage now via implementation-planning recovery + project-closeout early termination; assess if more needed)
+### Cross-Cutting (applies to most skills)
+- [ ] AI tells (7-8/10): Outputs are too uniformly polished. Real consulting has rougher edges, crossed-out sections, "TBD" notes. Consider adding guidance like "prioritize depth on the 2-3 most critical sections rather than even coverage across all"
+- [ ] Contextual reasoning boundary: Risk probability scores, timeline estimates are "informed estimates" not backed by data. Consider flagging these more explicitly
+- [ ] Some skills produce "frameworks ready for population" rather than "findings" when given limited data. This is CORRECT behavior but could acknowledge the limitation more naturally
 
-### Remaining per-skill gaps (lower priority)
-- [ ] due-diligence: working capital analysis for capital-intensive services
-- [ ] project-governance: time-zone management tooling
-- [ ] project-closeout: post-engagement satisfaction tracking
-- [ ] thought-leadership: SEO/discoverability for web publication
-- [ ] report-generation: classified/restricted information handling
+### problem-solving (pride 9, avg 8.6)
+- [ ] R4 noted it's close to perfect. Minor: could be slightly less structured in initial response (real consultants start messier)
 
-## Track 2: Structural Polish
-- [ ] Horizontal rule consistency (7 skills use none, 10 use them)
-- [ ] Closing section naming standardization
-- [ ] Second AI slop pass (after all new content added by improvement agents)
+### strategic-frameworks (pride 9, avg 8.8)
+- [ ] Market sizing section sometimes omitted when it would be relevant
+- [ ] Could push harder on "what's the non-obvious connection" across frameworks
+
+### financial-modeling (pride 9, avg 8.8)
+- [ ] The self-correction behavior ("wait, this doesn't work") is excellent but could be more natural/less formulaic
+- [ ] DCF section still thinner than the business case section
+
+### executive-presentation (pride 8, avg 8.0)
+- [ ] Could push harder on PE-specific angles (fund return hurdles, exit timeline)
+- [ ] Backup slide descriptions too neat (real appendix lists are messier)
+
+### report-generation (pride 8, avg 8.2)
+- [ ] Insight is in structure/logic, not novel findings (inherent limitation but could coach for more "so what")
+- [ ] Could benefit from deliberate imperfection: "We were unable to confirm X"
+
+### change-management (pride 8, avg 8.4)
+- [ ] Plan length could be trimmed for specific audiences
+- [ ] Cultural archetype guidance is good but could be tested with more diverse scenarios
+
+### due-diligence (pride 8, avg 8.2)
+- [ ] Strong on refusing to fabricate. Could push harder on asking for specific data items interactively
+- [ ] Working capital analysis for capital-intensive services still not deeply covered
+
+### pricing-strategy (pride 7, avg 7.6)
+- [ ] Gap between "help me price this" and "here's a framework for pricing it" is real
+- [ ] Could push harder to get rate card interactively BEFORE building framework
+- [ ] Still the weakest-scoring skill - needs focused attention
+
+### thought-leadership (pride 8, avg 8.2)
+- [ ] Slight TED-talk sheen remains in places ("the gap is widening")
+- [ ] Could use more rougher edges, surprising findings, acknowledged limitations
+- [ ] Voice is good but could be sharper/more contrarian
+
+### engagement-setup (pride 8 est., waiting on R4-Eval-3)
+- [ ] Comprehensive but could be tighter for a real internal document
+
+### proposal-development (pride 7 est., waiting on R4-Eval-3)
+- [ ] Government/public sector proposals need firm-specific content (past performance, team names)
+- [ ] Framework vs populated output tension
+
+### implementation-planning (pride 8 est., waiting on R4-Eval-3)
+- [ ] Could strengthen the "So What" moment between analysis and recommendation
+
+### org-design (pride 8, avg 8.2)
+- [ ] Could be tested with more ambiguous prompts to expose weaknesses
+- [ ] Matrix management guidance is good but specific examples could be richer
+
+### process-excellence (pride 8, avg 8.4)
+- [ ] Solution evaluation matrix correctly leaves impact blank - but user needs guidance on next iteration
+- [ ] Industry benchmarks section could be expanded beyond O2C, P2P, R2R
+
+### project-governance (pride 8, avg 8.2)
+- [ ] Stage gate timing stated with confidence that should be flagged as indicative
+- [ ] Could benefit from executive summary page at top
+
+### project-closeout (pride 8, avg 8.4)
+- [ ] Phase 2 handling is strong. Internal coaching vs client-facing content could be separated
+- [ ] Closeout effort estimation could be more precise
+
+### workshop-facilitation (pride 9, avg 8.6)
+- [ ] Strongest skill in the library. Minor: contingency plan for when day runs long
+- [ ] Pre-brief scripts are the most valuable element - could be even more specific
+
+## Quality Gates Before PR Submission
+- [ ] Second AI slop pass on merged skills
+- [ ] Frontmatter validation on merged skills
+- [ ] Description optimization for merged skills (new trigger terms needed)
+- [ ] Verify no regressions from merges (eval merged skills)
 
 ## Track 3: Standalone Repo
 - [ ] Sync ALL improvements to standalone repo
-- [ ] Update standalone README
+- [ ] Update standalone README for 15 skills
 - [ ] Commit and push
 
-## Track 4: PR Submission
-- [ ] Create 2-3 PRs to anthropics/knowledge-work-plugins
-- [ ] Push branch to fork
-- [ ] Post response on closed PR #51
+## Track 4: PR Submission (3 PRs)
+- [ ] Remove EVAL_IMPROVEMENTS.md and OUTSTANDING.md from submission
+- [ ] Comment on PR #51 (brief, linking to new PRs)
+- [ ] PR 1: Core analytical skills (scaffolding + ~6 skills)
+- [ ] PR 2: Engagement lifecycle skills (~5 skills)
+- [ ] PR 3: Strategy & transformation skills (~4 skills)
+- [ ] Cross-link all PRs
 
 ## Track 5: Other PRs
 - [ ] Update PR #384 on anthropics/skills
 - [ ] Refresh awesome-claude-skills PRs (5 open)
-
-## Track 6: Evals
-- [ ] Round 3 senior partner OUTPUT evals (actual deliverable quality, not just assertions)
-- [ ] Second numbers audit pass (verify improvement agents didn't add new made-up stats)
-- [ ] Second AI slop pass on all new content
-- [ ] Final frontmatter validation

@@ -24,23 +24,21 @@ Domain knowledge Claude draws on automatically when your work touches consulting
 
 | Skill | Description |
 |---|---|
-| `problem-solving` | Hypothesis-driven decomposition, issue trees, MECE analysis |
-| `strategic-frameworks` | Named framework application (Five Forces, PESTLE, 7S, VRIO, etc.) |
+| `strategic-analysis` | Hypothesis-driven decomposition, issue trees, MECE analysis, and named framework application (Five Forces, PESTLE, 7S, VRIO, etc.) |
 | `financial-modeling` | Business case math, ROI/NPV/IRR, sensitivity analysis |
-| `executive-presentation` | Top-down structured communication, storylining, slide design |
+| `client-deliverables` | Consulting reports, executive presentations, top-down structured communication, storylining, data visualization |
 | `change-management` | Transformation planning, resistance management, adoption tracking |
-| `process-excellence` | DMAIC, value stream mapping, process improvement |
-| `project-governance` | RACI, steering committees, stage gates, status reporting, risk tracking |
-| `workshop-facilitation` | Workshop design, facilitation techniques, participant engagement |
 | `due-diligence` | Commercial, operational, and strategic assessment |
-| `proposal-development` | RFP analysis, proposal writing, SOW creation, pitch decks |
 | `engagement-setup` | Kickoff planning, discovery phase, stakeholder mapping |
 | `implementation-planning` | Options evaluation, business cases, roadmaps, implementation plans |
 | `org-design` | Operating model and organizational structure design |
 | `pricing-strategy` | Consulting pricing models, rate cards, commercial terms |
-| `thought-leadership` | POVs, white papers, case studies, research content |
+| `process-excellence` | DMAIC, value stream mapping, process improvement |
 | `project-closeout` | Deliverable handover, lessons learned, transition planning |
-| `report-generation` | Consulting report structure, data visualization, evidence-based writing |
+| `project-governance` | RACI, steering committees, stage gates, status reporting, risk tracking |
+| `proposal-development` | RFP analysis, proposal writing, SOW creation, pitch decks |
+| `thought-leadership` | POVs, white papers, case studies, research content |
+| `workshop-facilitation` | Workshop design, facilitation techniques, participant engagement |
 
 ## Example Workflows
 
@@ -54,7 +52,7 @@ They want to understand why and what to do about it.
 Help me structure the engagement.
 ```
 
-The `problem-solving` skill kicks in to build an issue tree and hypotheses. `engagement-setup` helps plan the discovery phase and stakeholder mapping. `proposal-development` can then turn that into a scoped SOW with workstreams, timeline, and pricing.
+The `strategic-analysis` skill kicks in to build an issue tree and hypotheses. `engagement-setup` helps plan the discovery phase and stakeholder mapping. `proposal-development` can then turn that into a scoped SOW with workstreams, timeline, and pricing.
 
 ### Building a strategic recommendation
 
@@ -66,7 +64,7 @@ Here are our findings: [paste or upload data].
 Help me build the recommendation deck.
 ```
 
-`strategic-frameworks` structures the analysis (market attractiveness, competitive positioning). `financial-modeling` builds the business case with scenarios. `executive-presentation` shapes the storyline and slide structure. `report-generation` handles the detailed appendix.
+`strategic-analysis` structures the analysis (market attractiveness, competitive positioning). `financial-modeling` builds the business case with scenarios. `client-deliverables` shapes the storyline, slide structure, and detailed appendix.
 
 ### Running a transformation programme
 
