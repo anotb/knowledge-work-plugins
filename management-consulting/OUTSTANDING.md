@@ -1,11 +1,14 @@
 # Master Outstanding Items (Updated Post-R4)
 
 ## Structural Changes
-- [ ] Merge: report-generation + executive-presentation → "client-deliverables" (user approved)
-- [ ] Merge: problem-solving + strategic-frameworks → "strategic-analysis" (user approved)
-- [ ] Update README for 15 skills (down from 17)
+- [x] Merge: report-generation + executive-presentation → "client-deliverables" (DONE)
+- [x] Merge: problem-solving + strategic-frameworks → "strategic-analysis" (DONE)
+- [x] Update README for 15 skills (DONE)
+- [x] Clean up empty directories after merges (DONE)
+- [x] Create CLAUDE.md with writing style (DONE, no skill count hardcoded)
+- [ ] README: Update to Cowork-first convention (opening line, installation sections, settings)
+- [ ] README: Remove "Agent Skills open standard" / "20+ agents" language (doesn't match repo convention)
 - [ ] Update plugin.json if needed
-- [ ] Clean up empty directories after merges
 
 ## R4 Feedback: What Would Get Each Skill to Perfect
 
