@@ -1,6 +1,6 @@
 ---
 name: workshop-facilitation
-description: Design and facilitate strategy workshops, design thinking sessions, and innovation sprints. Use when planning facilitated sessions, conducting discovery workshops, running strategy alignment sessions, or any collaborative session requiring structured methodology and engagement techniques.
+description: Design and facilitate consulting workshops including strategy offsites, design thinking sessions, innovation sprints, and discovery workshops. Use when planning client-facing facilitated sessions, conducting stakeholder alignment workshops, running prioritization exercises, or designing working sessions for strategy development. Covers agenda design, facilitation guides, pre-work, and follow-through.
 ---
 
 # Workshop Facilitation

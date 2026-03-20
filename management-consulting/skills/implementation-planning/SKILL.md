@@ -1,6 +1,6 @@
 ---
 name: implementation-planning
-description: Bridge strategy to execution through option development, business case construction, roadmap design, and implementation planning. Use when translating a strategic recommendation into an investable, executable plan.
+description: Bridge strategy to execution for consulting engagements through option evaluation, business case construction, roadmap design, and implementation planning. Use when translating strategic recommendations into investable, executable plans with workstreams, milestones, resource requirements, and governance. Covers option generation and scoring, cost-benefit analysis, phasing, dependencies, and risk-adjusted timelines.
 ---
 
 # Implementation Planning
@@ -11,7 +11,7 @@ Translate strategic recommendations into concrete, funded, governed plans that o
 
 ## The Strategy-to-Execution Arc
 
-Most strategies fail in execution, not in formulation. The gap between "we should do X" and "X is happening" is where most value gets destroyed. This skill covers that gap systematically.
+This skill covers that gap systematically.
 
 The four stages flow naturally but don't always run sequentially. Sometimes you start with options because the path isn't clear. Sometimes the recommendation is already made and you need to jump straight to business case and planning. Meet the work where it is.
 
@@ -509,9 +509,9 @@ Review benefits realization at every steering committee. If benefits are trackin
 | Change Type | Approval Required | Process |
 |-------------|-------------------|---------|
 | Minor scope change | Program Lead | Document, assess impact, approve/reject |
-| Major scope change | Steering Committee | Formal change request, impact analysis, SteerCo decision |
+| Major scope change | Steering Committee | Formal change request, impact analysis, Steering Committee decision |
 | Timeline shift (< 2 weeks) | Program Lead | Update plan, notify stakeholders |
-| Timeline shift (> 2 weeks) | Steering Committee | Root cause analysis, recovery plan, SteerCo approval |
+| Timeline shift (> 2 weeks) | Steering Committee | Root cause analysis, recovery plan, Steering Committee approval |
 | Budget variance (< 10%) | Program Lead | Document, adjust within contingency |
 | Budget variance (> 10%) | Steering Committee | Business case for additional funding |
 

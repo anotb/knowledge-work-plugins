@@ -1,6 +1,6 @@
 ---
 name: executive-presentation
-description: Create executive presentations using top-down structured communication and storytelling techniques. Use when preparing client presentations, board decks, steering committee updates, or any executive-level communication that requires clear, compelling storytelling.
+description: Create executive presentations using consulting-style top-down structured communication (pyramid principle, SCQA, storylining). Use when preparing client recommendation decks, board presentations, steering committee updates, or strategy readouts. Focuses on slide structure, governing thoughts, and evidence-based persuasion for senior audiences.
 ---
 
 # Executive Presentation
@@ -179,7 +179,7 @@ Every deck should have backup slides ready for Q&A. Build them before you need t
 
 ## Data Storytelling
 
-Numbers inform, stories transform. Effective data storytelling means:
+Effective data storytelling means:
 
 - **Lead with the most compelling data point**: Don't bury the headline
 - **Annotate charts**: Call out the insight, don't make readers find it

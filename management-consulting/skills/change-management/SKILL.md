@@ -5,7 +5,7 @@ description: Design and execute organizational change management programs. Cover
 
 # Change Management
 
-Apply proven change management methodology to help organizations navigate transformation. This covers the full lifecycle: building the case for change, designing the approach, managing resistance, enabling adoption, and sustaining new ways of working.
+Apply change management methodology to plan, execute, and sustain organizational change. This covers the full lifecycle: building the case for change, designing the approach, managing resistance, enabling adoption, and sustaining new ways of working.
 
 ## Choosing the Right Approach
 
@@ -20,6 +20,8 @@ Apply proven change management methodology to help organizations navigate transf
 | Second attempt after prior failure | Transformation Execution + Trust rebuild | Explicit failure acknowledgment |
 
 ## The Individual Adoption Model
+
+(Inspired by Prosci's ADKAR framework and adapted for consulting engagements.)
 
 People adopt change through five sequential stages. If any stage is weak, the ones that follow will fail. Diagnose where people are stuck before prescribing interventions.
 
@@ -94,6 +96,8 @@ The Individual Adoption Model operates at the person/group level. The Transforma
 Use this mapping to diagnose program-level problems. If Phase 4 is stalling, check Proficiency scores across stakeholder groups. If Phase 2 communications aren't landing, check whether Understanding or Motivation is the actual gap (they require different interventions).
 
 ## Transformation Execution Framework
+
+(Drawing on Kotter's research on organizational change.)
 
 For large-scale organizational transformation, work through five phases from mobilization through embedding.
 
@@ -265,7 +269,7 @@ For each stakeholder or group, track: current state (awareness, support level), 
 
 ### Change Champion Network
 
-Change champions are the force multiplier in any transformation. They operate at peer level, which gives them credibility that senior leadership often lacks.
+Change champions extend the reach of the change program beyond what the core team can cover directly. They operate at peer level, which gives them credibility that senior leadership often lacks.
 
 Champion responsibilities:
 - Model new behaviors and processes

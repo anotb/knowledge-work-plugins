@@ -102,7 +102,7 @@ Each asset type has a proven structure. Don't reinvent it. Word count targets ar
 
 1. **The Shift** (150-250 words) -- What is changing in the market or industry. Open with the most surprising or counterintuitive data point, not with context-setting.
 2. **Why It Matters** (150-250 words) -- Impact on organizations and leaders. Quantify the stakes.
-3. **The Opportunity** (200-400 words) -- What forward-thinking organizations are doing. Use 2-3 specific examples (anonymized client work or named public companies).
+3. **The Opportunity** (200-400 words) -- What leading organizations are doing. Use 2-3 specific examples (anonymized client work or named public companies).
 4. **Our Perspective** (200-400 words) -- What we believe should be done and why. This is the thesis section. Take a clear position.
 5. **Getting Started** (100-200 words) -- 3-5 practical first steps, specific enough to act on Monday morning.
 

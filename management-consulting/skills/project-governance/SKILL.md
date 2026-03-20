@@ -156,7 +156,7 @@ A communication plan goes beyond meeting cadence. It defines who gets what infor
 | Working team | Task coordination, blockers, priorities | Stand-up / team meeting | Weekly | Team lead | Action-oriented; 30 min max |
 | Extended stakeholders | Progress summary, upcoming changes | Email update / newsletter | Bi-weekly | PMO / Comms lead | Consistent format; RAG dashboard |
 | Affected business units | Impact on their operations, what's changing | Briefing / town hall | As needed (at milestones) | Change lead | Tailor message to audience concerns |
-| Executive leadership (not on SteerCo) | High-level progress, strategic alignment | Executive summary email | Monthly | Sponsor | 3 sentences max; sponsor sends from their name |
+| Executive leadership (not on Steering Committee) | High-level progress, strategic alignment | Executive summary email | Monthly | Sponsor | 3 sentences max; sponsor sends from their name |
 
 ### Communication Principles
 - Match the channel to the message. Bad news goes in person (or live video), not email

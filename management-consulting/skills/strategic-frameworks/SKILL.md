@@ -1,6 +1,6 @@
 ---
 name: strategic-frameworks
-description: Apply named strategic analysis frameworks (Five Forces, PESTLE, 7S, VRIO, SWOT, Ansoff, Growth-Share Matrix, Value Chain, Business Model Canvas, Strategy Canvas, and others) for structured external, internal, or portfolio analysis. Use when the user requests framework-based analysis, competitive positioning, market assessment, organizational alignment review, growth strategy, or portfolio decisions. Always apply at least two complementary frameworks and synthesize across them for richer insight.
+description: Apply named strategic analysis frameworks (Five Forces, PESTLE, McKinsey 7S, VRIO, SWOT, Ansoff Matrix, BCG Growth-Share Matrix, Porter's Value Chain, Business Model Canvas, Strategy Canvas, Blue Ocean, and others) for structured business analysis. Use when the user requests framework-based strategic analysis, competitive positioning, industry assessment, market attractiveness evaluation, organizational capability review, growth strategy, or portfolio prioritization in a business or consulting context.
 ---
 
 # Strategic Frameworks
@@ -313,7 +313,7 @@ When conducting market analysis, structure the work in layers:
 
 ## Framework Synthesis
 
-The synthesis is where the real consulting value lies. Individual frameworks provide structure, but the connections between them drive insight.
+Synthesize across frameworks to produce integrated findings: Individual frameworks provide structure, but the connections between them drive insight.
 
 When analyzing a complex situation with multiple frameworks, structure the synthesis as:
 

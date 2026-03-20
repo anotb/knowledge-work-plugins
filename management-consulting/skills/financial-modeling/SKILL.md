@@ -57,7 +57,7 @@ This matters for financial statement impact and CFO evaluation. Always classify 
 | CFO preference | Varies by company; some prefer capex (asset build), others prefer opex (flexibility) |
 | Tax treatment | Depreciation shield over years | Immediate deduction |
 
-When relevant (especially cloud migration, build vs. buy, lease vs. purchase): show the same investment under both capex and opex treatment. Cloud migrations are often justified partly on the capex-to-opex shift, which improves ROIC and free cash flow timing even when total cost is similar.
+When relevant (cloud migration, build vs. buy, lease vs. purchase, M&A purchase price allocation): show the same investment under both capex and opex treatment. Cloud migrations are often justified partly on the capex-to-opex shift. For M&A, classify the purchase price into goodwill, identifiable intangibles (amortized), and tangible assets (depreciated). The amortization schedule affects reported earnings and tax shields, which matters for PE exit multiples and earnout calculations.
 
 ---
 
@@ -228,6 +228,7 @@ For SaaS and subscription businesses, supplement DCF with these metrics. They dr
 - Rule of 40 >40: "good" SaaS company. Each point above 40 adds ~0.5x to ARR multiple.
 - Always request NRR by cohort and vintage. Blended NRR can mask deteriorating cohorts.
 - Only subscription gross margin should drive the revenue multiple. Services revenue should be valued at 1-2x at most.
+- For M&A business cases involving SaaS targets, always calculate LTV/CAC with explicit inputs shown (not just assumed). Request cohort retention data by vintage and model value per cohort. If the target can't provide cohort-level data, flag as a data quality concern that affects valuation confidence.
 
 ---
 
