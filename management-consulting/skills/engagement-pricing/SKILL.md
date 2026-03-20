@@ -1,9 +1,9 @@
 ---
-name: pricing-strategy
-description: Develop consulting pricing models and commercial strategy for engagements. Use when structuring fees (fixed, T&M, value-based, retainer, outcome-based), building rate cards, modeling engagement economics, setting payment terms, analyzing margins, planning discount strategy, or preparing commercial terms for proposals and SOWs.
+name: engagement-pricing
+description: Price consulting engagements and structure commercial terms. Use when structuring fees (fixed, T&M, value-based, retainer, outcome-based), building rate cards, modeling engagement economics, setting payment terms, analyzing margins, planning discount strategy, or preparing commercial terms for proposals and SOWs. This is about pricing your own consulting work, not helping clients with their product/service pricing strategy.
 ---
 
-# Pricing Strategy
+# Engagement Pricing
 
 Structure pricing models, rate cards, engagement economics, and commercial terms for consulting engagements. Balance the firm's margin requirements with competitive positioning and client value delivery.
 

@@ -44,7 +44,7 @@
 - [ ] Strong on refusing to fabricate. Could push harder on asking for specific data items interactively
 - [ ] Working capital analysis for capital-intensive services still not deeply covered
 
-### pricing-strategy (pride 7, avg 7.6)
+### engagement-pricing (pride 7, avg 7.6)
 - [ ] Gap between "help me price this" and "here's a framework for pricing it" is real
 - [ ] Could push harder to get rate card interactively BEFORE building framework
 - [ ] Still the weakest-scoring skill - needs focused attention

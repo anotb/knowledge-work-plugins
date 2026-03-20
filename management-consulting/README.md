@@ -1,6 +1,6 @@
 # Management Consulting Plugin
 
-A plugin for structured consulting work, covering the full engagement lifecycle from problem definition through implementation and closeout. Designed for management consultants, strategy teams, and anyone who needs to decompose problems, build business cases, and deliver recommendations with rigour.
+A management consulting plugin primarily designed for [Cowork](https://claude.com/product/cowork), Anthropic's agentic desktop application — though it also works in Claude Code. Covers the full engagement lifecycle from problem definition through implementation and closeout. Helps with hypothesis-driven analysis, business cases, client deliverables, change management, and project governance. Works with any consulting team — standalone with your input, supercharged when you connect your project tracker, knowledge base, and other tools.
 
 ## Installation
 
@@ -32,7 +32,7 @@ Domain knowledge Claude draws on automatically when your work touches consulting
 | `engagement-setup` | Kickoff planning, discovery phase, stakeholder mapping |
 | `implementation-planning` | Options evaluation, business cases, roadmaps, implementation plans |
 | `org-design` | Operating model and organizational structure design |
-| `pricing-strategy` | Consulting pricing models, rate cards, commercial terms |
+| `engagement-pricing` | Pricing consulting engagements: fee structures, rate cards, commercial terms |
 | `process-excellence` | DMAIC, value stream mapping, process improvement |
 | `project-closeout` | Deliverable handover, lessons learned, transition planning |
 | `project-governance` | RACI, steering committees, stage gates, status reporting, risk tracking |

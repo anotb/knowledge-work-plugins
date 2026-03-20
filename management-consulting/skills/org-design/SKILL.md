@@ -155,17 +155,18 @@ Signs the matrix is failing: decisions take twice as long as before, people atte
 
 Org design that ignores cultural norms produces structures that look right on paper and fail in practice. This matters most when designing across geographies, post-merger, or when the client's culture differs from the consulting team's assumptions.
 
-| Cultural Dimension | Low-Context / Individualist | High-Context / Collectivist | Structural Implication |
-|---|---|---|---|
-| Decision-making | Individual authority, fast decisions expected | Consensus-building, decisions take longer but stick better | Low-context: clear single decision-makers at each level. High-context: build in consultation mechanisms and don't mistake slower decisions for dysfunction |
-| Communication | Explicit, written, direct | Implicit, relational, indirect | Low-context: decision rights documents work as written. High-context: the informal relationship network matters more than the RACI chart; design for relationship-building time |
-| Hierarchy | Flat structures tolerated, skip-level access normal | Hierarchy respected, going around your boss is a serious breach | Low-context: wide spans and fewer layers are accepted. High-context: removing layers may be destabilizing; titles and levels carry social meaning beyond the org chart |
-| Accountability | Individual accountability, performance-based | Group accountability, loyalty and tenure valued | Low-context: individual KPIs and incentives work. High-context: team-based metrics may drive better behavior; individual performance ranking can be culturally destructive |
-| Conflict | Direct conflict is acceptable, even expected | Conflict is managed indirectly, saving face matters | Low-context: escalation paths with open debate work. High-context: design mediation mechanisms; never force public disagreements in governance forums |
+Before designing across cultural contexts, assess these dimensions for each operating environment:
+
+| Dimension | Questions to Ask | What the Answers Tell You |
+|-----------|-----------------|--------------------------|
+| Decision-making | How are major decisions actually made? Is authority held by individuals or shared through consultation? Do decisions stick once made, or do they get revisited? | Whether to design for single decision-makers or consensus mechanisms. Slower consensus-based decisions often produce faster adoption. |
+| Communication and feedback | Do people raise concerns publicly or privately? Is direct feedback welcomed or seen as confrontational? How much context is assumed vs. stated explicitly? | Whether decision rights documents and RACI charts will function as written, or whether informal relationship networks carry more weight. Shapes governance forum design. |
+| Hierarchy and status | How many levels does information travel through? Is skip-level access normal or a serious breach? Do titles carry social meaning beyond the org chart? | Whether flat structures and wide spans will be accepted or destabilizing. Removing layers in a hierarchy-sensitive context can undermine the structure you're trying to build. |
+| Accountability | Are people measured and rewarded as individuals or as teams? Is tenure and loyalty valued alongside performance? | Whether individual KPIs and incentive structures will drive the intended behavior, or whether team-based metrics are more culturally appropriate. |
+| Conflict resolution | Is open disagreement acceptable in meetings? How is "saving face" managed? Are escalation paths used or avoided? | Whether governance forums can include open debate, or whether mediation mechanisms and private channels are needed to surface real disagreements. |
 
 **Practical implications:**
-- If you're designing for a Japanese subsidiary using a US-style flat structure with individual accountability, it will be resisted (often silently, which is worse)
-- Nordic organizations may genuinely operate with consensus and wide spans; don't "fix" what isn't broken by imposing hierarchy
+- Don't assume one structural model works across all operating contexts. What looks like dysfunction from one cultural perspective may be effective practice in another.
 - Post-merger designs across cultures need explicit bridging mechanisms: joint planning sessions, cultural onboarding, and patient timeline expectations
 - When in doubt, observe how the current organization actually makes its best decisions and design to strengthen that pattern, not replace it with a textbook model
 

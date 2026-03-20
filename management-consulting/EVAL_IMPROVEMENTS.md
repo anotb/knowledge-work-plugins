@@ -66,7 +66,7 @@ Remove or reframe content that applies to human analysts but not to Claude:
 Several skills naturally connect but don't reference each other:
 - org-design should reference change-management
 - implementation-planning should reference change-management ("change management hooks")
-- pricing-strategy should reference proposal-development
+- engagement-pricing should reference proposal-development
 - project-governance should include self-contained closure guidance (not just punt to project-closeout)
 - engagement-setup should reference proposal-development SOW section ("Start with the SOW")
 
@@ -88,7 +88,7 @@ When client context is incomplete, explicitly list 3-5 assumptions at the top of
 
 ### 9. Add Artifact / Output Templates [MEDIUM]
 
-**Applies to:** project-governance, org-design, pricing-strategy, report-generation
+**Applies to:** project-governance, org-design, engagement-pricing, report-generation
 
 Skills describe what sections to include but don't specify the artifact format (e.g., "produce a 2-page project charter" or "produce a 1-page pricing summary for the proposal"). More explicit artifact specs would make outputs directly usable as client deliverables.
 
@@ -320,9 +320,9 @@ Skills are ordered by eval delta (largest improvement opportunity first).
 
 #### HIGH Priority
 
-1. **Add worked example.** Individual Adoption Model applied to a specific scenario (e.g., ERP rollout), even 10 lines.
+1. **Add worked example.** Adoption diagnostic applied to a specific scenario (e.g., ERP rollout), even 10 lines.
 
-2. **Explain how Individual Adoption Model and Transformation Execution Framework connect.** Simple mapping: "Phase 1 Mobilize primarily addresses Understanding and Motivation stages."
+2. **Explain how adoption diagnostic and Transformation Execution Framework connect.** Simple mapping: "Phase 1 Mobilize primarily addresses Awareness and Willingness stages."
 
 3. **Add change team sizing guidance.** Ratio of champions to affected population (1:30-50), typical budget allocation as % of project cost, 1 change manager per 500-1,000 affected employees.
 
@@ -577,7 +577,7 @@ Skills are ordered by eval delta (largest improvement opportunity first).
 | executive-presentation | 9.0 | 3.5 | **+5.5** | All dimensions |
 | process-excellence | 9.75 | 4.5 | **+5.25** | Consulting-grade |
 | project-closeout | 9.5 | 5.0 | **+4.5** | Consulting-grade, Depth |
-| pricing-strategy | 10.0 | 5.75 | **+4.25** | Depth |
+| engagement-pricing | 10.0 | 5.75 | **+4.25** | Depth |
 | report-generation | 9.5 | 5.25 | **+4.25** | Consulting-grade |
 | thought-leadership | 9.0 | 5.0 | **+4.0** | Consulting-grade |
 | financial-modeling | 9.25 | 5.25 | **+4.0** | Structure |
