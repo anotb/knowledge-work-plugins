@@ -353,6 +353,8 @@ For businesses that have grown by acquisition, reported revenue growth is mislea
 
 Working capital is where deals get renegotiated. Establish a normalized working capital figure and tie the purchase price to it. Seasonal businesses require month-by-month analysis.
 
+**Capital-intensive service businesses** (staffing, consulting, facilities management, outsourced services): The cash conversion cycle creates material risk that doesn't show up in standard working capital ratios. The core dynamic is weekly payroll out, 45-60 day receivables in. A fast-growing staffing firm can be profitable on paper while running out of cash. Model the payroll-to-collection gap explicitly, stress-test it against revenue growth scenarios, and assess whether existing credit facilities can fund the gap at scale.
+
 #### Capital Expenditure
 
 | Category | Historical (3-year avg) | Forecast | Maintenance vs. Growth |

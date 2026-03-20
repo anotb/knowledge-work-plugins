@@ -9,11 +9,13 @@ Structure pricing models, rate cards, engagement economics, and commercial terms
 
 ## Before You Begin
 
-Pricing depends entirely on firm-specific economics. Ask for real inputs rather than generating fee proposals from generic assumptions:
-- What is the firm's actual rate card by level (or at least the tier: MBB, Big Four, boutique, independent)?
-- What are the target margins for this type of engagement?
-- What is the competitive context (sole source, beauty parade, incumbent relationship)?
-- Don't generate specific fee proposals without confirmed rates. Present rate ranges as market orientation, not as the user's pricing: "I'm using illustrative rates based on [mid-market US consulting]. Adjust to your actual rate card."
+Do not build a pricing model with illustrative rates if the user can provide their actual rates. Ask first. If they say they don't have a rate card, help them build one from their cost structure (see Step 2). Only use illustrative ranges as a last resort, and label every number clearly as illustrative.
+
+Pricing depends entirely on firm-specific economics. Before structuring anything, get real inputs:
+- **Rate card**: What is the firm's actual rate card by level? If they don't have one, what are their fully loaded costs per level? (This is the starting point for building one.) At minimum, establish the tier: MBB, Big Four, boutique, independent.
+- **Target margins**: What are the target margins for this type of engagement?
+- **Competitive context**: Sole source, beauty parade, incumbent relationship?
+- **Don't skip this step.** A pricing model built on generic rates looks professional but is functionally useless. The gap between "here's a framework" and "here's your pricing" is the rate card. Get it first.
 
 ---
 
